@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agenda de Deposito</title>
+<style>
+body { font-family: 'Segoe UI', Arial, sans-serif; margin: 20px; background: #f8fafc; color: #1e293b; }
+.table-container { background: #fff; border: 1px solid #cbd5e1; box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; min-width: 900px; }
+th { background: #40b590; color: #ffffff; padding: 12px 15px; text-align: center; font-size: 0.95rem;
+font-weight: 700; border: 1px solid #36a280; }
+th:first-child { text-align: left; width: 120px; }
+td { padding: 12px 15px; border: 1px solid #cbd5e1; font-size: 0.88rem; vertical-align: top; }
+tr:nth-child(even) { background-color: #f2f2f2; }
+tr:nth-child(odd) { background-color: #ffffff; }
+td:first-child { font-weight: 600; color: #334155; }
+.evento { position: relative; padding-left: 22px; margin-bottom: 8px; }
+.evento::before { content: ''; position: absolute; left: 0; top: 4px; width: 12px; height: 12px;
+background-color: #d946ef; border-radius: 50%; }
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+</head>
+<body>
+<div class="table-container">
+<table>
+<thead><tr id="table-head"></tr></thead>
+<tbody id="table-body"></tbody>
+</table>
+</div>
+<script>
+function fetchCSV() {
+Papa.parse('agenda.csv?v=' + new Date().getTime(), {
+download: true, header: true, skipEmptyLines: true,
+complete: function(results) {
+if (!results.data || results.data.length === 0) return;
+const headers = Object.keys(results.data[0]);
+document.getElementById('table-head').innerHTML = headers.map(h =>
+`<th>${h}</th>`).join('');
+document.getElementById('table-body').innerHTML = results.data.map(row => {
+let cols = headers.map((h, index) => {
+let cellVal = row[h] || '';
+if (index === 0) return `<td>${cellVal}</td>`;
+let content = cellVal ? `<div class="evento">${cellVal}</div>` : '';
+return `<td>${content}</td>`;
+}).join('');
+return `<tr>${cols}</tr>`;
+}).join('');
+}
+});
+}
+fetchCSV();
+setInterval(fetchCSV, 10000);
+</script>
+</body>
+</html>
