@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>ATTUS - Agenda Depósito</title>
 
     <style>
+
         :root {
             --primary-green: #48a999;
             --border-color: #d1e7dd;
+            --light-green: #f2faf8;
         }
 
         * {
@@ -17,10 +20,10 @@
         }
 
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
             margin: 0;
             padding: 25px;
-            background: white;
+            background: #ffffff;
             color: #333;
         }
 
@@ -38,6 +41,7 @@
         .subtitle {
             font-size: 13px;
             font-weight: 700;
+            margin-top: 3px;
         }
 
         .table-container {
@@ -58,11 +62,16 @@
             padding: 11px;
             text-align: center;
             font-size: 13px;
+            font-weight: 600;
+        }
+
+        th:first-child {
+            width: 80px;
         }
 
         td {
             border: 1px solid var(--border-color);
-            padding: 8px;
+            padding: 7px;
             vertical-align: top;
             min-height: 65px;
             font-size: 11px;
@@ -70,24 +79,29 @@
 
         .time-col {
             width: 80px;
-            font-weight: bold;
+            font-weight: 700;
             text-align: center;
             vertical-align: middle;
             background: #f8f9fa;
+            white-space: nowrap;
         }
 
         .event-card {
-            background: #f2faf8;
+            background: var(--light-green);
             border-left: 4px solid var(--primary-green);
             border-radius: 3px;
             padding: 7px;
             margin-bottom: 5px;
         }
 
+        .event-card:last-child {
+            margin-bottom: 0;
+        }
+
         .event-title {
             font-weight: 700;
             text-transform: uppercase;
-            margin-bottom: 3px;
+            margin-bottom: 4px;
         }
 
         .event-address {
@@ -99,94 +113,137 @@
             font-weight: 600;
         }
 
-        .error {
+        .mensaje {
             padding: 20px;
             text-align: center;
-            color: #b00020;
         }
+
     </style>
+
 </head>
 
 <body>
 
 <div class="header">
-    <div class="logo">ATTUS</div>
-    <div class="subtitle">AGENDA DEPÓSITO</div>
+
+    <div class="logo">
+        ATTUS
+    </div>
+
+    <div class="subtitle">
+        AGENDA DEPÓSITO
+    </div>
+
 </div>
+
 
 <div class="table-container">
 
-    <table>
+<table>
 
-        <thead>
-            <tr id="table-header">
-                <th>Hora</th>
-            </tr>
-        </thead>
+<thead>
 
-        <tbody id="table-body"></tbody>
+<tr id="table-header">
 
-    </table>
+    <th>Hora</th>
+
+</tr>
+
+</thead>
+
+<tbody id="table-body">
+
+</tbody>
+
+</table>
 
 </div>
 
+
 <script>
+
+
+// ============================================================
+// CARGAR AGENDA
+// ============================================================
 
 async function cargarAgenda() {
 
     try {
 
-        const response = await fetch(
-            "agenda.csv?v=" + Date.now()
+        const respuesta = await fetch(
+            "./agenda.csv?v=" + Date.now()
         );
 
-        if (!response.ok) {
+        if (!respuesta.ok) {
+
             throw new Error(
-                "No se pudo encontrar agenda.csv"
+                "No se pudo cargar agenda.csv"
             );
+
         }
 
-        const texto = await response.text();
 
-        console.log("CSV recibido:", texto.substring(0, 500));
+        const texto = await respuesta.text();
 
-        const registros = leerCSV(texto);
 
-        console.log("Registros:", registros);
+        // Leer CSV
+        const registros = parsearCSV(texto);
 
-        if (registros.length === 0) {
-            throw new Error("El CSV está vacío");
-        }
 
+        console.log(
+            "Cantidad total de registros:",
+            registros.length
+        );
+
+
+        // ====================================================
         // SOLO Es_Ultimo_Vigente = SI
-        const vigentes = registros.filter(r => {
+        // ====================================================
 
-            const valor = obtener(
-                r,
-                "es_ultimo_vigente",
-                "esultimovigente"
-            );
+        const vigentes = registros.filter(registro => {
 
-            return normalizar(valor) === "SI";
+            return registro["Es_Ultimo_Vigente"]
+                .trim()
+                .toUpperCase() === "SI";
 
         });
 
-        console.log("Registros vigentes:", vigentes);
 
-        renderizar(vigentes);
+        console.log(
+            "Registros vigentes:",
+            vigentes.length
+        );
 
-    }
-    catch (error) {
+
+        console.log(
+            vigentes
+        );
+
+
+        renderizarAgenda(vigentes);
+
+
+    } catch (error) {
 
         console.error(error);
 
-        document.getElementById("table-body").innerHTML = `
+        document.getElementById(
+            "table-body"
+        ).innerHTML = `
+
             <tr>
-                <td colspan="20" class="error">
-                    Error al cargar la agenda.<br>
-                    <small>${error.message}</small>
+
+                <td colspan="20"
+                    class="mensaje">
+
+                    Error al cargar la agenda:
+                    ${error.message}
+
                 </td>
+
             </tr>
+
         `;
 
     }
@@ -194,457 +251,507 @@ async function cargarAgenda() {
 }
 
 
-/* =========================================================
-   LEER CSV
-   Detecta automáticamente ; o ,
-========================================================= */
 
-function leerCSV(texto) {
+// ============================================================
+// PARSEAR CSV
+// ============================================================
 
+function parsearCSV(texto) {
+
+    // Eliminar BOM de Excel
     texto = texto.replace(/^\uFEFF/, "");
+
 
     const lineas = texto
         .split(/\r?\n/)
-        .filter(l => l.trim() !== "");
+        .filter(linea => linea.trim() !== "");
+
 
     if (lineas.length < 2) {
+
         return [];
+
     }
 
-    // Detectar separador
-    const separador =
-        lineas[0].includes(";")
-            ? ";"
-            : ",";
 
-    const headers = parsearLinea(
-        lineas[0],
-        separador
-    ).map(h =>
-        normalizarNombre(h)
-    );
+    // TU CSV USA ;
+    const separador = ";";
 
-    const registros = [];
 
-    for (let i = 1; i < lineas.length; i++) {
-
-        const valores = parsearLinea(
-            lineas[i],
+    const headers =
+        parsearLinea(
+            lineas[0],
             separador
         );
 
+
+    const registros = [];
+
+
+    for (
+        let i = 1;
+        i < lineas.length;
+        i++
+    ) {
+
+        const valores =
+            parsearLinea(
+                lineas[i],
+                separador
+            );
+
+
         const registro = {};
 
-        headers.forEach((header, index) => {
 
-            registro[header] =
-                valores[index]
-                    ? valores[index].trim()
-                    : "";
+        headers.forEach(
+            (header, indice) => {
 
-        });
+                // Importante:
+                // NO modificamos el nombre
+                // de la columna
+
+                const nombre =
+                    header.trim();
+
+
+                registro[nombre] =
+                    valores[indice]
+                        ? valores[indice].trim()
+                        : "";
+
+            }
+        );
+
 
         registros.push(registro);
 
     }
 
+
     return registros;
+
 }
 
 
-/* =========================================================
-   PARSER CSV
-========================================================= */
 
-function parsearLinea(linea, separador) {
+// ============================================================
+// PARSER DE CSV
+// ============================================================
+
+function parsearLinea(
+    linea,
+    separador
+) {
 
     const resultado = [];
 
     let campo = "";
-    let comillas = false;
 
-    for (let i = 0; i < linea.length; i++) {
+    let dentroComillas = false;
 
-        const c = linea[i];
 
-        if (c === '"') {
+    for (
+        let i = 0;
+        i < linea.length;
+        i++
+    ) {
 
-            comillas = !comillas;
+        const caracter = linea[i];
+
+
+        if (caracter === '"') {
+
+            dentroComillas =
+                !dentroComillas;
 
         }
-        else if (c === separador && !comillas) {
 
-            resultado.push(
-                campo.replace(/^"|"$/g, "")
-            );
+
+        else if (
+            caracter === separador &&
+            !dentroComillas
+        ) {
+
+            resultado.push(campo);
 
             campo = "";
 
         }
+
+
         else {
 
-            campo += c;
+            campo += caracter;
 
         }
 
     }
 
-    resultado.push(
-        campo.replace(/^"|"$/g, "")
+
+    resultado.push(campo);
+
+
+    return resultado.map(
+        valor =>
+            valor
+                .replace(/^"|"$/g, "")
+                .trim()
     );
 
-    return resultado;
 }
 
 
-/* =========================================================
-   NORMALIZAR NOMBRES DE COLUMNAS
-========================================================= */
 
-function normalizarNombre(texto) {
+// ============================================================
+// CONVERTIR FECHA
+// ============================================================
 
-    return String(texto || "")
-        .replace(/^\uFEFF/, "")
-        .trim()
-        .toLowerCase()
-        .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "")
-        .replace(/[^a-z0-9]/g, "");
+function fechaJS(fecha) {
 
-}
+    const partes =
+        fecha.split("/");
 
 
-/* =========================================================
-   NORMALIZAR VALORES
-========================================================= */
+    if (partes.length !== 3) {
 
-function normalizar(valor) {
-
-    return String(valor || "")
-        .trim()
-        .toUpperCase();
-
-}
-
-
-/* =========================================================
-   OBTENER CAMPO
-========================================================= */
-
-function obtener(registro, ...nombres) {
-
-    for (const nombre of nombres) {
-
-        const clave = normalizarNombre(nombre);
-
-        if (
-            registro[clave] !== undefined &&
-            registro[clave] !== ""
-        ) {
-
-            return registro[clave];
-
-        }
+        return new Date(fecha);
 
     }
 
-    return "";
+
+    return new Date(
+        Number(partes[2]),
+        Number(partes[1]) - 1,
+        Number(partes[0])
+    );
+
 }
 
 
-/* =========================================================
-   FECHA
-========================================================= */
 
-function convertirFecha(fecha) {
-
-    if (!fecha) return "";
-
-    // DD/MM/YYYY
-    let partes = fecha.split("/");
-
-    if (partes.length === 3) {
-
-        return new Date(
-            partes[2],
-            partes[1] - 1,
-            partes[0]
-        );
-
-    }
-
-    // YYYY-MM-DD
-    partes = fecha.split("-");
-
-    if (partes.length === 3) {
-
-        return new Date(
-            partes[0],
-            partes[1] - 1,
-            partes[2]
-        );
-
-    }
-
-    return new Date(fecha);
-}
-
-
-/* =========================================================
-   MOSTRAR FECHA
-========================================================= */
+// ============================================================
+// FORMATO DE FECHA
+// ============================================================
 
 function mostrarFecha(fecha) {
 
-    const d = convertirFecha(fecha);
+    const partes =
+        fecha.split("/");
 
-    if (isNaN(d)) {
+
+    if (partes.length !== 3) {
+
         return fecha;
+
     }
 
-    return String(d.getDate()).padStart(2, "0")
-        + "/"
-        + String(d.getMonth() + 1).padStart(2, "0");
+
+    return partes[0] +
+        "/" +
+        partes[1];
 
 }
 
 
-/* =========================================================
-   ORDENAR HORA
-========================================================= */
+
+// ============================================================
+// CONVERTIR HORA A MINUTOS
+// ============================================================
 
 function horaNumero(hora) {
 
-    if (!hora) return 9999;
+    const partes =
+        hora.substring(0, 5).split(":");
 
-    const partes = hora.substring(0,5).split(":");
 
     return (
-        Number(partes[0] || 0) * 60 +
-        Number(partes[1] || 0)
+        Number(partes[0]) * 60 +
+        Number(partes[1])
     );
 
 }
 
 
-/* =========================================================
-   RENDERIZAR
-========================================================= */
 
-function renderizar(datos) {
+// ============================================================
+// RENDERIZAR
+// ============================================================
+
+function renderizarAgenda(datos) {
 
     const header =
-        document.getElementById("table-header");
+        document.getElementById(
+            "table-header"
+        );
+
 
     const body =
-        document.getElementById("table-body");
+        document.getElementById(
+            "table-body"
+        );
+
 
     header.innerHTML = "";
+
     body.innerHTML = "";
 
+
+    // ========================================================
+    // SIN DATOS
+    // ========================================================
 
     if (datos.length === 0) {
 
         header.innerHTML = `
             <th>Hora</th>
-            <th>Sin agenda vigente</th>
+            <th>Sin registros vigentes</th>
         `;
+
 
         body.innerHTML = `
             <tr>
-                <td colspan="2">
+
+                <td colspan="2"
+                    class="mensaje">
+
                     No hay registros con
-                    Es_Ultimo_Vigente = SI
+                    Es_Ultimo_Vigente = SI.
+
                 </td>
+
             </tr>
         `;
+
 
         return;
 
     }
 
 
-    // ---------------------------------------------------------
+
+    // ========================================================
     // FECHAS
-    // ---------------------------------------------------------
+    // ========================================================
 
     const fechas = [
         ...new Set(
-            datos
-                .map(d =>
-                    obtener(
-                        d,
-                        "fecha",
-                        "fecha_agenda"
-                    )
-                )
-                .filter(Boolean)
+            datos.map(
+                registro =>
+                    registro["Fecha:"]
+            )
         )
     ];
 
 
     fechas.sort(
-        (a,b) =>
-            convertirFecha(a) -
-            convertirFecha(b)
+        (a, b) =>
+            fechaJS(a) -
+            fechaJS(b)
     );
 
 
-    // ---------------------------------------------------------
+
+    // ========================================================
     // HORAS
-    // ---------------------------------------------------------
+    // ========================================================
 
     const horas = [
         ...new Set(
-            datos
-                .map(d =>
-                    obtener(
-                        d,
-                        "hora",
-                        "hora_agenda"
-                    )
-                )
-                .filter(Boolean)
+            datos.map(
+                registro =>
+                    registro["Hora:"]
+            )
         )
     ];
 
 
     horas.sort(
-        (a,b) =>
+        (a, b) =>
             horaNumero(a) -
             horaNumero(b)
     );
 
 
-    // ---------------------------------------------------------
+
+    // ========================================================
     // ENCABEZADO
-    // ---------------------------------------------------------
+    // ========================================================
 
     header.innerHTML =
-        `<th>Hora</th>` +
-        fechas.map(f =>
-            `<th>${mostrarFecha(f)}</th>`
-        ).join("");
+        "<th>Hora</th>" +
+
+        fechas
+            .map(
+                fecha =>
+                    `<th>
+                        ${mostrarFecha(fecha)}
+                    </th>`
+            )
+            .join("");
 
 
-    // ---------------------------------------------------------
+
+    // ========================================================
     // FILAS
-    // ---------------------------------------------------------
+    // ========================================================
 
     horas.forEach(hora => {
 
-        const tr =
+
+        const fila =
             document.createElement("tr");
 
 
-        tr.innerHTML = `
+        fila.innerHTML = `
             <td class="time-col">
                 ${hora.substring(0,5)}
             </td>
         `;
 
 
+
+        // ====================================================
+        // CELDAS POR FECHA
+        // ====================================================
+
         fechas.forEach(fecha => {
 
-            const td =
+
+            const celda =
                 document.createElement("td");
 
 
+
+            // Buscar eventos de esa
+            // fecha + hora
+
             const eventos =
-                datos.filter(d => {
+                datos.filter(registro => {
 
                     return (
-                        obtener(d,"fecha","fecha_agenda")
-                            === fecha
+
+                        registro["Fecha:"] ===
+                        fecha
+
                         &&
-                        obtener(d,"hora","hora_agenda")
-                            === hora
+
+                        registro["Hora:"] ===
+                        hora
+
                     );
 
                 });
 
 
+
+            // =================================================
+            // MOSTRAR EVENTOS
+            // =================================================
+
             eventos.forEach(evento => {
 
+
                 const destino =
-                    obtener(
-                        evento,
-                        "destino",
-                        "destino1"
-                    );
+                    evento["Destino:"];
+
 
                 const direccion =
-                    obtener(
-                        evento,
-                        "direccion",
-                        "direccion1"
-                    );
+                    evento["Dirección:"];
+
 
                 const destino2 =
-                    obtener(
-                        evento,
-                        "destino2"
-                    );
+                    evento["Destino2"];
+
 
                 const direccion2 =
-                    obtener(
-                        evento,
-                        "direccion2"
-                    );
+                    evento["Dirección2"];
+
 
                 const finalizacion =
-                    obtener(
-                        evento,
-                        "finalizacion_estimada",
-                        "finalizacion",
-                        "fin"
-                    );
+                    evento[
+                        "Finalización estimada:"
+                    ];
 
 
-                let destinoTexto =
-                    destino || "SIN DESTINO";
+
+                // ---------------------------------------------
+                // DESTINO
+                // ---------------------------------------------
+
+                let textoDestino =
+                    destino ||
+                    "SIN DESTINO";
 
 
                 if (destino2) {
-                    destinoTexto +=
-                        " → " + destino2;
+
+                    textoDestino +=
+                        " → " +
+                        destino2;
+
                 }
 
 
-                let direccionTexto =
-                    direccion || "SIN DIRECCIÓN";
+
+                // ---------------------------------------------
+                // DIRECCIÓN
+                // ---------------------------------------------
+
+                let textoDireccion =
+                    direccion ||
+                    "SIN DIRECCIÓN";
 
 
                 if (direccion2) {
-                    direccionTexto +=
-                        " → " + direccion2;
+
+                    textoDireccion +=
+                        " → " +
+                        direccion2;
+
                 }
 
 
-                const card =
-                    document.createElement("div");
 
-                card.className =
+                // ---------------------------------------------
+                // TARJETA
+                // ---------------------------------------------
+
+                const tarjeta =
+                    document.createElement(
+                        "div"
+                    );
+
+
+                tarjeta.className =
                     "event-card";
 
 
-                card.innerHTML = `
+                tarjeta.innerHTML = `
 
                     <div class="event-title">
-                        ${destinoTexto}
+
+                        ${textoDestino}
+
                     </div>
 
+
                     <div class="event-address">
-                        ${direccionTexto}
+
+                        ${textoDireccion}
+
                     </div>
+
 
                     ${
                         finalizacion
                         ?
                         `
                         <div class="event-finish">
+
                             Finalización estimada:
                             ${finalizacion.substring(0,5)}
+
                         </div>
                         `
                         :
@@ -654,31 +761,44 @@ function renderizar(datos) {
                 `;
 
 
-                td.appendChild(card);
+                celda.appendChild(
+                    tarjeta
+                );
+
 
             });
 
 
-            tr.appendChild(td);
+
+            fila.appendChild(
+                celda
+            );
+
 
         });
 
 
-        body.appendChild(tr);
+
+        body.appendChild(
+            fila
+        );
+
 
     });
 
 }
 
 
-// =========================================================
+
+// ============================================================
 // INICIAR
-// =========================================================
+// ============================================================
 
 window.addEventListener(
     "load",
     cargarAgenda
 );
+
 
 </script>
 
