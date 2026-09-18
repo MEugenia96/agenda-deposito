@@ -6,37 +6,24 @@
     <title>ALTUS - Agenda Depósito</title>
     <style>
         :root {
-            --primary-green: #52b788;
-            --dark-green: #2d6a4f;
-            --purple-dot: #b5179e;
-            --green-dot: #2a9d8f;
-            --bg-gray: #f8f9fa;
-            --border-color: #d8f3dc;
+            --primary-green: #48a999;
+            --border-color: #d1e7dd;
         }
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 20px;
-            background-color: #ffffff;
+            background-color: #fff;
             color: #333;
         }
 
         .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
             margin-bottom: 20px;
-            padding-bottom: 10px;
-        }
-
-        .logo-container {
-            display: flex;
-            flex-direction: column;
         }
 
         .logo {
-            font-size: 38px;
+            font-size: 36px;
             font-weight: 900;
             color: var(--primary-green);
             letter-spacing: 2px;
@@ -44,172 +31,87 @@
         }
 
         .subtitle {
-            font-size: 14px;
-            font-weight: 700;
-            color: #555;
-            margin-top: 5px;
-            letter-spacing: 1px;
-        }
-
-        .filters {
-            display: flex;
-            gap: 20px;
-        }
-
-        .filter-group {
-            display: flex;
-            flex-direction: column;
-            gap: 5px;
-        }
-
-        .filter-group label {
-            font-size: 12px;
-            font-weight: 600;
-            color: #666;
-        }
-
-        select {
-            padding: 8px 12px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            background: #fff;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-            min-width: 160px;
-        }
-
-        .legend {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
             font-size: 13px;
+            font-weight: 700;
+            color: #444;
+            margin-top: 4px;
         }
-
-        .legend-item {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .dot {
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-            display: inline-block;
-        }
-
-        .dot.agendado { background-color: var(--purple-dot); }
-        .dot.ejecucion { background-color: var(--green-dot); }
 
         .table-container {
             overflow-x: auto;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-            border-radius: 6px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            border-radius: 4px;
             border: 1px solid var(--border-color);
         }
 
         table {
             width: 100%;
             border-collapse: collapse;
-            min-width: 1000px;
+            min-width: 900px;
         }
 
         th {
             background-color: var(--primary-green);
             color: white;
-            padding: 12px 10px;
-            text-align: left;
-            font-size: 14px;
+            padding: 10px;
+            text-align: center;
+            font-size: 13px;
             font-weight: 600;
             border-right: 1px solid rgba(255,255,255,0.2);
         }
 
         th:first-child {
-            width: 100px;
+            width: 90px;
         }
 
         td {
             border: 1px solid var(--border-color);
-            padding: 10px;
+            padding: 8px;
             vertical-align: top;
-            height: 70px;
+            height: 60px;
             background-color: #fff;
-            font-size: 12px;
-        }
-
-        tr:nth-child(even) td {
-            background-color: #fdfdfd;
+            font-size: 11px;
         }
 
         td.time-col {
             font-weight: bold;
-            color: #444;
-            background-color: #fafafa !important;
+            color: #333;
+            background-color: #f8f9fa !important;
             text-align: center;
             vertical-align: middle;
         }
 
         .event-card {
-            display: flex;
-            align-items: flex-start;
-            gap: 8px;
-            margin-bottom: 8px;
-            line-height: 1.3;
-        }
-
-        .event-details {
-            display: flex;
-            flex-direction: column;
+            margin-bottom: 6px;
+            line-height: 1.2;
         }
 
         .event-title {
             font-weight: 600;
-            color: #222;
+            color: #111;
             text-transform: uppercase;
         }
 
         .event-sub {
-            color: #666;
-            font-size: 11px;
-            margin-top: 3px;
+            color: #555;
+            font-size: 10px;
+            margin-top: 2px;
         }
     </style>
 </head>
 <body>
 
     <div class="header">
-        <div class="logo-container">
-            <div class="logo">ALTUS</div>
-            <div class="subtitle">AGENDA DEPÓSITO</div>
-        </div>
-
-        <div class="filters">
-            <div class="filter-group">
-                <label>Seleccione el mes</label>
-                <select id="select-mes">
-                    <option value="Todas">Todas</option>
-                </select>
-            </div>
-
-            <div class="filter-group">
-                <label>Seleccione semana</label>
-                <select id="select-semana">
-                    <option value="Todas">Todas</option>
-                </select>
-            </div>
-        </div>
-
-        <div class="legend">
-            <div class="legend-item"><span class="dot agendado"></span> Agendado</div>
-            <div class="legend-item"><span class="dot ejecucion"></span> En ejecución</div>
-        </div>
+        <div class="logo">ALTUS</div>
+        <div class="subtitle">AGENDA DEPÓSITO</div>
     </div>
 
     <div class="table-container">
-        <table id="matrix-table">
+        <table>
             <thead>
                 <tr id="table-header">
                     <th>HoraAgenda</th>
-                    <th>Cargando días...</th>
+                    <th>Cargando...</th>
                 </tr>
             </thead>
             <tbody id="table-body">
@@ -223,38 +125,36 @@
                 const response = await fetch('agenda.csv?v=' + new Date().getTime());
                 const csvText = await response.text();
                 
-                const filas = csvText.split('\n').map(f => f.split(',').map(c => c.replace(/"/g, '').trim()));
-                
-                // Extraer eventos limpios
-                const eventos = [];
-                for(let i = 1; i < filas.length; i++) {
-                    const f = filas[i];
-                    if(f.length >= 3 && f[0]) {
-                        eventos.push({
-                            fecha: f[0],
-                            hora: f[1],
-                            tipo: f[2],
-                            destino: f[3] || '',
-                            ubicacion: f[4] || '',
-                            solicitante: f[5] || '',
-                            estado: f[6] || '',
-                            descripcion: f[7] || '',
-                            chofer: f[8] || '',
-                            fin: f[9] || ''
-                        });
-                    }
-                }
+                const lineas = csvText.split('\n').filter(l => l.trim() !== '');
+                if (lineas.length <= 1) return;
 
-                renderizarMatriz(eventos);
+                const headers = lineas[0].split(',').map(h => h.trim().toLowerCase());
+                
+                const registros = lineas.slice(1).map(linea => {
+                    const valores = linea.split(/,(?=(?:(?:[^"]*"){2})*[^"]*$)/).map(v => v.replace(/^"\vert{}"$/g, '').trim());
+                    let obj = {};
+                    headers.forEach((h, idx) => { obj[h] = valores[idx] || ''; });
+                    return obj;
+                });
+
+                // Filtrar solo VIGENTES (excluir IDs que contengan cualquier estado "Finalizado")
+                const idsFinalizados = new Set(
+                    registros
+                        .filter(r => r.estado && r.estado.toLowerCase().includes('finalizad'))
+                        .map(r => r.id)
+                );
+
+                const registrosVigentes = registros.filter(r => !idsFinalizados.has(r.id));
+
+                renderizarMatriz(registrosVigentes);
             } catch (err) {
-                console.error("Error al cargar agenda:", err);
+                console.error("Error al cargar datos:", err);
             }
         }
 
-        function renderizarMatriz(eventos) {
-            // Agrupar fechas y horas únicas
-            const fechas = [...new Set(eventos.map(e => e.fecha))].filter(Boolean);
-            const horas = [...new Set(eventos.map(e => e.hora))].filter(Boolean).sort();
+        function renderizarMatriz(datos) {
+            const fechas = [...new Set(datos.map(d => d.fecha))].filter(Boolean);
+            const horas = [...new Set(datos.map(d => d.hora))].filter(Boolean).sort();
 
             const headerTr = document.getElementById('table-header');
             headerTr.innerHTML = '<th>HoraAgenda</th>' + fechas.map(f => `<th>${f}</th>`).join('');
@@ -264,25 +164,27 @@
 
             horas.forEach(hora => {
                 let tr = document.createElement('tr');
-                let tdHora = `<td class="time-col">${hora}</td>`;
-                
-                let tdEventos = fechas.map(fecha => {
-                    const coinciden = eventos.filter(e => e.fecha === fecha && e.hora === hora);
-                    
-                    let htmlCard = coinciden.map(e => `
-                        <div class="event-card">
-                            <span class="dot ${e.estado.toLowerCase().includes('ejecucion') ? 'ejecucion' : 'agendado'}"></span>
-                            <div class="event-details">
-                                <span class="event-title">${e.ubicacion || e.destino || e.descripcion}</span>
-                                <span class="event-sub">${e.fin ? 'Finalización aprox: ' + e.fin : ''}</span>
-                            </div>
-                        </div>
-                    `).join('');
+                let htmlHora = `<td class="time-col">${hora}</td>`;
 
-                    return `<td>${htmlCard}</td>`;
+                let htmlCeldas = fechas.map(fecha => {
+                    const eventosEnCelda = datos.filter(d => d.fecha === fecha && d.hora === hora);
+
+                    let contenido = eventosEnCelda.map(e => {
+                        const textoDestino = e.destino || e.ubicacion || e.descripcion || 'Sin especificar';
+                        const finAprox = e.fin || e.finalizacion || '';
+
+                        return `
+                            <div class="event-card">
+                                <div class="event-title">${textoDestino}</div>
+                                ${finAprox ? `<div class="event-sub">Finalización aprox: ${finAprox}</div>` : ''}
+                            </div>
+                        `;
+                    }).join('');
+
+                    return `<td>${contenido}</td>`;
                 }).join('');
 
-                tr.innerHTML = tdHora + tdEventos;
+                tr.innerHTML = htmlHora + htmlCeldas;
                 tbody.appendChild(tr);
             });
         }
