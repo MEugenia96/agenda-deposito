@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ALTUS - Agenda Depósito</title>
+    <title>ATTUS - Agenda Depósito</title>
     <style>
         :root {
             --primary-green: #48a999;
@@ -61,7 +61,7 @@
         }
 
         th:first-child {
-            width: 90px;
+            width: 100px;
         }
 
         td {
@@ -102,7 +102,7 @@
 <body>
 
     <div class="header">
-        <div class="logo">ALTUS</div>
+        <div class="logo">ATTUS</div>
         <div class="subtitle">AGENDA DEPÓSITO</div>
     </div>
 
@@ -125,10 +125,11 @@
                 const response = await fetch('agenda.csv?v=' + new Date().getTime());
                 const csvText = await response.text();
                 
-                const lineas = csvText.split('\n').filter(l => l.trim() !== '');
+                const lineas = csvText.split('\n').map(l => l.trim()).filter(l => l.length > 0);
                 if (lineas.length <= 1) return;
 
-                const headers = lineas[0].split(',').map(h => h.trim().toLowerCase());
+                // Normalizar cabeceras a minúsculas
+                const headers = lineas[0].split(',').map(h => h.replace(/"/g, '').trim().toLowerCase());
                 
                 const registros = lineas.slice(1).map(linea => {
                     const valores = linea.split(/,(?=(?:(?:[^"]*"){2})*[^"]*$)/).map(v => v.replace(/^"\vert{}"$/g, '').trim());
@@ -137,26 +138,56 @@
                     return obj;
                 });
 
-                // Filtrar solo VIGENTES (excluir IDs que contengan cualquier estado "Finalizado")
+                // Función auxiliar para leer campos sin importar variaciones de nombre de columna
+                const getCampo = (item, ...claves) => {
+                    for (let c of claves) {
+                        if (item[c] !== undefined && item[c] !== '') return item[c];
+                    }
+                    return '';
+                };
+
+                // Identificar IDs finalizados
                 const idsFinalizados = new Set(
                     registros
-                        .filter(r => r.estado && r.estado.toLowerCase().includes('finalizad'))
-                        .map(r => r.id)
+                        .filter(r => {
+                            const estado = getCampo(r, 'estado', 'estado agenda', 'estadoagenda').toLowerCase();
+                            return estado.includes('finalizad');
+                        })
+                        .map(r => getCampo(r, 'id', 'id_agenda', 'idagenda', 'codigo'))
+                        .filter(Boolean)
                 );
 
-                const registrosVigentes = registros.filter(r => !idsFinalizados.has(r.id));
+                // Filtrar solo registros de IDs vigentes
+                const registrosVigentes = registros.filter(r => {
+                    const id = getCampo(r, 'id', 'id_agenda', 'idagenda', 'codigo');
+                    if (id && idsFinalizados.has(id)) return false;
+                    return true;
+                });
 
-                renderizarMatriz(registrosVigentes);
+                renderizarMatriz(registrosVigentes, getCampo);
             } catch (err) {
                 console.error("Error al cargar datos:", err);
             }
         }
 
-        function renderizarMatriz(datos) {
-            const fechas = [...new Set(datos.map(d => d.fecha))].filter(Boolean);
-            const horas = [...new Set(datos.map(d => d.hora))].filter(Boolean).sort();
+        function renderizarMatriz(datos, getCampo) {
+            // Mapear campos estándar
+            const procesados = datos.map(d => ({
+                fecha: getCampo(d, 'fecha', 'fechaagenda', 'fecha agenda'),
+                hora: getCampo(d, 'hora', 'horaagenda', 'hora agenda'),
+                destino: getCampo(d, 'destino', 'ubicacion', 'direccion', 'descripcion'),
+                fin: getCampo(d, 'fin', 'finalizacion', 'fin aprox', 'finalizacion aprox')
+            })).filter(d => d.fecha && d.hora);
+
+            const fechas = [...new Set(procesados.map(d => d.fecha))].sort();
+            const horas = [...new Set(procesados.map(d => d.hora))].sort();
 
             const headerTr = document.getElementById('table-header');
+            if (fechas.length === 0) {
+                headerTr.innerHTML = '<th>HoraAgenda</th><th>Sin registros vigentes</th>';
+                return;
+            }
+
             headerTr.innerHTML = '<th>HoraAgenda</th>' + fechas.map(f => `<th>${f}</th>`).join('');
 
             const tbody = document.getElementById('table-body');
@@ -167,19 +198,14 @@
                 let htmlHora = `<td class="time-col">${hora}</td>`;
 
                 let htmlCeldas = fechas.map(fecha => {
-                    const eventosEnCelda = datos.filter(d => d.fecha === fecha && d.hora === hora);
+                    const eventosEnCelda = procesados.filter(d => d.fecha === fecha && d.hora === hora);
 
-                    let contenido = eventosEnCelda.map(e => {
-                        const textoDestino = e.destino || e.ubicacion || e.descripcion || 'Sin especificar';
-                        const finAprox = e.fin || e.finalizacion || '';
-
-                        return `
-                            <div class="event-card">
-                                <div class="event-title">${textoDestino}</div>
-                                ${finAprox ? `<div class="event-sub">Finalización aprox: ${finAprox}</div>` : ''}
-                            </div>
-                        `;
-                    }).join('');
+                    let contenido = eventosEnCelda.map(e => `
+                        <div class="event-card">
+                            <div class="event-title">${e.destino || 'SIN ESPECIFICAR'}</div>
+                            ${e.fin ? `<div class="event-sub">Finalización aprox: ${e.fin}</div>` : ''}
+                        </div>
+                    `).join('');
 
                     return `<td>${contenido}</td>`;
                 }).join('');
