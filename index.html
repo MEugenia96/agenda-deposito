@@ -1,20 +1,28 @@
+```html
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>ATTUS - Agenda Depósito</title>
+
     <style>
         :root {
             --primary-green: #48a999;
             --border-color: #d1e7dd;
+            --light-green: #f2faf8;
+        }
+
+        * {
+            box-sizing: border-box;
         }
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
-            padding: 20px;
-            background-color: #fff;
+            padding: 25px;
+            background-color: #ffffff;
             color: #333;
         }
 
@@ -34,14 +42,14 @@
             font-size: 13px;
             font-weight: 700;
             color: #444;
-            margin-top: 4px;
+            margin-top: 5px;
         }
 
         .table-container {
             overflow-x: auto;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-            border-radius: 4px;
             border: 1px solid var(--border-color);
+            border-radius: 5px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
         }
 
         table {
@@ -50,55 +58,95 @@
             min-width: 900px;
         }
 
+        /* ENCABEZADOS */
+
         th {
             background-color: var(--primary-green);
             color: white;
-            padding: 10px;
+            padding: 12px 8px;
             text-align: center;
             font-size: 13px;
             font-weight: 600;
-            border-right: 1px solid rgba(255,255,255,0.2);
+            border-right: 1px solid rgba(255,255,255,0.25);
+            white-space: nowrap;
         }
 
         th:first-child {
-            width: 100px;
+            width: 85px;
         }
+
+        /* CELDAS */
 
         td {
             border: 1px solid var(--border-color);
             padding: 8px;
             vertical-align: top;
-            height: 60px;
-            background-color: #fff;
+            min-height: 70px;
+            background-color: white;
             font-size: 11px;
         }
 
         td.time-col {
-            font-weight: bold;
+            width: 85px;
+            font-weight: 700;
+            font-size: 12px;
             color: #333;
-            background-color: #f8f9fa !important;
+            background-color: #f8f9fa;
             text-align: center;
             vertical-align: middle;
+            white-space: nowrap;
         }
 
+        /* EVENTO */
+
         .event-card {
-            margin-bottom: 6px;
-            line-height: 1.2;
+            background-color: var(--light-green);
+            border-left: 4px solid var(--primary-green);
+            border-radius: 3px;
+            padding: 7px;
+            margin-bottom: 5px;
+            line-height: 1.25;
+        }
+
+        .event-card:last-child {
+            margin-bottom: 0;
         }
 
         .event-title {
-            font-weight: 600;
+            font-weight: 700;
             color: #111;
             text-transform: uppercase;
+            font-size: 11px;
+            margin-bottom: 4px;
         }
 
-        .event-sub {
+        .event-address {
             color: #555;
             font-size: 10px;
-            margin-top: 2px;
+            margin-bottom: 4px;
+        }
+
+        .event-finish {
+            color: #333;
+            font-size: 10px;
+            font-weight: 600;
+        }
+
+        .empty-cell {
+            min-height: 55px;
+        }
+
+        /* MENSAJES */
+
+        .message {
+            padding: 20px;
+            text-align: center;
+            color: #666;
+            font-size: 14px;
         }
     </style>
 </head>
+
 <body>
 
     <div class="header">
@@ -107,115 +155,504 @@
     </div>
 
     <div class="table-container">
+
         <table>
+
             <thead>
                 <tr id="table-header">
-                    <th>HoraAgenda</th>
-                    <th>Cargando...</th>
+                    <th>Hora</th>
                 </tr>
             </thead>
+
             <tbody id="table-body">
             </tbody>
+
         </table>
+
     </div>
 
+
     <script>
+
+        // =========================================================
+        // CARGAR CSV
+        // =========================================================
+
         async function cargarAgenda() {
+
             try {
-                const response = await fetch('agenda.csv?v=' + new Date().getTime());
-                const csvText = await response.text();
-                
-                const lineas = csvText.split('\n').map(l => l.trim()).filter(l => l.length > 0);
-                if (lineas.length <= 1) return;
 
-                // Normalizar cabeceras a minúsculas
-                const headers = lineas[0].split(',').map(h => h.replace(/"/g, '').trim().toLowerCase());
-                
-                const registros = lineas.slice(1).map(linea => {
-                    const valores = linea.split(/,(?=(?:(?:[^"]*"){2})*[^"]*$)/).map(v => v.replace(/^"\vert{}"$/g, '').trim());
-                    let obj = {};
-                    headers.forEach((h, idx) => { obj[h] = valores[idx] || ''; });
-                    return obj;
-                });
-
-                // Función auxiliar para leer campos sin importar variaciones de nombre de columna
-                const getCampo = (item, ...claves) => {
-                    for (let c of claves) {
-                        if (item[c] !== undefined && item[c] !== '') return item[c];
-                    }
-                    return '';
-                };
-
-                // Identificar IDs finalizados
-                const idsFinalizados = new Set(
-                    registros
-                        .filter(r => {
-                            const estado = getCampo(r, 'estado', 'estado agenda', 'estadoagenda').toLowerCase();
-                            return estado.includes('finalizad');
-                        })
-                        .map(r => getCampo(r, 'id', 'id_agenda', 'idagenda', 'codigo'))
-                        .filter(Boolean)
+                const response = await fetch(
+                    'agenda.csv?v=' + new Date().getTime()
                 );
 
-                // Filtrar solo registros de IDs vigentes
-                const registrosVigentes = registros.filter(r => {
-                    const id = getCampo(r, 'id', 'id_agenda', 'idagenda', 'codigo');
-                    if (id && idsFinalizados.has(id)) return false;
-                    return true;
+                if (!response.ok) {
+                    throw new Error('No se pudo cargar agenda.csv');
+                }
+
+                const csvText = await response.text();
+
+                const registros = parsearCSV(csvText);
+
+                // SOLO REGISTROS VIGENTES
+                const registrosVigentes = registros.filter(registro => {
+
+                    return normalizar(
+                        registro["Es_Ultimo_Vigente"]
+                    ) === "SI";
+
                 });
 
-                renderizarMatriz(registrosVigentes, getCampo);
-            } catch (err) {
-                console.error("Error al cargar datos:", err);
+                renderizarAgenda(registrosVigentes);
+
             }
+
+            catch (error) {
+
+                console.error(error);
+
+                document.getElementById("table-body").innerHTML = `
+                    <tr>
+                        <td colspan="10" class="message">
+                            No se pudo cargar la agenda.
+                        </td>
+                    </tr>
+                `;
+
+            }
+
         }
 
-        function renderizarMatriz(datos, getCampo) {
-            // Mapear campos estándar
-            const procesados = datos.map(d => ({
-                fecha: getCampo(d, 'fecha', 'fechaagenda', 'fecha agenda'),
-                hora: getCampo(d, 'hora', 'horaagenda', 'hora agenda'),
-                destino: getCampo(d, 'destino', 'ubicacion', 'direccion', 'descripcion'),
-                fin: getCampo(d, 'fin', 'finalizacion', 'fin aprox', 'finalizacion aprox')
-            })).filter(d => d.fecha && d.hora);
 
-            const fechas = [...new Set(procesados.map(d => d.fecha))].sort();
-            const horas = [...new Set(procesados.map(d => d.hora))].sort();
+        // =========================================================
+        // PARSEAR CSV
+        // IMPORTANTE: TU CSV USA ;
+        // =========================================================
 
-            const headerTr = document.getElementById('table-header');
-            if (fechas.length === 0) {
-                headerTr.innerHTML = '<th>HoraAgenda</th><th>Sin registros vigentes</th>';
-                return;
+        function parsearCSV(texto) {
+
+            const lineas = texto
+                .split(/\r?\n/)
+                .filter(linea => linea.trim() !== "");
+
+            if (lineas.length < 2) {
+                return [];
             }
 
-            headerTr.innerHTML = '<th>HoraAgenda</th>' + fechas.map(f => `<th>${f}</th>`).join('');
+            // CABECERAS
+            const headers = parsearLineaCSV(lineas[0]);
 
-            const tbody = document.getElementById('table-body');
-            tbody.innerHTML = '';
+            // DATOS
+            const registros = [];
+
+            for (let i = 1; i < lineas.length; i++) {
+
+                const valores = parsearLineaCSV(lineas[i]);
+
+                const registro = {};
+
+                headers.forEach((header, index) => {
+
+                    registro[header.trim()] =
+                        valores[index] !== undefined
+                            ? valores[index].trim()
+                            : "";
+
+                });
+
+                registros.push(registro);
+
+            }
+
+            return registros;
+
+        }
+
+
+        // =========================================================
+        // PARSER PARA ;
+        // RESPETA CAMPOS ENTRE COMILLAS
+        // =========================================================
+
+        function parsearLineaCSV(linea) {
+
+            const resultado = [];
+
+            let campo = "";
+            let dentroDeComillas = false;
+
+            for (let i = 0; i < linea.length; i++) {
+
+                const caracter = linea[i];
+
+                if (caracter === '"') {
+
+                    dentroDeComillas = !dentroDeComillas;
+
+                }
+
+                else if (caracter === ";" && !dentroDeComillas) {
+
+                    resultado.push(campo);
+                    campo = "";
+
+                }
+
+                else {
+
+                    campo += caracter;
+
+                }
+
+            }
+
+            resultado.push(campo);
+
+            return resultado;
+
+        }
+
+
+        // =========================================================
+        // NORMALIZAR TEXTO
+        // =========================================================
+
+        function normalizar(valor) {
+
+            return String(valor || "")
+                .trim()
+                .toUpperCase();
+
+        }
+
+
+        // =========================================================
+        // OBTENER CAMPO
+        // =========================================================
+
+        function obtenerCampo(registro, nombre) {
+
+            return registro[nombre] || "";
+
+        }
+
+
+        // =========================================================
+        // FECHA PARA ORDENAR
+        // DD/MM/YYYY
+        // =========================================================
+
+        function fechaOrdenable(fecha) {
+
+            const partes = fecha.split("/");
+
+            if (partes.length !== 3) {
+                return "";
+            }
+
+            const dia = partes[0].padStart(2, "0");
+            const mes = partes[1].padStart(2, "0");
+            const anio = partes[2];
+
+            return `${anio}-${mes}-${dia}`;
+
+        }
+
+
+        // =========================================================
+        // FORMATEAR FECHA
+        // =========================================================
+
+        function formatearFecha(fecha) {
+
+            const partes = fecha.split("/");
+
+            if (partes.length !== 3) {
+                return fecha;
+            }
+
+            return `${partes[0]}/${partes[1]}`;
+
+        }
+
+
+        // =========================================================
+        // ORDENAR HORA
+        // =========================================================
+
+        function horaOrdenable(hora) {
+
+            if (!hora) {
+                return "";
+            }
+
+            return hora.substring(0, 5);
+
+        }
+
+
+        // =========================================================
+        // RENDERIZAR AGENDA
+        // =========================================================
+
+        function renderizarAgenda(datos) {
+
+            const header = document.getElementById("table-header");
+            const body = document.getElementById("table-body");
+
+            header.innerHTML = "";
+            body.innerHTML = "";
+
+
+            // -----------------------------------------------------
+            // SIN DATOS
+            // -----------------------------------------------------
+
+            if (datos.length === 0) {
+
+                header.innerHTML = `
+                    <th>Hora</th>
+                    <th>Sin agenda vigente</th>
+                `;
+
+                body.innerHTML = `
+                    <tr>
+                        <td colspan="2" class="message">
+                            No hay registros vigentes.
+                        </td>
+                    </tr>
+                `;
+
+                return;
+
+            }
+
+
+            // -----------------------------------------------------
+            // FECHAS
+            // -----------------------------------------------------
+
+            const fechas = [
+                ...new Set(
+                    datos
+                        .map(d => obtenerCampo(d, "Fecha:"))
+                        .filter(Boolean)
+                )
+            ];
+
+            fechas.sort(
+                (a, b) =>
+                    fechaOrdenable(a).localeCompare(
+                        fechaOrdenable(b)
+                    )
+            );
+
+
+            // -----------------------------------------------------
+            // HORAS
+            // -----------------------------------------------------
+
+            const horas = [
+                ...new Set(
+                    datos
+                        .map(d => obtenerCampo(d, "Hora:"))
+                        .filter(Boolean)
+                )
+            ];
+
+            horas.sort(
+                (a, b) =>
+                    horaOrdenable(a).localeCompare(
+                        horaOrdenable(b)
+                    )
+            );
+
+
+            // -----------------------------------------------------
+            // ENCABEZADO
+            // -----------------------------------------------------
+
+            header.innerHTML = `
+                <th>Hora</th>
+                ${
+                    fechas
+                        .map(fecha => `
+                            <th>${formatearFecha(fecha)}</th>
+                        `)
+                        .join("")
+                }
+            `;
+
+
+            // -----------------------------------------------------
+            // FILAS
+            // -----------------------------------------------------
 
             horas.forEach(hora => {
-                let tr = document.createElement('tr');
-                let htmlHora = `<td class="time-col">${hora}</td>`;
 
-                let htmlCeldas = fechas.map(fecha => {
-                    const eventosEnCelda = procesados.filter(d => d.fecha === fecha && d.hora === hora);
+                const fila = document.createElement("tr");
 
-                    let contenido = eventosEnCelda.map(e => `
-                        <div class="event-card">
-                            <div class="event-title">${e.destino || 'SIN ESPECIFICAR'}</div>
-                            ${e.fin ? `<div class="event-sub">Finalización aprox: ${e.fin}</div>` : ''}
-                        </div>
-                    `).join('');
+                fila.innerHTML = `
+                    <td class="time-col">
+                        ${hora.substring(0, 5)}
+                    </td>
+                `;
 
-                    return `<td>${contenido}</td>`;
-                }).join('');
 
-                tr.innerHTML = htmlHora + htmlCeldas;
-                tbody.appendChild(tr);
+                // -------------------------------------------------
+                // CADA FECHA
+                // -------------------------------------------------
+
+                fechas.forEach(fecha => {
+
+                    const celda = document.createElement("td");
+
+                    const eventos = datos.filter(d => {
+
+                        return (
+                            obtenerCampo(d, "Fecha:") === fecha &&
+                            obtenerCampo(d, "Hora:") === hora
+                        );
+
+                    });
+
+
+                    // -------------------------------------------------
+                    // SI NO HAY EVENTOS
+                    // -------------------------------------------------
+
+                    if (eventos.length === 0) {
+
+                        celda.innerHTML = `
+                            <div class="empty-cell"></div>
+                        `;
+
+                    }
+
+
+                    // -------------------------------------------------
+                    // EVENTOS
+                    // -------------------------------------------------
+
+                    eventos.forEach(evento => {
+
+                        const destino =
+                            obtenerCampo(
+                                evento,
+                                "Destino:"
+                            );
+
+                        const direccion =
+                            obtenerCampo(
+                                evento,
+                                "Dirección: "
+                            );
+
+                        const destino2 =
+                            obtenerCampo(
+                                evento,
+                                "Destino2"
+                            );
+
+                        const direccion2 =
+                            obtenerCampo(
+                                evento,
+                                "Dirección2"
+                            );
+
+                        const finalizacion =
+                            obtenerCampo(
+                                evento,
+                                "Finalización estimada:"
+                            );
+
+
+                        let destinoMostrar =
+                            destino;
+
+                        let direccionMostrar =
+                            direccion;
+
+
+                        // ---------------------------------------------
+                        // SI EXISTE SEGUNDO DESTINO
+                        // ---------------------------------------------
+
+                        if (destino2) {
+
+                            destinoMostrar +=
+                                " → " + destino2;
+
+                        }
+
+                        if (direccion2) {
+
+                            direccionMostrar +=
+                                " → " + direccion2;
+
+                        }
+
+
+                        const tarjeta =
+                            document.createElement("div");
+
+                        tarjeta.className = "event-card";
+
+
+                        tarjeta.innerHTML = `
+
+                            <div class="event-title">
+                                ${destinoMostrar || "SIN DESTINO"}
+                            </div>
+
+                            <div class="event-address">
+                                ${direccionMostrar || "SIN DIRECCIÓN"}
+                            </div>
+
+                            ${
+                                finalizacion
+                                ?
+                                `
+                                <div class="event-finish">
+                                    Finalización estimada:
+                                    ${finalizacion.substring(0,5)}
+                                </div>
+                                `
+                                :
+                                ""
+                            }
+
+                        `;
+
+
+                        celda.appendChild(tarjeta);
+
+                    });
+
+
+                    fila.appendChild(celda);
+
+                });
+
+
+                body.appendChild(fila);
+
             });
+
         }
 
-        window.onload = cargarAgenda;
+
+        // =========================================================
+        // INICIAR
+        // =========================================================
+
+        window.addEventListener(
+            "load",
+            cargarAgenda
+        );
+
     </script>
+
 </body>
 </html>
+```
