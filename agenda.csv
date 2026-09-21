@@ -245,7 +245,7 @@
 147;17/09/2026;09:15:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;eduardo coniglio;Obra - Entrega urgente;25 bol arena fina;Bertorello_Leonel;Pick up HILUX_HLN556;;Agendado;17/9/2026 08:09;;00:30:00;09:45:00;;;NO
 111;18/09/2026;10:00:00;Otro;PROVEDORES VARIOS;VARIOS;AGUSTIN ARUZA;Retiro Proveedor;MATERIALES VARIOS PARA BOSCO;Mercado_Juan;Camion710_LNY664;;Agendado;14/9/2026 11:07;;03:00:00;13:00:00;;;NO
 153;17/09/2026;15:45:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;MERCADO JOSE;Obra - Entrega urgente;HIDROFUGO ;Bertorello_Leonel;Pick up HILUX_HLN556;;Agendado;17/9/2026 15:22;;01:00:00;16:45:00;;;NO
-155;18/09/2026;08:45:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;santiago bruno;Otro;retiro de vallas;Mercado_Juan;Camion710_LNY664;;Agendado;17/9/2026 17:01;;01:00:00;09:45:00;;;SI
+155;18/09/2026;08:45:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;santiago bruno;Otro;retiro de vallas;Mercado_Juan;Camion710_LNY664;;Agendado;17/9/2026 17:01;;01:00:00;09:45:00;;;NO
 118;16/9/2026;12:15:00;Proveedor;ARENA;RUTA NAC. 36 KM 696 - LOS CONDORES;DANIELA GENERO;Retiro Proveedor;BORDILLOS DE HORMIGON;Mercado_Juan;Camion710_LNY664;;Finalizado OK;16/9/2026 14:47;;03:00:00;15:15:00;;;NO
 137;16/9/2026;14:30:00;Obra;BOEHLER CASTRO - LOTEO LOMA ALTA 3;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;AGUSTINA GARCIA;Obra - Entrega programada;LLEVAR GRUPO  Y CANDADOS;Balmaceda_Luis;Pick up HILUX_HLN556;;Finalizado OK;16/9/2026 15:14;;02:00:00;16:30:00;;;NO
 139;16/9/2026;14:15:00;Obra;RIVOIRA OSCAR - DEPOSITO URQUIZA                  ;URQUIZA 67 - RIO CUARTO                 ;AGUSTIN ARUZA;Otro;DEJAR PLEGADOS Y CARGAR CHAPAS ;Rodriguez_Rafael;Pick up HILUX_HLN556;;Finalizado OK;16/9/2026 15:14;;01:00:00;15:15:00;;;NO
@@ -254,11 +254,11 @@
 140;17/9/2026;10:00:00;Proveedor;SEGUTEX SRL;SARMIENTO 601 - RIO CUARTO;MARTINA ASTRADA;Cambio con Proveedor;CAMBIO DE CHOMBAS AZULES X GRISES;Bertorello_Leonel;Pick up HILUX_HLN556;;Finalizado OK;16/9/2026 15:37;;02:00:00;12:00:00;;;NO
 141;17/9/2026;10:30:00;Proveedor;DRAFT BORDADOS;MARIA OLGUIN 281 - RIO CUARTO;MARTINA ASTRADA;Otro;LLEVAR A BORDAR CHOMBAS ATTUS MIXON Y LUNARDI;Bertorello_Leonel;Pick up HILUX_HLN556;;Finalizado OK;16/9/2026 15:37;;01:00:00;11:30:00;;;NO
 138;16/9/2026;15:45:00;Obra;LUNARDI- PUEBLA TORRE 0 Y TORRE 1                 ;PALESTINA Y LUGONES - RIO CUARTO                 ;JUAN PABLO GUTIERREZ;Obra - Entrega programada;LLEVAR CAÑO FALTANTE  DE PRONEX;Bertorello_Leonel;Pick up KANGOO_JJY978;;Finalizado OK;16/9/2026 15:37;;01:00:00;16:45:00;;;NO
-156;18/09/2026;08:45:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;santiago bruno;Otro;stanguet;Balmaceda_Luis;Ford350_VXJ313;;Agendado;17/9/2026 17:02;;01:00:00;09:45:00;;;SI
-146;18/09/2026;09:45:00;Otro;MIXON CERCO;JULIAN MAIDANA;rafael rodriguz;Otro;hacer lugar en cerco para descarga vigas;Mercado_Juan;Pick up HILUX_HLN556;;Agendado;16/9/2026 15:50;;02:00:00;11:45:00;;;SI
-152;18/09/2026;10:45:00;Obra;LUNARDI- PUEBLA TORRE 0 Y TORRE 1                 ;PALESTINA Y LUGONES - RIO CUARTO                 ;juan pablo gutierrez;Otro;llevar deseconfrate y 5 bol cemento;Mercado_Juan;Camion710_LNY664;;Agendado;17/9/2026 14:57;;01:00:00;11:45:00;;;SI
-149;18/09/2026;14:00:00;Otro;OBRAS VARIAS;ATTUS EMPRESA;emanuel peruchin;Otro;retirar heladeras ponzo;Bertorello_Leonel;Pick up HILUX_HLN556;;Agendado;17/9/2026 11:05;;01:00:00;15:00:00;;;SI
-150;18/09/2026;15:30:00;Otro;LAVADO DE FLOTA;ATTUS EMPRESA;emanuel peruchin;Otro;lavar camiom mb 710 y toyota hilux;Mercado_Juan;Camion710_LNY664;;Agendado;17/9/2026 12:09;;02:00:00;17:30:00;;;SI
+156;18/09/2026;08:45:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;santiago bruno;Otro;stanguet;Balmaceda_Luis;Ford350_VXJ313;;Agendado;17/9/2026 17:02;;01:00:00;09:45:00;;;NO
+146;18/09/2026;09:45:00;Otro;MIXON CERCO;JULIAN MAIDANA;rafael rodriguz;Otro;hacer lugar en cerco para descarga vigas;Mercado_Juan;Pick up HILUX_HLN556;;Agendado;16/9/2026 15:50;;02:00:00;11:45:00;;;NO
+152;18/09/2026;10:45:00;Obra;LUNARDI- PUEBLA TORRE 0 Y TORRE 1                 ;PALESTINA Y LUGONES - RIO CUARTO                 ;juan pablo gutierrez;Otro;llevar deseconfrate y 5 bol cemento;Mercado_Juan;Camion710_LNY664;;Agendado;17/9/2026 14:57;;01:00:00;11:45:00;;;NO
+149;18/09/2026;14:00:00;Otro;OBRAS VARIAS;ATTUS EMPRESA;emanuel peruchin;Otro;retirar heladeras ponzo;Bertorello_Leonel;Pick up HILUX_HLN556;;Agendado;17/9/2026 11:05;;01:00:00;15:00:00;;;NO
+150;18/09/2026;15:30:00;Otro;LAVADO DE FLOTA;ATTUS EMPRESA;emanuel peruchin;Otro;lavar camiom mb 710 y toyota hilux;Mercado_Juan;Camion710_LNY664;;Agendado;17/9/2026 12:09;;02:00:00;17:30:00;;;NO
 111;18/9/2026;10:00:00;Otro;PROVEDORES VARIOS;VARIOS;AGUSTIN ARUZA;Retiro Proveedor;MATERIALES VARIOS PARA BOSCO;Mercado_Juan;Camion710_LNY664;;Finalizado OK;17/9/2026 11:03;;03:00:00;13:00:00;;;NO
 110;21/09/2026;08:30:00;Obra;BOSCO HORACIO - TAMBO SAMPACHO                    ;RIVADAVIA 895 - SAMPACHO                             ;AGUSTIN ARUZA;Obra - Entrega programada;ENTREGA DE MATERIALES VARIOS;Mercado_Juan;Camion710_LNY664;;Agendado;14/9/2026 11:05;;03:00:00;11:30:00;;;SI
 144;17/9/2026;10:45:00;Proveedor;ESTACION DE SERVICIO YPF GALACTIC;AV SABATTINI 1802 - RIO CUARTO;rafael rodriguez;Retiro Proveedor;retirar nafta para deposito;Bertorello_Leonel;Pick up HILUX_HLN556;;Finalizado OK;17/9/2026 12:05;;01:00:00;11:45:00;;;NO
@@ -270,20 +270,20 @@
 120;22/09/2026;08:30:00;Otro;TRASLADO  DE OBRA S;ELA A PUEBLA;JUAN PABLO GUTIERREZ;Otro;TRASLADO DE FENOLICOS VARIOS;Mercado_Juan;Camion710_LNY664;;Agendado;14/9/2026 16:27;;02:00:00;10:30:00;;;SI
 154;17/09/2026;16:00:00;Obra;TODO CAMPO SRL-DEPOSITO AGROQUIMICOS Y SEMILLAS   ;RUTA N°35 - KM 529 - HUINCA RENANCO                       ;ali chaijale;;;;;;Agendado;17/9/2026 15:59;;01:00:00;17:00:00;;;NO
 154;17/9/2026;16:00:00;Obra;TODO CAMPO SRL-DEPOSITO AGROQUIMICOS Y SEMILLAS   ;RUTA N°35 - KM 529 - HUINCA RENANCO                       ;ali chaijale;;;;;;Finalizado OK;17/9/2026 15:59;;01:00:00;17:00:00;;;NO
+158;22/09/2026;09:45:00;Otro;MIXON CERCO;JULIAN MAIDANA;RAFAEL RODRIGUEZ;Otro;LIMPIEZA DE CERCO;Rodriguez_Rafael;Pick up HILUX_HLN556;;Agendado;21/9/2026 09:20;;01:30:00;11:15:00;;;SI
 122;23/09/2026;08:30:00;Otro;TRASLADO DE ELA A DEP Y MIXON;DEPOS ITO Y MIXON;SANTIAGO BRUNO;Otro;CARGAR EFCO Y TRAER AL DEPOSITO Y A CERCO MIXON;Mercado_Juan;Camion710_LNY664;;Agendado;15/9/2026 10:58;;06:00:00;14:30:00;;;SI
-123;23/09/2026;08:30:00;Otro;TRASLADO DE ELA A DEP Y MIXON;DEPOS ITO Y MIXON;SANTIAGO BRUNO;Otro;CARGAR EFCO Y TRAER AL DEPOSITO Y A CERCO MIXON;Balmaceda_Luis;Ford350_VXJ313;;Agendado;15/9/2026 10:59;;06:00:00;14:30:00;;;SI
 153;17/9/2026;15:45:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;MERCADO JOSE;Obra - Entrega urgente;HIDROFUGO ;Bertorello_Leonel;Pick up HILUX_HLN556;;Finalizado OK;17/9/2026 17:03;;01:00:00;16:45:00;;;NO
 112;17/9/2026;08:30:00;Otro;ENCOFRADOS STANGUET;FRANCISCO MUÑIZ Y CHILE;SANTIAGO BRUNO;Retiro Proveedor;DEVOLUCION DE ELA;Mercado_Juan;Camion710_LNY664;5.5 metros;Finalizado OK;17/9/2026 17:03;;06:00:00;14:30:00;;;NO
 113;17/9/2026;12:30:00;Otro;ENCOFRADOS STANGUET;FRANCISCO MUÑIZ Y CHILE;JUAN PABLO GUTIRREZ;Retiro Proveedor;CARGA PARA PUEBLA;Mercado_Juan;Camion710_LNY664;5.5 metros;Finalizado OK;17/9/2026 17:03;;03:00:00;15:30:00;;;NO
-157;23/09/2026;08:00:00;Otro;LIMPIEZA DE GALPON BBARRIDO;CONCEJAL EIMENDI 447;EMMANUEL;Otro;HFGGJFH;Peruchin_Emanuel;Pick up HILUX_HLN556;;Agendado;18/9/2026 15:46;;01:30:00;09:30:00;;;SI
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
+157;23/09/2026;08:00:00;Otro;LIMPIEZA DE GALPON BBARRIDO;CONCEJAL EIMENDI 447;EMMANUEL;Otro;HFGGJFH;Peruchin_Emanuel;Pick up HILUX_HLN556;;Agendado;18/9/2026 15:46;;01:30:00;09:30:00;;;NO
+155;18/9/2026;08:45:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;santiago bruno;Otro;retiro de vallas;Mercado_Juan;Camion710_LNY664;;Finalizado OK;18/9/2026 16:11;;01:00:00;09:45:00;;;NO
+156;18/9/2026;08:45:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;santiago bruno;Otro;stanguet;Balmaceda_Luis;Ford350_VXJ313;;Finalizado OK;18/9/2026 16:12;;01:00:00;09:45:00;;;NO
+146;18/9/2026;09:45:00;Otro;MIXON CERCO;JULIAN MAIDANA;rafael rodriguz;Otro;hacer lugar en cerco para descarga vigas;Mercado_Juan;Pick up HILUX_HLN556;;Finalizado OK;18/9/2026 16:12;;02:00:00;11:45:00;;;NO
+152;18/9/2026;10:45:00;Obra;LUNARDI- PUEBLA TORRE 0 Y TORRE 1                 ;PALESTINA Y LUGONES - RIO CUARTO                 ;juan pablo gutierrez;Otro;llevar deseconfrate y 5 bol cemento;Mercado_Juan;Camion710_LNY664;;Finalizado OK;18/9/2026 16:12;;01:00:00;11:45:00;;;NO
+149;18/9/2026;14:00:00;Otro;OBRAS VARIAS;ATTUS EMPRESA;emanuel peruchin;Otro;retirar heladeras ponzo;Bertorello_Leonel;Pick up HILUX_HLN556;;Finalizado OK;18/9/2026 16:12;;01:00:00;15:00:00;;;NO
+150;18/9/2026;15:30:00;Otro;LAVADO DE FLOTA;ATTUS EMPRESA;emanuel peruchin;Otro;lavar camiom mb 710 y toyota hilux;Mercado_Juan;Camion710_LNY664;;Finalizado OK;18/9/2026 16:12;;02:00:00;17:30:00;;;NO
+157;23/9/2026;08:00:00;Otro;LIMPIEZA DE GALPON BBARRIDO;CONCEJAL EIMENDI 447;EMMANUEL;Otro;HFGGJFH;Peruchin_Emanuel;Pick up HILUX_HLN556;;Finalizado OK;21/9/2026 08:23;;01:30:00;09:30:00;;;NO
+123;23/09/2026;08:30:00;Otro;TRASLADO DE ELA A DEP Y MIXON;DEPOS ITO Y MIXON;SANTIAGO BRUNO;Otro;CARGAR EFCO Y TRAER AL DEPOSITO Y A CERCO MIXON;Balmaceda_Luis;Ford350_VXJ313;;Agendado;15/9/2026 10:59;;06:00:00;14:30:00;;;SI
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
