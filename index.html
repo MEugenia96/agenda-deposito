@@ -1,18 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>ATTUS - Agenda Depósito</title>
-    
-    <link rel="icon"
-          type="image/png"
-          href="calendario.png">
+    <link rel="icon" type="image/png" href="calendario.png">
 
     <style>
-
         :root {
             --primary-green: #48a999;
             --border-color: #d1e7dd;
@@ -102,7 +96,6 @@
             margin-bottom: 0;
         }
 
-        /* Estilos para las etiquetas de Estado */
         .event-status {
             display: inline-block;
             font-size: 9px;
@@ -149,491 +142,184 @@
             padding: 20px;
             text-align: center;
         }
-
     </style>
-
 </head>
 
 <body>
 
 <div class="header">
-
-    <div class="logo">
-        ATTUS
-    </div>
-
-    <div class="subtitle">
-        AGENDA DEPÓSITO
-    </div>
-
+    <div class="logo">ATTUS</div>
+    <div class="subtitle">AGENDA DEPÓSITO</div>
 </div>
-
 
 <div class="table-container">
-
-<table>
-
-<thead>
-
-<tr id="table-header">
-
-    <th>Hora</th>
-
-</tr>
-
-</thead>
-
-<tbody id="table-body">
-
-</tbody>
-
-</table>
-
+    <table>
+        <thead>
+            <tr id="table-header">
+                <th>Hora</th>
+            </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+    </table>
 </div>
 
-
 <script>
-
-
-// ============================================================
-// CARGAR AGENDA
-// ============================================================
-
 async function cargarAgenda() {
-
     try {
-
-        const respuesta = await fetch(
-            "./agenda.csv?v=" + Date.now()
-        );
+        const respuesta = await fetch("./agenda.csv?v=" + Date.now());
 
         if (!respuesta.ok) {
-
-            throw new Error(
-                "No se pudo cargar agenda.csv"
-            );
-
+            throw new Error("No se pudo cargar agenda.csv");
         }
 
-
         const texto = await respuesta.text();
-
-
-        // Leer CSV
         const registros = parsearCSV(texto);
 
-
-        console.log(
-            "Cantidad total de registros:",
-            registros.length
-        );
-
-
-        // ====================================================
-        // SOLO Es_Ultimo_Vigente = SI
-        // ====================================================
-
         const vigentes = registros.filter(registro => {
-
             return registro["Es_Ultimo_Vigente"]
                 .trim()
                 .toUpperCase() === "SI";
-
         });
 
-
-        console.log(
-            "Registros vigentes:",
-            vigentes.length
-        );
-
-
-        console.log(
-            vigentes
-        );
-
-
         renderizarAgenda(vigentes);
-
-
     } catch (error) {
-
         console.error(error);
-
-        document.getElementById(
-            "table-body"
-        ).innerHTML = `
-
+        document.getElementById("table-body").innerHTML = `
             <tr>
-
-                <td colspan="20"
-                    class="mensaje">
-
-                    Error al cargar la agenda:
-                    ${error.message}
-
+                <td colspan="20" class="mensaje">
+                    Error al cargar la agenda: ${error.message}
                 </td>
-
             </tr>
-
         `;
-
     }
-
 }
-
-
-
-// ============================================================
-// PARSEAR CSV
-// ============================================================
 
 function parsearCSV(texto) {
-
-    // Eliminar BOM de Excel
     texto = texto.replace(/^\uFEFF/, "");
-
-
-    const lineas = texto
-        .split(/\r?\n/)
-        .filter(linea => linea.trim() !== "");
-
+    const lineas = texto.split(/\r?\n/).filter(linea => linea.trim() !== "");
 
     if (lineas.length < 2) {
-
         return [];
-
     }
 
-
-    // TU CSV USA ;
     const separador = ";";
-
-
-    const headers =
-        parsearLinea(
-            lineas[0],
-            separador
-        );
-
-
+    const headers = parsearLinea(lineas[0], separador);
     const registros = [];
 
-
-    for (
-        let i = 1;
-        i < lineas.length;
-        i++
-    ) {
-
-        const valores =
-            parsearLinea(
-                lineas[i],
-                separador
-            );
-
-
+    for (let i = 1; i < lineas.length; i++) {
+        const valores = parsearLinea(lineas[i], separador);
         const registro = {};
 
-
-        headers.forEach(
-            (header, indice) => {
-
-                // Importante:
-                // NO modificamos el nombre
-                // de la columna
-
-                const nombre =
-                    header.trim();
-
-
-                registro[nombre] =
-                    valores[indice]
-                        ? valores[indice].trim()
-                        : "";
-
-            }
-        );
-
+        headers.forEach((header, indice) => {
+            const nombre = header.trim();
+            registro[nombre] = valores[indice] ? valores[indice].trim() : "";
+        });
 
         registros.push(registro);
-
     }
-
 
     return registros;
-
 }
 
-
-
-// ============================================================
-// PARSER DE CSV
-// ============================================================
-
-function parsearLinea(
-    linea,
-    separador
-) {
-
+function parsearLinea(linea, separador) {
     const resultado = [];
-
     let campo = "";
-
     let dentroComillas = false;
 
-
-    for (
-        let i = 0;
-        i < linea.length;
-        i++
-    ) {
-
+    for (let i = 0; i < linea.length; i++) {
         const caracter = linea[i];
 
-
         if (caracter === '"') {
-
-            dentroComillas =
-                !dentroComillas;
-
-        }
-
-
-        else if (
-            caracter === separador &&
-            !dentroComillas
-        ) {
-
+            dentroComillas = !dentroComillas;
+        } else if (caracter === separador && !dentroComillas) {
             resultado.push(campo);
-
             campo = "";
-
-        }
-
-
-        else {
-
+        } else {
             campo += caracter;
-
         }
-
     }
-
 
     resultado.push(campo);
 
-
-    return resultado.map(
-        valor =>
-            valor
-                .replace(/^"|"$/g, "")
-                .trim()
+    return resultado.map(valor =>
+        valor.replace(/^"|"$/g, "").trim()
     );
-
 }
 
-
-
-// ============================================================
-// CONVERTIR FECHA
-// ============================================================
-
 function fechaJS(fecha) {
-
-    const partes =
-        fecha.split("/");
-
+    const partes = fecha.split("/");
 
     if (partes.length !== 3) {
-
         return new Date(fecha);
-
     }
-
 
     return new Date(
         Number(partes[2]),
         Number(partes[1]) - 1,
         Number(partes[0])
     );
-
 }
-
-
-
-// ============================================================
-// FORMATO DE FECHA
-// ============================================================
 
 function mostrarFecha(fecha) {
-
-    const partes =
-        fecha.split("/");
-
+    const partes = fecha.split("/");
 
     if (partes.length !== 3) {
-
         return fecha;
-
     }
 
-
-    return partes[0] +
-        "/" +
-        partes[1];
-
+    return partes[0] + "/" + partes[1];
 }
 
-
-
-// ============================================================
-// CONVERTIR HORA A MINUTOS
-// ============================================================
-
 function horaNumero(hora) {
-
-    const partes =
-        hora.substring(0, 5).split(":");
-
+    const partes = hora.substring(0, 5).split(":");
 
     return (
         Number(partes[0]) * 60 +
         Number(partes[1])
     );
-
 }
 
-
-
-// ============================================================
-// RENDERIZAR
-// ============================================================
-
 function renderizarAgenda(datos) {
-
-    const header =
-        document.getElementById(
-            "table-header"
-        );
-
-
-    const body =
-        document.getElementById(
-            "table-body"
-        );
-
+    const header = document.getElementById("table-header");
+    const body = document.getElementById("table-body");
 
     header.innerHTML = "";
-
     body.innerHTML = "";
 
-
-    // ========================================================
-    // SIN DATOS
-    // ========================================================
-
     if (datos.length === 0) {
-
         header.innerHTML = `
             <th>Hora</th>
             <th>Sin registros vigentes</th>
         `;
 
-
         body.innerHTML = `
             <tr>
-
-                <td colspan="2"
-                    class="mensaje">
-
-                    No hay registros con
-                    Es_Ultimo_Vigente = SI.
-
+                <td colspan="2" class="mensaje">
+                    No hay registros con Es_Ultimo_Vigente = SI.
                 </td>
-
             </tr>
         `;
 
-
         return;
-
     }
 
-
-
-    // ========================================================
-    // FECHAS
-    // ========================================================
-
     const fechas = [
-        ...new Set(
-            datos.map(
-                registro =>
-                    registro["Fecha:"]
-            )
-        )
+        ...new Set(datos.map(registro => registro["Fecha:"]))
     ];
 
-
-    fechas.sort(
-        (a, b) =>
-            fechaJS(a) -
-            fechaJS(b)
-    );
-
-
-
-    // ========================================================
-    // HORAS
-    // ========================================================
+    fechas.sort((a, b) => fechaJS(a) - fechaJS(b));
 
     const horas = [
-        ...new Set(
-            datos.map(
-                registro =>
-                    registro["Hora:"]
-            )
-        )
+        ...new Set(datos.map(registro => registro["Hora:"]))
     ];
 
+    horas.sort((a, b) => horaNumero(a) - horaNumero(b));
 
-    horas.sort(
-        (a, b) =>
-            horaNumero(a) -
-            horaNumero(b)
-    );
-
-
-
-    // ========================================================
-    // ENCABEZADO
-    // ========================================================
-
-    header.innerHTML =
-        "<th>Hora</th>" +
-
-        fechas
-            .map(
-                fecha =>
-                    `<th>
-                        ${mostrarFecha(fecha)}
-                    </th>`
-            )
-            .join("");
-
-
-
-    // ========================================================
-    // FILAS
-    // ========================================================
+    header.innerHTML = "<th>Hora</th>" +
+        fechas.map(fecha => `<th>${mostrarFecha(fecha)}</th>`).join("");
 
     horas.forEach(hora => {
-
-
-        const fila =
-            document.createElement("tr");
-
+        const fila = document.createElement("tr");
 
         fila.innerHTML = `
             <td class="time-col">
@@ -641,77 +327,23 @@ function renderizarAgenda(datos) {
             </td>
         `;
 
-
-
-        // ====================================================
-        // CELDAS POR FECHA
-        // ====================================================
-
         fechas.forEach(fecha => {
+            const celda = document.createElement("td");
 
-
-            const celda =
-                document.createElement("td");
-
-
-
-            // Buscar eventos de esa
-            // fecha + hora
-
-            const eventos =
-                datos.filter(registro => {
-
-                    return (
-
-                        registro["Fecha:"] ===
-                        fecha
-
-                        &&
-
-                        registro["Hora:"] ===
-                        hora
-
-                    );
-
-                });
-
-
-
-            // =================================================
-            // MOSTRAR EVENTOS
-            // =================================================
+            const eventos = datos.filter(registro => {
+                return (
+                    registro["Fecha:"] === fecha &&
+                    registro["Hora:"] === hora
+                );
+            });
 
             eventos.forEach(evento => {
-
-                // Obtener estado (soporta con o sin dos puntos ":")
-                const estado = evento["Estado:"] || evento["Estado"] || "";
-
-                const destino =
-                    evento["Destino:"];
-
-
-                const direccion =
-                    evento["Dirección:"];
-
-
-                const destino2 =
-                    evento["Destino2"];
-
-
-                const direccion2 =
-                    evento["Dirección2"];
-
-
-                const finalizacion =
-                    evento[
-                        "Finalización estimada:"
-                    ];
-
-
-
-                // ---------------------------------------------
-                // ESTADO (CLASE CSS)
-                // ---------------------------------------------
+                const estado = evento["Estado:"] || "";
+                const destino = evento["Destino:"];
+                const direccion = evento["Dirección:"];
+                const destino2 = evento["Destino2"];
+                const direccion2 = evento["Dirección2"];
+                const finalizacion = evento["Finalización estimada:"];
 
                 let claseEstado = "status-default";
                 const estadoUpper = estado.toUpperCase();
@@ -722,143 +354,45 @@ function renderizarAgenda(datos) {
                     claseEstado = "status-ejecucion";
                 }
 
-
-
-                // ---------------------------------------------
-                // DESTINO
-                // ---------------------------------------------
-
-                let textoDestino =
-                    destino ||
-                    "SIN DESTINO";
-
-
+                let textoDestino = destino || "SIN DESTINO";
                 if (destino2) {
-
-                    textoDestino +=
-                        " → " +
-                        destino2;
-
+                    textoDestino += " → " + destino2;
                 }
 
-
-
-                // ---------------------------------------------
-                // DIRECCIÓN
-                // ---------------------------------------------
-
-                let textoDireccion =
-                    direccion ||
-                    "SIN DIRECCIÓN";
-
-
+                let textoDireccion = direccion || "SIN DIRECCIÓN";
                 if (direccion2) {
-
-                    textoDireccion +=
-                        " → " +
-                        direccion2;
-
+                    textoDireccion += " → " + direccion2;
                 }
 
-
-
-                // ---------------------------------------------
-                // TARJETA
-                // ---------------------------------------------
-
-                const tarjeta =
-                    document.createElement(
-                        "div"
-                    );
-
-
-                tarjeta.className =
-                    "event-card";
-
+                const tarjeta = document.createElement("div");
+                tarjeta.className = "event-card";
 
                 tarjeta.innerHTML = `
-
                     ${
                         estado
-                        ? `
-                        <div class="event-status ${claseEstado}">
-                            ${estado}
-                        </div>
-                        `
+                        ? `<div class="event-status ${claseEstado}">${estado}</div>`
                         : ""
                     }
-
-                    <div class="event-title">
-
-                        ${textoDestino}
-
-                    </div>
-
-
-                    <div class="event-address">
-
-                        ${textoDireccion}
-
-                    </div>
-
-
+                    <div class="event-title">${textoDestino}</div>
+                    <div class="event-address">${textoDireccion}</div>
                     ${
                         finalizacion
-                        ?
-                        `
-                        <div class="event-finish">
-
-                            Finalización estimada:
-                            ${finalizacion.substring(0,5)}
-
-                        </div>
-                        `
-                        :
-                        ""
+                        ? `<div class="event-finish">Finalización estimada: ${finalizacion.substring(0,5)}</div>`
+                        : ""
                     }
-
                 `;
 
-
-                celda.appendChild(
-                    tarjeta
-                );
-
-
+                celda.appendChild(tarjeta);
             });
 
-
-
-            fila.appendChild(
-                celda
-            );
-
-
+            fila.appendChild(celda);
         });
 
-
-
-        body.appendChild(
-            fila
-        );
-
-
+        body.appendChild(fila);
     });
-
 }
 
-
-
-// ============================================================
-// INICIAR
-// ============================================================
-
-window.addEventListener(
-    "load",
-    cargarAgenda
-);
-
-
+window.addEventListener("load", cargarAgenda);
 </script>
 
 </body>
