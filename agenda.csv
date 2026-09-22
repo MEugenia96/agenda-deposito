@@ -260,17 +260,17 @@
 149;18/09/2026;14:00:00;Otro;OBRAS VARIAS;ATTUS EMPRESA;emanuel peruchin;Otro;retirar heladeras ponzo;Bertorello_Leonel;Pick up HILUX_HLN556;;Agendado;17/9/2026 11:05;;01:00:00;15:00:00;;;NO
 150;18/09/2026;15:30:00;Otro;LAVADO DE FLOTA;ATTUS EMPRESA;emanuel peruchin;Otro;lavar camiom mb 710 y toyota hilux;Mercado_Juan;Camion710_LNY664;;Agendado;17/9/2026 12:09;;02:00:00;17:30:00;;;NO
 111;18/9/2026;10:00:00;Otro;PROVEDORES VARIOS;VARIOS;AGUSTIN ARUZA;Retiro Proveedor;MATERIALES VARIOS PARA BOSCO;Mercado_Juan;Camion710_LNY664;;Finalizado OK;17/9/2026 11:03;;03:00:00;13:00:00;;;NO
-110;21/09/2026;08:30:00;Obra;BOSCO HORACIO - TAMBO SAMPACHO                    ;RIVADAVIA 895 - SAMPACHO                             ;AGUSTIN ARUZA;Obra - Entrega programada;ENTREGA DE MATERIALES VARIOS;Mercado_Juan;Camion710_LNY664;;Agendado;14/9/2026 11:05;;03:00:00;11:30:00;;;SI
+110;21/09/2026;08:30:00;Obra;BOSCO HORACIO - TAMBO SAMPACHO                    ;RIVADAVIA 895 - SAMPACHO                             ;AGUSTIN ARUZA;Obra - Entrega programada;ENTREGA DE MATERIALES VARIOS;Mercado_Juan;Camion710_LNY664;;Agendado;14/9/2026 11:05;;03:00:00;11:30:00;;;NO
 144;17/9/2026;10:45:00;Proveedor;ESTACION DE SERVICIO YPF GALACTIC;AV SABATTINI 1802 - RIO CUARTO;rafael rodriguez;Retiro Proveedor;retirar nafta para deposito;Bertorello_Leonel;Pick up HILUX_HLN556;;Finalizado OK;17/9/2026 12:05;;01:00:00;11:45:00;;;NO
 147;17/9/2026;09:15:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;eduardo coniglio;Obra - Entrega urgente;25 bol arena fina;Bertorello_Leonel;Pick up HILUX_HLN556;;Finalizado OK;17/9/2026 12:05;;00:30:00;09:45:00;;;NO
-135;21/09/2026;10:00:00;Obra;BOEHLER CASTRO - LOTEO LOMA ALTA 3;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;AGUSTIN GARCIA;Obra - Entrega programada;ENTREGA DE MATERIALES VARIOS PED17216;Mercado_Juan;Camion710_LNY664;;Agendado;16/9/2026 10:00;;01:00:00;11:00:00;;;SI
-151;21/09/2026;11:15:00;Otro;MIXON CARGA VARIAS;JULIAN MAIDANA;agustin aruza;Otro;cargar 360 ladrillos blox de 20 visto;Mercado_Juan;Camion710_LNY664;;Agendado;17/9/2026 12:27;;02:00:00;13:15:00;;;SI
-159;21/09/2026;11:15:00;Proveedor;SUAREZ MATIAS JAVIER;JUAN JOSE VALLE 100 - LAS HIGUERAS;ABEL VILLAGRA;Obra - Entrega urgente;RETIRAR TAPAS JUNTAS;Bertorello_Leonel;Pick up HILUX_HLN556;;Agendado;21/9/2026 11:20;;01:30:00;12:45:00;;;SI
+135;21/09/2026;10:00:00;Obra;BOEHLER CASTRO - LOTEO LOMA ALTA 3;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;AGUSTIN GARCIA;Obra - Entrega programada;ENTREGA DE MATERIALES VARIOS PED17216;Mercado_Juan;Camion710_LNY664;;Agendado;16/9/2026 10:00;;01:00:00;11:00:00;;;NO
+151;21/09/2026;11:15:00;Otro;MIXON CARGA VARIAS;JULIAN MAIDANA;agustin aruza;Otro;cargar 360 ladrillos blox de 20 visto;Mercado_Juan;Camion710_LNY664;;Agendado;17/9/2026 12:27;;02:00:00;13:15:00;;;NO
+159;21/09/2026;11:15:00;Proveedor;SUAREZ MATIAS JAVIER;JUAN JOSE VALLE 100 - LAS HIGUERAS;ABEL VILLAGRA;Obra - Entrega urgente;RETIRAR TAPAS JUNTAS;Bertorello_Leonel;Pick up HILUX_HLN556;;Agendado;21/9/2026 11:20;;01:30:00;12:45:00;;;NO
 145;17/9/2026;11:00:00;Obra;LUNARDI- PUEBLA TORRE 0 Y TORRE 1                 ;PALESTINA Y LUGONES - RIO CUARTO                 ;juan pablo gutirrez;Obra - Entrega programada;llevar 5 bolsas de cemento;Mercado_Juan;Camion710_LNY664;;Finalizado OK;17/9/2026 14:58;;01:00:00;12:00:00;;;NO
 148;22/09/2026;08:15:00;Obra;BOSCO HORACIO - TAMBO SAMPACHO                    ;RIVADAVIA 895 - SAMPACHO                             ;agustin aruza;Obra - Entrega programada;entrega varias de material;Mercado_Juan;Camion710_LNY664;6.5 metros;Agendado;17/9/2026 09:06;;03:00:00;11:15:00;;;SI
 154;17/09/2026;16:00:00;Obra;TODO CAMPO SRL-DEPOSITO AGROQUIMICOS Y SEMILLAS   ;RUTA N°35 - KM 529 - HUINCA RENANCO                       ;ali chaijale;;;;;;Agendado;17/9/2026 15:59;;01:00:00;17:00:00;;;NO
 154;17/9/2026;16:00:00;Obra;TODO CAMPO SRL-DEPOSITO AGROQUIMICOS Y SEMILLAS   ;RUTA N°35 - KM 529 - HUINCA RENANCO                       ;ali chaijale;;;;;;Finalizado OK;17/9/2026 15:59;;01:00:00;17:00:00;;;NO
-120;22/09/2026;08:30:00;Otro;TRASLADO  DE OBRA S;ELA A PUEBLA;JUAN PABLO GUTIERREZ;Otro;TRASLADO DE FENOLICOS VARIOS;Mercado_Juan;Camion710_LNY664;;Agendado;14/9/2026 16:27;;02:00:00;10:30:00;;;SI
+120;22/09/2026;08:30:00;Otro;TRASLADO  DE OBRA S;ELA A PUEBLA;JUAN PABLO GUTIERREZ;Otro;TRASLADO DE FENOLICOS VARIOS;Mercado_Juan;Camion710_LNY664;;Agendado;14/9/2026 16:27;;02:00:00;10:30:00;;;NO
 158;22/09/2026;09:45:00;Otro;MIXON CERCO;JULIAN MAIDANA;RAFAEL RODRIGUEZ;Otro;LIMPIEZA DE CERCO;Rodriguez_Rafael;Pick up HILUX_HLN556;;Agendado;21/9/2026 09:20;;01:30:00;11:15:00;;;SI
 153;17/9/2026;15:45:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;MERCADO JOSE;Obra - Entrega urgente;HIDROFUGO ;Bertorello_Leonel;Pick up HILUX_HLN556;;Finalizado OK;17/9/2026 17:03;;01:00:00;16:45:00;;;NO
 112;17/9/2026;08:30:00;Otro;ENCOFRADOS STANGUET;FRANCISCO MUÑIZ Y CHILE;SANTIAGO BRUNO;Retiro Proveedor;DEVOLUCION DE ELA;Mercado_Juan;Camion710_LNY664;5.5 metros;Finalizado OK;17/9/2026 17:03;;06:00:00;14:30:00;;;NO
@@ -283,20 +283,20 @@
 149;18/9/2026;14:00:00;Otro;OBRAS VARIAS;ATTUS EMPRESA;emanuel peruchin;Otro;retirar heladeras ponzo;Bertorello_Leonel;Pick up HILUX_HLN556;;Finalizado OK;18/9/2026 16:12;;01:00:00;15:00:00;;;NO
 150;18/9/2026;15:30:00;Otro;LAVADO DE FLOTA;ATTUS EMPRESA;emanuel peruchin;Otro;lavar camiom mb 710 y toyota hilux;Mercado_Juan;Camion710_LNY664;;Finalizado OK;18/9/2026 16:12;;02:00:00;17:30:00;;;NO
 157;23/9/2026;08:00:00;Otro;LIMPIEZA DE GALPON BBARRIDO;CONCEJAL EIMENDI 447;EMMANUEL;Otro;HFGGJFH;Peruchin_Emanuel;Pick up HILUX_HLN556;;Finalizado OK;21/9/2026 08:23;;01:30:00;09:30:00;;;NO
+161;22/09/2026;14:00:00;Proveedor;SELLOS LUJAN;DEAN FUNES 40 - RIO CUARTO;MARTINA ASTRADA;Otro;LLEVAR ROPA A ESTAMPAR;Bertorello_Leonel;Pick up HILUX_HLN556;;Agendado;21/9/2026 16:27;;01:00:00;15:00:00;;;SI
+162;22/09/2026;08:30:00;Obra;LUNARDI- PUEBLA TORRE 0 Y TORRE 1                 ;PALESTINA Y LUGONES - RIO CUARTO                 ;JUAN PABLO;Obra - Entrega programada;ENTREGAR HIERRO DEL 16 DE CERCO;Balmaceda_Luis;Ford350_VXJ313;;Agendado;21/9/2026 17:30;;03:00:00;11:30:00;;;SI
+163;22/09/2026;09:30:00;Otro;PROVEDORES VARIOS;VARIOS;daniela genero;Retiro Proveedor;varios contrucion modular;Bertorello_Leonel;Pick up HILUX_HLN556;;Agendado;22/9/2026 08:04;;02:00:00;11:30:00;;;SI
+160;24/09/2026;08:30:00;Obra;LUNARDI- PUEBLA TORRE 0 Y TORRE 1                 ;PALESTINA Y LUGONES - RIO CUARTO                 ;JUAN PABLO GUTIERREZ;Obra - Entrega programada;TRASLADO DE HIEERO DEL 16 ;Mercado_Juan;Ford350_VXJ313;;Agendado;21/9/2026 16:21;;01:30:00;10:00:00;;;NO
+160;24/9/2026;08:30:00;Obra;LUNARDI- PUEBLA TORRE 0 Y TORRE 1                 ;PALESTINA Y LUGONES - RIO CUARTO                 ;JUAN PABLO GUTIERREZ;Obra - Entrega programada;TRASLADO DE HIEERO DEL 16 ;Mercado_Juan;Ford350_VXJ313;;Finalizado OK;21/9/2026 17:29;;01:30:00;10:00:00;;;NO
+164;22/09/2026;09:45:00;Otro;PROVEDORES VARIOS;VARIOS;daniela genero;Retiro Proveedor;varios torre linea;Bertorello_Leonel;Pick up HILUX_HLN556;;Agendado;22/9/2026 08:04;;02:00:00;11:45:00;;;SI
+110;21/9/2026;08:30:00;Obra;BOSCO HORACIO - TAMBO SAMPACHO                    ;RIVADAVIA 895 - SAMPACHO                             ;AGUSTIN ARUZA;Obra - Entrega programada;ENTREGA DE MATERIALES VARIOS;Mercado_Juan;Camion710_LNY664;;Finalizado OK;22/9/2026 07:59;;03:00:00;11:30:00;;;NO
+135;21/9/2026;10:00:00;Obra;BOEHLER CASTRO - LOTEO LOMA ALTA 3;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;AGUSTIN GARCIA;Obra - Entrega programada;ENTREGA DE MATERIALES VARIOS PED17216;Mercado_Juan;Camion710_LNY664;;Finalizado OK;22/9/2026 07:59;;01:00:00;11:00:00;;;NO
+151;21/9/2026;11:15:00;Otro;MIXON CARGA VARIAS;JULIAN MAIDANA;agustin aruza;Otro;cargar 360 ladrillos blox de 20 visto;Mercado_Juan;Camion710_LNY664;;Finalizado OK;22/9/2026 07:59;;02:00:00;13:15:00;;;NO
+151;21/9/2026;11:15:00;Otro;MIXON CARGA VARIAS;JULIAN MAIDANA;agustin aruza;Otro;cargar 360 ladrillos blox de 20 visto;Mercado_Juan;Camion710_LNY664;;Finalizado OK;22/9/2026 07:59;;02:00:00;13:15:00;;;NO
+159;21/9/2026;11:15:00;Proveedor;SUAREZ MATIAS JAVIER;JUAN JOSE VALLE 100 - LAS HIGUERAS;ABEL VILLAGRA;Obra - Entrega urgente;RETIRAR TAPAS JUNTAS;Bertorello_Leonel;Pick up HILUX_HLN556;;Finalizado OK;22/9/2026 07:59;;01:30:00;12:45:00;;;NO
+120;22/9/2026;08:30:00;Otro;TRASLADO  DE OBRA S;ELA A PUEBLA;JUAN PABLO GUTIERREZ;Otro;TRASLADO DE FENOLICOS VARIOS;Mercado_Juan;Camion710_LNY664;;Finalizado OK;22/9/2026 07:59;;02:00:00;10:30:00;;;NO
 122;23/09/2026;08:30:00;Otro;TRASLADO DE ELA A DEP Y MIXON;DEPOS ITO Y MIXON;SANTIAGO BRUNO;Otro;CARGAR EFCO Y TRAER AL DEPOSITO Y A CERCO MIXON;Mercado_Juan;Camion710_LNY664;;Agendado;15/9/2026 10:58;;06:00:00;14:30:00;;;SI
 123;23/09/2026;08:30:00;Otro;TRASLADO DE ELA A DEP Y MIXON;DEPOS ITO Y MIXON;SANTIAGO BRUNO;Otro;CARGAR EFCO Y TRAER AL DEPOSITO Y A CERCO MIXON;Balmaceda_Luis;Ford350_VXJ313;;Agendado;15/9/2026 10:59;;06:00:00;14:30:00;;;SI
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
