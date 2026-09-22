@@ -7,7 +7,7 @@
 
     <title>ATTUS - Agenda Depósito</title>
     
-        <link rel="icon"
+    <link rel="icon"
           type="image/png"
           href="calendario.png">
 
@@ -100,6 +100,34 @@
 
         .event-card:last-child {
             margin-bottom: 0;
+        }
+
+        /* Estilos para las etiquetas de Estado */
+        .event-status {
+            display: inline-block;
+            font-size: 9px;
+            font-weight: 800;
+            text-transform: uppercase;
+            padding: 2px 6px;
+            border-radius: 3px;
+            margin-bottom: 5px;
+            letter-spacing: 0.5px;
+        }
+
+        .status-agendado {
+            background-color: #e2e3e5;
+            color: #383d41;
+        }
+
+        .status-ejecucion {
+            background-color: #fff3cd;
+            color: #856404;
+            border: 1px solid #ffeeba;
+        }
+
+        .status-default {
+            background-color: #d1ecf1;
+            color: #0c5460;
         }
 
         .event-title {
@@ -655,6 +683,8 @@ function renderizarAgenda(datos) {
 
             eventos.forEach(evento => {
 
+                // Obtener estado (soporta con o sin dos puntos ":")
+                const estado = evento["Estado:"] || evento["Estado"] || "";
 
                 const destino =
                     evento["Destino:"];
@@ -676,6 +706,21 @@ function renderizarAgenda(datos) {
                     evento[
                         "Finalización estimada:"
                     ];
+
+
+
+                // ---------------------------------------------
+                // ESTADO (CLASE CSS)
+                // ---------------------------------------------
+
+                let claseEstado = "status-default";
+                const estadoUpper = estado.toUpperCase();
+
+                if (estadoUpper.includes("AGENDADO")) {
+                    claseEstado = "status-agendado";
+                } else if (estadoUpper.includes("EJECUCION") || estadoUpper.includes("EJECUCIÓN")) {
+                    claseEstado = "status-ejecucion";
+                }
 
 
 
@@ -732,6 +777,16 @@ function renderizarAgenda(datos) {
 
 
                 tarjeta.innerHTML = `
+
+                    ${
+                        estado
+                        ? `
+                        <div class="event-status ${claseEstado}">
+                            ${estado}
+                        </div>
+                        `
+                        : ""
+                    }
 
                     <div class="event-title">
 
