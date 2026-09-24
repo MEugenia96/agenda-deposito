@@ -325,15 +325,15 @@
 123;23/9/2026;08:30:00;Otro;TRASLADO DE ELA A DEP Y MIXON;DEPOS ITO Y MIXON;SANTIAGO BRUNO;Otro;CARGAR EFCO Y TRAER AL DEPOSITO Y A CERCO MIXON;Balmaceda_Luis;Ford350_VXJ313;;Finalizado OK;23/9/2026 16:49;;06:00:00;14:30:00;;;NO
 170;23/9/2026;14:15:00;Proveedor;SELLOS LUJAN;DEAN FUNES 40 - RIO CUARTO;martina astrada;Obra - Entrega programada;llevar indumentaria a estampar;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;23/9/2026 16:49;;01:00:00;15:15:00;;;NO
 173;23/9/2026;08:45:00;Otro;TRASLADO DE OBRAS ;DE ELA A LOMA ALTA;daniela genero;Otro;TRASLADO DE REGLAS A LOMA ALTA DE ELA;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;23/9/2026 16:49;;02:00:00;10:45:00;;;NO
+180;24/9/2026;10:30:00;Obra;BOEHLER CASTRO - LOTEO LOMA ALTA 3;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;agustin garcia;Otro;ver grupo eletrogeno;Balmaceda_Luis;Ford350_VXJ313;;En Ejecución;24/9/2026 11:05;;02:00:00;12:30:00;;;SI
 166;25/09/2026;08:45:00;Obra;RIVOIRA OSCAR - DEPOSITO URQUIZA                  ;URQUIZA 67 - RIO CUARTO                 ;AGUSTIN ARUZA;Obra - Entrega programada;RETIRAR MATERIALES DE DU PARA RIVOIRA;Mercado_Juan;Camion710_LNY664;;Agendado;22/9/2026 09:50;;01:00:00;09:45:00;;;SI
 177;25/09/2026;14:30:00;Proveedor;BRESSAN REPUESTOS;ALBERDI 998 ESQ BOLIVAR;JOSE MERCADO;Retiro Proveedor;RETIRAR VALVULAS TERMO TANQUE;Rodriguez_Rafael;Pick up KANGOO_JJY978;;Agendado;23/9/2026 16:55;;00:30:00;15:00:00;;;SI
-175;28/09/2026;10:15:00;Obra;BOEHLER CASTRO - LOTEO LOMA ALTA 3;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;AGUSTIN GARCIA;Obra - Entrega programada;ENTREGAR CUARZO;Balmaceda_Luis;Ford350_VXJ313;;Agendado;23/9/2026 10:53;;02:00:00;12:15:00;;;SI
 172;23/9/2026;09:45:00;Otro;PROVEDORES VARIOS;VARIOS;daniela genero;Otro;retiro de materiales torre linea;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;23/9/2026 17:24;;02:00:00;11:45:00;;;NO
 171;23/9/2026;10:15:00;Otro;PROVEDORES VARIOS;VARIOS;daniela genero;Otro;retiro de materiales modulos;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;23/9/2026 17:24;;01:00:00;11:15:00;;;NO
-178;01/10/2026;10:30:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;ABEL VILLAGRA;Obra - Entrega programada;ENTREGAR ACENSOR COMPLETO;Mercado_Juan;Camion710_LNY664;;Agendado;23/9/2026 17:00;;01:00:00;11:30:00;;;SI
+175;28/09/2026;10:15:00;Obra;BOEHLER CASTRO - LOTEO LOMA ALTA 3;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;AGUSTIN GARCIA;Obra - Entrega programada;ENTREGAR CUARZO;Balmaceda_Luis;Ford350_VXJ313;;Agendado;23/9/2026 10:53;;02:00:00;12:15:00;;;SI
 169;28/9/2026;08:15:01;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;eduardo coniglio;Obra - Entrega programada;dejar carro largo;Mercado_Juan;Camion710_LNY664;5.5 metros;Agendado;22/9/2026 12:22;;02:00:00;10:15:01;;;SI
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
+180;24/09/2026;10:30:00;Obra;BOEHLER CASTRO - LOTEO LOMA ALTA 3;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;agustin garcia;Otro;ver grupo eletrogeno;Balmaceda_Luis;Ford350_VXJ313;;Agendado;24/9/2026 11:04;;02:00:00;12:30:00;;;NO
+178;01/10/2026;10:30:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;ABEL VILLAGRA;Obra - Entrega programada;ENTREGAR ACENSOR COMPLETO;Mercado_Juan;Camion710_LNY664;;Agendado;23/9/2026 17:00;;01:00:00;11:30:00;;;SI
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
