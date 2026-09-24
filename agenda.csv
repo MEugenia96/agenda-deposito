@@ -298,38 +298,38 @@
 167;22/09/2026;14:00:00;Proveedor;ROBERTO GENTILE;SAN MARTIN 2140 - RIO CUARTO;MAURA RODRIGUEZ;Obra - Entrega programada;RETIRAR PLACAS DURLOX;Mercado_Juan;Camion710_LNY664;;Agendado;22/9/2026 10:01;;01:00:00;15:00:00;;;NO
 161;22/9/2026;14:00:00;Proveedor;SELLOS LUJAN;DEAN FUNES 40 - RIO CUARTO;MARTINA ASTRADA;Otro;LLEVAR ROPA A ESTAMPAR;Bertorello_Leonel;Pick up HILUX_HLN556;;En Ejecución;22/9/2026 12:51;;01:00:00;15:00:00;;;NO
 163;22/9/2026;09:30:00;Otro;PROVEDORES VARIOS;VARIOS;daniela genero;Retiro Proveedor;varios contrucion modular;Bertorello_Leonel;Pick up HILUX_HLN556;;En Ejecución;22/9/2026 12:52;;02:00:00;11:30:00;;;NO
-122;23/09/2026;08:30:00;Otro;TRASLADO DE ELA A DEP Y MIXON;DEPOS ITO Y MIXON;SANTIAGO BRUNO;Otro;CARGAR EFCO Y TRAER AL DEPOSITO Y A CERCO MIXON;Mercado_Juan;Camion710_LNY664;;Agendado;15/9/2026 10:58;;06:00:00;14:30:00;;;SI
-123;23/09/2026;08:30:00;Otro;TRASLADO DE ELA A DEP Y MIXON;DEPOS ITO Y MIXON;SANTIAGO BRUNO;Otro;CARGAR EFCO Y TRAER AL DEPOSITO Y A CERCO MIXON;Balmaceda_Luis;Ford350_VXJ313;;Agendado;15/9/2026 10:59;;06:00:00;14:30:00;;;SI
-168;23/09/2026;10:00:00;Obra;BOEHLER CASTRO - LOTEO LOMA ALTA 3;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;AGYASTIN GARCIA;Obra - Entrega programada;RETIRAR REGLAS DE ELA Y LLEVARLAS A LOMA ALTA;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;22/9/2026 11:38;;01:30:00;11:30:00;;;SI
+122;23/09/2026;08:30:00;Otro;TRASLADO DE ELA A DEP Y MIXON;DEPOS ITO Y MIXON;SANTIAGO BRUNO;Otro;CARGAR EFCO Y TRAER AL DEPOSITO Y A CERCO MIXON;Mercado_Juan;Camion710_LNY664;;Agendado;15/9/2026 10:58;;06:00:00;14:30:00;;;NO
+123;23/09/2026;08:30:00;Otro;TRASLADO DE ELA A DEP Y MIXON;DEPOS ITO Y MIXON;SANTIAGO BRUNO;Otro;CARGAR EFCO Y TRAER AL DEPOSITO Y A CERCO MIXON;Balmaceda_Luis;Ford350_VXJ313;;Agendado;15/9/2026 10:59;;06:00:00;14:30:00;;;NO
+168;23/09/2026;10:00:00;Obra;BOEHLER CASTRO - LOTEO LOMA ALTA 3;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;AGYASTIN GARCIA;Obra - Entrega programada;RETIRAR REGLAS DE ELA Y LLEVARLAS A LOMA ALTA;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;22/9/2026 11:38;;01:30:00;11:30:00;;;NO
 148;22/9/2026;08:15:00;Obra;BOSCO HORACIO - TAMBO SAMPACHO                    ;RIVADAVIA 895 - SAMPACHO                             ;agustin aruza;Obra - Entrega programada;entrega varias de material;Mercado_Juan;Camion710_LNY664;6.5 metros;En Ejecución;22/9/2026 11:39;;03:00:00;11:15:00;;;NO
 162;22/9/2026;08:30:00;Obra;LUNARDI- PUEBLA TORRE 0 Y TORRE 1                 ;PALESTINA Y LUGONES - RIO CUARTO                 ;JUAN PABLO;Obra - Entrega programada;ENTREGAR HIERRO DEL 16 DE CERCO;Balmaceda_Luis;Ford350_VXJ313;;En Ejecución;22/9/2026 11:39;;03:00:00;11:30:00;;;NO
-170;23/09/2026;14:15:00;Proveedor;SELLOS LUJAN;DEAN FUNES 40 - RIO CUARTO;martina astrada;Obra - Entrega programada;llevar indumentaria a estampar;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;23/9/2026 07:52;;01:00:00;15:15:00;;;SI
-171;23/09/2026;10:15:00;Otro;PROVEDORES VARIOS;VARIOS;daniela genero;Otro;retiro de materiales modulos;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;23/9/2026 07:54;;01:00:00;11:15:00;;;SI
-172;23/09/2026;09:45:00;Otro;PROVEDORES VARIOS;VARIOS;daniela genero;Otro;retiro de materiales torre linea;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;23/9/2026 07:55;;02:00:00;11:45:00;;;SI
+170;23/09/2026;14:15:00;Proveedor;SELLOS LUJAN;DEAN FUNES 40 - RIO CUARTO;martina astrada;Obra - Entrega programada;llevar indumentaria a estampar;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;23/9/2026 07:52;;01:00:00;15:15:00;;;NO
+171;23/09/2026;10:15:00;Otro;PROVEDORES VARIOS;VARIOS;daniela genero;Otro;retiro de materiales modulos;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;23/9/2026 07:54;;01:00:00;11:15:00;;;NO
+172;23/09/2026;09:45:00;Otro;PROVEDORES VARIOS;VARIOS;daniela genero;Otro;retiro de materiales torre linea;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;23/9/2026 07:55;;02:00:00;11:45:00;;;NO
 167;22/9/2026;14:00:00;Proveedor;ROBERTO GENTILE;SAN MARTIN 2140 - RIO CUARTO;MAURA RODRIGUEZ;Obra - Entrega programada;RETIRAR PLACAS DURLOX;Mercado_Juan;Camion710_LNY664;;Finalizado OK;23/9/2026 07:50;;01:00:00;15:00:00;;;NO
 161;22/9/2026;14:00:00;Proveedor;SELLOS LUJAN;DEAN FUNES 40 - RIO CUARTO;MARTINA ASTRADA;Otro;LLEVAR ROPA A ESTAMPAR;Bertorello_Leonel;Pick up HILUX_HLN556;;Finalizado OK;23/9/2026 07:50;;01:00:00;15:00:00;;;NO
 164;22/9/2026;09:45:00;Otro;PROVEDORES VARIOS;VARIOS;daniela genero;Retiro Proveedor;varios torre linea;Bertorello_Leonel;Pick up HILUX_HLN556;;Finalizado OK;23/9/2026 07:51;;02:00:00;11:45:00;;;NO
 158;22/9/2026;09:45:00;Otro;MIXON CERCO;JULIAN MAIDANA;RAFAEL RODRIGUEZ;Otro;LIMPIEZA DE CERCO;Rodriguez_Rafael;Pick up HILUX_HLN556;;Finalizado OK;23/9/2026 07:51;;01:30:00;11:15:00;;;NO
 163;22/9/2026;09:30:00;Otro;PROVEDORES VARIOS;VARIOS;daniela genero;Retiro Proveedor;varios contrucion modular;Bertorello_Leonel;Pick up HILUX_HLN556;;Finalizado OK;23/9/2026 07:51;;02:00:00;11:30:00;;;NO
-173;23/09/2026;08:45:00;Otro;TRASLADO DE OBRAS ;DE ELA A LOMA ALTA;daniela genero;Otro;TRASLADO DE REGLAS A LOMA ALTA DE ELA;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;23/9/2026 07:58;;02:00:00;10:45:00;;;SI
-174;23/09/2026;11:00:00;Otro;TRASLADO DE OBRAS ;;juan pablo gutierrez;Obra - Entrega programada;hiierrros de ela a puebla;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;23/9/2026 08:03;;02:00:00;13:00:00;;;SI
+173;23/09/2026;08:45:00;Otro;TRASLADO DE OBRAS ;DE ELA A LOMA ALTA;daniela genero;Otro;TRASLADO DE REGLAS A LOMA ALTA DE ELA;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;23/9/2026 07:58;;02:00:00;10:45:00;;;NO
+174;23/09/2026;11:00:00;Otro;TRASLADO DE OBRAS ;;juan pablo gutierrez;Obra - Entrega programada;hiierrros de ela a puebla;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;23/9/2026 08:03;;02:00:00;13:00:00;;;NO
 165;24/09/2026;08:45:00;Obra;CROATTO - CORDON CUNETA                           ;RUTA NAC 36 KM 644 - RIO CUARTO                           ;maura rodriguez;Obra - Entrega programada;entrega en obra;Mercado_Juan;Camion710_LNY664;;Agendado;22/9/2026 08:44;;02:00:00;10:45:00;;;SI
+176;24/09/2026;10:15:00;Obra;BOEHLER CASTRO - LOTEO LOMA ALTA 3;;AGUSTIN GARCIA;Obra - Entrega programada;Entrega de tablero y materiales;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;23/9/2026 14:17;;01:00:00;11:15:00;;;SI
+179;24/09/2026;10:30:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;;ABEL VILLAGRA;Retiro Proveedor;RETIRAR CAÑOS EPOXI DE TSUJI PINTURA;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;23/9/2026 17:21;;01:00:00;11:30:00;;;SI
 166;25/09/2026;08:45:00;Obra;RIVOIRA OSCAR - DEPOSITO URQUIZA                  ;URQUIZA 67 - RIO CUARTO                 ;AGUSTIN ARUZA;Obra - Entrega programada;RETIRAR MATERIALES DE DU PARA RIVOIRA;Mercado_Juan;Camion710_LNY664;;Agendado;22/9/2026 09:50;;01:00:00;09:45:00;;;SI
+177;25/09/2026;14:30:00;Proveedor;BRESSAN REPUESTOS;;JOSE MERCADO;Retiro Proveedor;RETIRAR VALVULAS TERMO TANQUE;Rodriguez_Rafael;Pick up KANGOO_JJY978;;Agendado;23/9/2026 16:55;;00:30:00;15:00:00;;;SI
+174;23/9/2026;11:00:00;Otro;TRASLADO DE OBRAS ;;juan pablo gutierrez;Obra - Entrega programada;hiierrros de ela a puebla;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;23/9/2026 14:18;;02:00:00;13:00:00;;;NO
+168;23/9/2026;10:00:00;Obra;BOEHLER CASTRO - LOTEO LOMA ALTA 3;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;AGYASTIN GARCIA;Obra - Entrega programada;RETIRAR REGLAS DE ELA Y LLEVARLAS A LOMA ALTA;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;23/9/2026 14:19;;01:30:00;11:30:00;;;NO
+122;23/9/2026;08:30:00;Otro;TRASLADO DE ELA A DEP Y MIXON;DEPOS ITO Y MIXON;SANTIAGO BRUNO;Otro;CARGAR EFCO Y TRAER AL DEPOSITO Y A CERCO MIXON;Mercado_Juan;Camion710_LNY664;;Finalizado OK;23/9/2026 16:48;;06:00:00;14:30:00;;;NO
+122;23/9/2026;08:30:00;Otro;TRASLADO DE ELA A DEP Y MIXON;DEPOS ITO Y MIXON;SANTIAGO BRUNO;Otro;CARGAR EFCO Y TRAER AL DEPOSITO Y A CERCO MIXON;Mercado_Juan;Camion710_LNY664;;Finalizado OK;23/9/2026 16:48;;06:00:00;14:30:00;;;NO
+123;23/9/2026;08:30:00;Otro;TRASLADO DE ELA A DEP Y MIXON;DEPOS ITO Y MIXON;SANTIAGO BRUNO;Otro;CARGAR EFCO Y TRAER AL DEPOSITO Y A CERCO MIXON;Balmaceda_Luis;Ford350_VXJ313;;Finalizado OK;23/9/2026 16:49;;06:00:00;14:30:00;;;NO
+170;23/9/2026;14:15:00;Proveedor;SELLOS LUJAN;DEAN FUNES 40 - RIO CUARTO;martina astrada;Obra - Entrega programada;llevar indumentaria a estampar;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;23/9/2026 16:49;;01:00:00;15:15:00;;;NO
+173;23/9/2026;08:45:00;Otro;TRASLADO DE OBRAS ;DE ELA A LOMA ALTA;daniela genero;Otro;TRASLADO DE REGLAS A LOMA ALTA DE ELA;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;23/9/2026 16:49;;02:00:00;10:45:00;;;NO
+175;28/09/2026;10:15:00;Obra;BOEHLER CASTRO - LOTEO LOMA ALTA 3;;AGUSTIN GARCIA;Obra - Entrega programada;ENTREGAR CUARZO;Balmaceda_Luis;Ford350_VXJ313;;Agendado;23/9/2026 10:53;;02:00:00;12:15:00;;;SI
+178;01/10/2026;10:30:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;;ABEL VILLAGRA;Obra - Entrega programada;ENTREGAR ACENSOR COMPLETO;Mercado_Juan;Camion710_LNY664;;Agendado;23/9/2026 17:00;;01:00:00;11:30:00;;;SI
 169;28/092026;08:15:01;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;eduardo coniglio;Obra - Entrega programada;dejar carro largo;Mercado_Juan;Camion710_LNY664;5.5 metros;Agendado;22/9/2026 12:22;;02:00:00;10:15:01;;;SI
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
+172;23/9/2026;09:45:00;Otro;PROVEDORES VARIOS;VARIOS;daniela genero;Otro;retiro de materiales torre linea;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;23/9/2026 17:24;;02:00:00;11:45:00;;;NO
+171;23/9/2026;10:15:00;Otro;PROVEDORES VARIOS;VARIOS;daniela genero;Otro;retiro de materiales modulos;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;23/9/2026 17:24;;01:00:00;11:15:00;;;NO
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
