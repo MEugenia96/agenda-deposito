@@ -342,12 +342,12 @@
 184;25/09/2026;09:30:00;Proveedor;M DONZELLI;RUTA NACIONAL NØ 8 KM.608.5;abel rodriguez;Retiro Proveedor;1 caño extrural 100 x 100 para linea;Mercado_Juan;Camion710_LNY664;;Agendado;24/9/2026 16:22;;01:00:00;10:30:00;;;SI
 185;25/09/2026;10:00:00;Proveedor;ROBERTO GENTILE;SAN MARTIN 2140;agustin garcia;Retiro Proveedor;45 puntales 3x 3x305;Mercado_Juan;Camion710_LNY664;;Agendado;24/9/2026 16:23;;01:00:00;11:00:00;;;SI
 182;25/9/2026;10:45:00;Otro;LAVADO DE FLOTA;ATTUS EMPRESA;emanuel peruchin;Otro;lavado de flota de deposito;Mercado_Juan;Otros;;Finalizado OK;24/9/2026 15:55;;02:00:00;12:45:00;;;NO
-169;28/9/2026;08:15:01;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;eduardo coniglio;Obra - Entrega programada;dejar carro largo;Mercado_Juan;Camion710_LNY664;5.5 metros;Agendado;22/9/2026 12:22;;02:00:00;10:15:01;;;SI
+186;25/09/2026;10:00:00;Otro;MIXON CERCO;JULIAN MAIDANA;rafael rodriguez;Otro;fulmigado de cerco;Bertorello_Leonel;Pick up KANGOO_JJY978;;Agendado;25/9/2026 08:51;;02:00:00;12:00:00;;;SI
 175;28/9/2026;10:15:00;Obra;BOEHLER CASTRO - LOTEO LOMA ALTA 3;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;AGUSTIN GARCIA;Obra - Entrega programada;ENTREGAR CUARZO;Balmaceda_Luis;Ford350_VXJ313;;En Ejecución;24/9/2026 13:09;;02:00:00;12:15:00;;;NO
-178;01/10/2026;10:30:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;ABEL VILLAGRA;Obra - Entrega programada;ENTREGAR ACENSOR COMPLETO;Mercado_Juan;Camion710_LNY664;;Agendado;23/9/2026 17:00;;01:00:00;11:30:00;;;SI
+169;28/9/2026;08:15:01;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;eduardo coniglio;Obra - Entrega programada;dejar carro largo;Mercado_Juan;Camion710_LNY664;5.5 metros;Agendado;22/9/2026 12:22;;02:00:00;10:15:01;;;SI
 175;28/9/2026;10:15:00;Obra;BOEHLER CASTRO - LOTEO LOMA ALTA 3;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;AGUSTIN GARCIA;Obra - Entrega programada;ENTREGAR CUARZO;Balmaceda_Luis;Ford350_VXJ313;;Finalizado OK;25/9/2026 07:29;;02:00:00;12:15:00;;;NO
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
+178;01/10/2026;10:30:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;ABEL VILLAGRA;Obra - Entrega programada;ENTREGAR ACENSOR COMPLETO;Mercado_Juan;Camion710_LNY664;;Agendado;23/9/2026 17:00;;01:00:00;11:30:00;;;SI
+187;29/09/2026;08:00:00;Obra;TODO CAMPO SRL-DEPOSITO AGROQUIMICOS Y SEMILLAS   ;RUTA N°35 - KM 529 - HUINCA RENANCO                       ;ali chaijale;Retiro por devolución de obra;traer angulos;Mercado_Juan;Pick_up_HILUX_HLN556;;Agendado;25/9/2026 13:41;;04:00:00;12:00:00;;;SI
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
