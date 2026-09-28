@@ -358,7 +358,7 @@
 193;28/09/2026;14:00:00;Otro;MIXON CERCO;JULIAN MAIDANA;rafael rodriguez;Obra - Entrega programada;recibir  contenedor;Rodriguez_Rafael;Pick_up_HILUX_HLN556;;Agendado;28/9/2026 10:38;;01:00:00;15:00:00;;;NO
 192;28/9/2026;11:00:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;santiago bruno;Retiro por devolución de obra;retirar efco para deposito;Mercado_Juan;Ford350_VXJ313;;En Ejecución;28/9/2026 13:03;;02:00:00;13:00:00;;;NO
 186;29/09/2026;08:00:00;Obra;TODO CAMPO SRL-DEPOSITO AGROQUIMICOS Y SEMILLAS   ;RUTA N°35 - KM 529 - HUINCA RENANCO                       ;ali chaijale;Retiro por devolución de obra;retirar material sobrante;Mercado_Juan;Pick_up_HILUX_HLN556;;Agendado;28/9/2026 07:28;;04:00:00;12:00:00;;;SI
-187;29/09/2026;08:15:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;eduardo coniglio;Obra - Entrega programada;dejar acoplado para cargar;Balmaceda_Luis;Camion710_LNY664;6.5 metros;Agendado;28/9/2026 07:57;;00:30:00;08:45:00;;;SI
+187;29/09/2026;08:15:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;eduardo coniglio;Obra - Entrega programada;dejar acoplado para cargar;Balmaceda_Luis;Camion710_LNY664;6.5 metros;Agendado;28/9/2026 07:57;;00:30:00;08:45:00;;;NO
 189;29/09/2026;09:30:00;Proveedor;ROBERTO GENTILE;SAN MARTIN 2140;maura rodriguez;Otro;retirar materiales para obra linea;Balmaceda_Luis;Camion710_LNY664;;Agendado;28/9/2026 08:47;;02:00:00;11:30:00;;;SI
 190;29/09/2026;10:30:00;Proveedor;ROBERTO GENTILE;SAN MARTIN 2140;maura rodriguez;Otro;retirar materiales para obra ela;Balmaceda_Luis;Camion710_LNY664;;Agendado;28/9/2026 08:48;;02:00:00;12:30:00;;;SI
 193;28/9/2026;14:00:00;Otro;MIXON CERCO;JULIAN MAIDANA;rafael rodriguez;Obra - Entrega programada;recibir  contenedor;Rodriguez_Rafael;Pick_up_HILUX_HLN556;;Finalizado OK;28/9/2026 13:02;;01:00:00;15:00:00;;;NO
@@ -366,10 +366,10 @@
 195;29/09/2026;07:45:00;Otro;OBRAS VARIAS;ATTUS EMPRESA;santiago bruno;Obra - Entrega programada;retirar de lep saca bocado;Balmaceda_Luis;Camion710_LNY664;;Agendado;28/9/2026 15:20;;01:00:00;08:45:00;;;SI
 178;01/10/2026;10:30:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;ABEL VILLAGRA;Obra - Entrega programada;ENTREGAR ACENSOR COMPLETO;Mercado_Juan;Camion710_LNY664;;Agendado;23/9/2026 17:00;;01:00:00;11:30:00;;;SI
 192;28/9/2026;11:00:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;santiago bruno;Retiro por devolución de obra;retirar efco para deposito;Mercado_Juan;Ford350_VXJ313;;Finalizado OK;28/9/2026 14:49;;02:00:00;13:00:00;;;NO
+197;01/10/2026;08:15:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;EDURDO CONIGLIO;Obra - Entrega programada;DEJAR ACOPLADO ;Mercado_Juan;Camion710_LNY664;6.5 metros;Agendado;28/9/2026 16:42;;00:30:00;08:45:00;;;SI
 194;05/10/2026;08:15:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;santiago bruno;Obra - Entrega programada;llevar montacarga completo;Mercado_Juan;Camion710_LNY664;5.5 metros;Agendado;28/9/2026 14:46;;02:00:00;10:15:00;;;SI
+187;29/9/2026;08:15:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;eduardo coniglio;Obra - Entrega programada;dejar acoplado para cargar;Balmaceda_Luis;Camion710_LNY664;6.5 metros;Cancelado;28/9/2026 16:40;CLIMA;00:30:00;08:45:00;;;NO
 196;08/10/2026;10:30:00;Otro;MIXON CERCO;JULIAN MAIDANA;emanuel peruchin;Otro;llevar reglas vibradoras a cerco;Mercado_Juan;Camion710_LNY664;;Agendado;28/9/2026 15:53;;01:30:00;12:00:00;;;SI
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
