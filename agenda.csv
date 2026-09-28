@@ -344,7 +344,7 @@
 182;25/9/2026;10:45:00;Otro;LAVADO DE FLOTA;ATTUS EMPRESA;emanuel peruchin;Otro;lavado de flota de deposito;Mercado_Juan;Otros;;Finalizado OK;24/9/2026 15:55;;02:00:00;12:45:00;;;NO
 169;28/9/2026;08:15:01;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;eduardo coniglio;Obra - Entrega programada;dejar carro largo;Mercado_Juan;Camion710_LNY664;5.5 metros;Agendado;22/9/2026 12:22;;02:00:00;10:15:01;;;NO
 175;28/9/2026;10:15:00;Obra;BOEHLER CASTRO - LOTEO LOMA ALTA 3;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;AGUSTIN GARCIA;Obra - Entrega programada;ENTREGAR CUARZO;Balmaceda_Luis;Ford350_VXJ313;;En Ejecución;24/9/2026 13:09;;02:00:00;12:15:00;;;NO
-186;29/09/2026;08:00:00;Obra;TODO CAMPO SRL-DEPOSITO AGROQUIMICOS Y SEMILLAS   ;RUTA N°35 - KM 529 - HUINCA RENANCO                       ;ali chaijale;Retiro por devolución de obra;retirar material sobrante;Mercado_Juan;Pick_up_HILUX_HLN556;;Agendado;28/9/2026 07:28;;04:00:00;12:00:00;;;SI
+188;28/09/2026;10:15:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;santiago bruno;Obra - Entrega programada;dejar tambores de 200lt;Mercado_Juan;Camion710_LNY664;;Agendado;28/9/2026 08:21;;00:30:00;10:45:00;;;SI
 175;28/9/2026;10:15:00;Obra;BOEHLER CASTRO - LOTEO LOMA ALTA 3;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;AGUSTIN GARCIA;Obra - Entrega programada;ENTREGAR CUARZO;Balmaceda_Luis;Ford350_VXJ313;;Finalizado OK;25/9/2026 07:29;;02:00:00;12:15:00;;;NO
 166;25/9/2026;08:45:00;Obra;RIVOIRA OSCAR - DEPOSITO URQUIZA                  ;URQUIZA 67 - RIO CUARTO                 ;AGUSTIN ARUZA;Obra - Entrega programada;RETIRAR MATERIALES DE DU PARA RIVOIRA;Mercado_Juan;Camion710_LNY664;;Finalizado OK;28/9/2026 07:26;;01:00:00;09:45:00;;;NO
 177;25/9/2026;14:30:00;Proveedor;BRESSAN REPUESTOS;ALBERDI 998 ESQ BOLIVAR;JOSE MERCADO;Retiro Proveedor;RETIRAR VALVULAS TERMO TANQUE;Rodriguez_Rafael;Pick up KANGOO_JJY978;;Finalizado OK;28/9/2026 07:26;;00:30:00;15:00:00;;;NO
@@ -352,10 +352,10 @@
 183;25/9/2026;10:45:00;Otro;LIMPIEZA DE GALPON BBARRIDO;CONCEJAL EIMENDI 447;emanuel peruchin;Otro;galpon 1 y 2;Bertorello_Leonel;Otros;;Finalizado OK;28/9/2026 07:27;;02:00:00;12:45:00;;;NO
 184;25/9/2026;09:30:00;Proveedor;M DONZELLI;RUTA NACIONAL NØ 8 KM.608.5;abel rodriguez;Retiro Proveedor;1 caño extrural 100 x 100 para linea;Mercado_Juan;Camion710_LNY664;;Finalizado OK;28/9/2026 07:27;;01:00:00;10:30:00;;;NO
 185;25/9/2026;10:00:00;Proveedor;ROBERTO GENTILE;SAN MARTIN 2140;agustin garcia;Retiro Proveedor;45 puntales 3x 3x305;Mercado_Juan;Camion710_LNY664;;Finalizado OK;28/9/2026 07:27;;01:00:00;11:00:00;;;NO
+186;29/09/2026;08:00:00;Obra;TODO CAMPO SRL-DEPOSITO AGROQUIMICOS Y SEMILLAS   ;RUTA N°35 - KM 529 - HUINCA RENANCO                       ;ali chaijale;Retiro por devolución de obra;retirar material sobrante;Mercado_Juan;Pick_up_HILUX_HLN556;;Agendado;28/9/2026 07:28;;04:00:00;12:00:00;;;SI
 187;29/09/2026;08:15:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;eduardo coniglio;Obra - Entrega programada;dejar acoplado para cargar;Balmaceda_Luis;Camion710_LNY664;6.5 metros;Agendado;28/9/2026 07:57;;00:30:00;08:45:00;;;SI
-178;01/10/2026;10:30:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;ABEL VILLAGRA;Obra - Entrega programada;ENTREGAR ACENSOR COMPLETO;Mercado_Juan;Camion710_LNY664;;Agendado;23/9/2026 17:00;;01:00:00;11:30:00;;;SI
 169;28/9/2026;08:15:01;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;eduardo coniglio;Obra - Entrega programada;dejar carro largo;Mercado_Juan;Camion710_LNY664;5.5 metros;Cancelado;28/9/2026 07:58;clima;02:00:00;10:15:01;;;NO
-;;;;;;;;;;;;;;;;;;;
+178;01/10/2026;10:30:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;ABEL VILLAGRA;Obra - Entrega programada;ENTREGAR ACENSOR COMPLETO;Mercado_Juan;Camion710_LNY664;;Agendado;23/9/2026 17:00;;01:00:00;11:30:00;;;SI
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
