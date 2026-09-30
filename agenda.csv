@@ -388,18 +388,18 @@
 209;30/09/2026;10:30:00;Proveedor;PAPELERA GASÓ;ALBERDI 279;micaela maldonado;Otro;toner;Bertorello_Leonel;Otros;;Agendado;30/9/2026 10:52;;01:00:00;11:30:00;;;NO
 210;30/09/2026;14:30:00;Proveedor;SELLOS LUJAN;DEAN FUNES 40;martina astrada;Retiro Proveedor;ropa de persnnal;Bertorello_Leonel;Otros;;Agendado;30/9/2026 10:53;;01:00:00;15:30:00;;;SI
 211;30/09/2026;11:15:00;Proveedor;DE PLANO;RUTA A005 ESQ. PTE. PERON (OESTE);maura rodriguez;Retiro Proveedor;caños de 4 mt;Balmaceda_Luis;Pick_up_HILUX_HLN556;;Agendado;30/9/2026 10:57;;01:00:00;12:15:00;;;NO
-178;01/10/2026;10:30:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;ABEL VILLAGRA;Obra - Entrega programada;ENTREGAR ACENSOR COMPLETO;Mercado_Juan;Camion710_LNY664;;Agendado;23/9/2026 17:00;;01:00:00;11:30:00;;;SI
+212;30/09/2026;15:15:00;Proveedor;ESTRUCTURALES RANQUEL;BV.O.BUTELER 27 (ROT.ACC.NORTE);EMANUEL PERUCHIN;Retiro Proveedor;BACHA JHONSON;Mercado_Juan;Pick_up_HILUX_HLN556;;Agendado;30/9/2026 13:28;;01:00:00;16:15:00;;;SI
 203;30/9/2026;09:00:00;Otro;METALURGICA HASENEY;BARRIO ALBERDI;ABEL RODRIGUEZ;Obra - Entrega programada;DEJAR CAÑOS EXTRURAL;Mercado_Juan;Pick_up_HILUX_HLN556;;Finalizado OK;30/9/2026 10:48;;01:00:00;10:00:00;;;NO
 204;30/9/2026;08:00:00;Otro;LPS REUNION ABASTECIMIENTO;ATTUS EMPRESA;EMANUEL PERUCHIN;Otro;;Peruchin_Emanuel;Otros;;Finalizado OK;30/9/2026 10:49;;01:00:00;09:00:00;;;NO
 205;30/9/2026;10:00:00;Proveedor;FUN PLAS;SAN MARTIN 1840;MAURA RODRIGUEZ;Retiro Proveedor;VER CAÑOS AW 50 X 1MT PARA ELA;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;30/9/2026 10:49;;01:00:00;11:00:00;;;NO
+178;01/10/2026;10:30:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;ABEL VILLAGRA;Obra - Entrega programada;ENTREGAR ACENSOR COMPLETO;Mercado_Juan;Camion710_LNY664;;Agendado;23/9/2026 17:00;;01:00:00;11:30:00;;;SI
 197;01/10/2026;08:15:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;EDURDO CONIGLIO;Obra - Entrega programada;DEJAR ACOPLADO ;Mercado_Juan;Camion710_LNY664;6.5 metros;Agendado;28/9/2026 16:42;;00:30:00;08:45:00;;;SI
 199;02/10/2026;08:15:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;CONIGLIO EDUARDO;Otro;DEJAR CARRO PARA CARPIO MADERAS;Mercado_Juan;Camion710_LNY664;6.5 metros;Agendado;29/9/2026 09:36;;03:00:00;11:15:00;;;SI
 194;05/10/2026;08:15:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;santiago bruno;Obra - Entrega programada;llevar montacarga completo;Mercado_Juan;Camion710_LNY664;5.5 metros;Agendado;28/9/2026 14:46;;02:00:00;10:15:00;;;SI
-196;08/10/2026;10:30:00;Otro;MIXON CERCO;JULIAN MAIDANA;emanuel peruchin;Otro;llevar reglas vibradoras a cerco;Mercado_Juan;Camion710_LNY664;;Agendado;28/9/2026 15:53;;01:30:00;12:00:00;;;SI
 208;30/9/2026;09:45:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;mercado jose;Obra - Entrega programada;materiales durlox;Balmaceda_Luis;Camion710_LNY664;;Finalizado OK;30/9/2026 11:00;;01:00:00;10:45:00;;;NO
 209;30/9/2026;10:30:00;Proveedor;PAPELERA GASÓ;ALBERDI 279;micaela maldonado;Otro;toner;Bertorello_Leonel;Otros;;Finalizado OK;30/9/2026 13:14;;01:00:00;11:30:00;;;NO
 211;30/9/2026;11:15:00;Proveedor;DE PLANO;RUTA A005 ESQ. PTE. PERON (OESTE);maura rodriguez;Retiro Proveedor;caños de 4 mt;Balmaceda_Luis;Pick_up_HILUX_HLN556;;Finalizado OK;30/9/2026 13:14;;01:00:00;12:15:00;;;NO
-212;30/09/2026;15:15:00;Proveedor;ESTRUCTURALES RANQUEL;BV.O.BUTELER 27 (ROT.ACC.NORTE);EMANUEL PERUCHIN;Retiro Proveedor;BACHA JHONSON;Mercado_Juan;Pick_up_HILUX_HLN556;;Agendado;30/9/2026 13:28;;01:00:00;16:15:00;;;SI
+196;08/10/2026;10:30:00;Otro;MIXON CERCO;JULIAN MAIDANA;emanuel peruchin;Otro;llevar reglas vibradoras a cerco;Mercado_Juan;Camion710_LNY664;;Agendado;28/9/2026 15:53;;01:30:00;12:00:00;;;SI
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
