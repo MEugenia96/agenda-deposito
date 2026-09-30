@@ -376,7 +376,7 @@
 205;30/09/2026;10:00:00;Proveedor;FUN PLAS;SAN MARTIN 1840;MAURA RODRIGUEZ;Retiro Proveedor;VER CAÑOS AW 50 X 1MT PARA ELA;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;29/9/2026 16:39;;01:00:00;11:00:00;;;NO
 195;29/9/2026;07:45:00;Otro;OBRAS VARIAS;ATTUS EMPRESA;santiago bruno;Obra - Entrega programada;retirar de lep saca bocado;Balmaceda_Luis;Camion710_LNY664;;Finalizado OK;29/9/2026 11:00;;01:00:00;08:45:00;;;NO
 206;30/09/2026;11:00:00;Proveedor;ALUMINOX ACCESORIOS;HIPOLITO IRIGOYEN 3110;EMANUEL PERUCHIN;Devolución Proveedor;DEVOLVER MUESTRA ;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;29/9/2026 16:40;;01:00:00;12:00:00;;;SI
-207;30/09/2026;10:00:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;SANTIAGO BRUNO;Retiro por devolución de obra;RETIRAR CARRO Y LLEVARLO A PUEBLA;Mercado_Juan;Camion710_LNY664;6.5 metros;Agendado;29/9/2026 17:20;;02:00:00;12:00:00;;;SI
+207;30/09/2026;10:00:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;SANTIAGO BRUNO;Retiro por devolución de obra;RETIRAR CARRO Y LLEVARLO A PUEBLA;Mercado_Juan;Camion710_LNY664;6.5 metros;Agendado;29/9/2026 17:20;;02:00:00;12:00:00;;;NO
 186;29/9/2026;08:00:00;Obra;TODO CAMPO SRL-DEPOSITO AGROQUIMICOS Y SEMILLAS   ;RUTA N°35 - KM 529 - HUINCA RENANCO                       ;ali chaijale;Retiro por devolución de obra;retirar material sobrante;Mercado_Juan;Pick_up_HILUX_HLN556;;Finalizado OK;29/9/2026 16:31;;04:00:00;12:00:00;;;NO
 190;29/9/2026;10:30:00;Proveedor;ROBERTO GENTILE;SAN MARTIN 2140;maura rodriguez;Otro;retirar materiales para obra ela;Balmaceda_Luis;Camion710_LNY664;;Finalizado OK;29/9/2026 16:31;;02:00:00;12:30:00;;;NO
 198;29/9/2026;14:15:00;Proveedor;DE PLANO;RUTA A005 ESQ. PTE. PERON (OESTE);maura rodriguez;Retiro Proveedor;caños de 50 mm para ela;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;29/9/2026 16:31;;01:00:00;15:15:00;;;NO
@@ -394,19 +394,19 @@
 205;30/9/2026;10:00:00;Proveedor;FUN PLAS;SAN MARTIN 1840;MAURA RODRIGUEZ;Retiro Proveedor;VER CAÑOS AW 50 X 1MT PARA ELA;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;30/9/2026 10:49;;01:00:00;11:00:00;;;NO
 213;30/09/2026;15:30:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;SANTIAGO BRUNO;Obra - Entrega urgente;MECHAS PARA SACA BOCADOS HILTI;Bertorello_Leonel;Otros;;Agendado;30/9/2026 14:14;;01:00:00;16:30:00;;;SI
 214;30/09/2026;14:15:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;EDUARDO CONGLIO;Otro;ROSCA PARA BOMBA;Bertorello_Leonel;Otros;;Agendado;30/9/2026 14:16;;01:00:00;15:15:00;;;SI
+218;30/09/2026;16:15:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ; SANTIAGO BRUNO;Otro;RETIRAR ACOPLADO CON MADERAS;Mercado_Juan;Camion710_LNY664;6.5 metros;Agendado;30/9/2026 16:41;;01:20:00;17:35:00;;;SI
 178;01/10/2026;10:30:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;ABEL VILLAGRA;Obra - Entrega programada;ENTREGAR ACENSOR COMPLETO;Mercado_Juan;Camion710_LNY664;;Agendado;23/9/2026 17:00;;01:00:00;11:30:00;;;SI
-197;01/10/2026;08:15:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;EDURDO CONIGLIO;Obra - Entrega programada;DEJAR ACOPLADO ;Mercado_Juan;Camion710_LNY664;6.5 metros;Agendado;28/9/2026 16:42;;00:30:00;08:45:00;;;SI
 208;30/9/2026;09:45:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;mercado jose;Obra - Entrega programada;materiales durlox;Balmaceda_Luis;Camion710_LNY664;;Finalizado OK;30/9/2026 11:00;;01:00:00;10:45:00;;;NO
 209;30/9/2026;10:30:00;Proveedor;PAPELERA GASÓ;ALBERDI 279;micaela maldonado;Otro;toner;Bertorello_Leonel;Otros;;Finalizado OK;30/9/2026 13:14;;01:00:00;11:30:00;;;NO
 211;30/9/2026;11:15:00;Proveedor;DE PLANO;RUTA A005 ESQ. PTE. PERON (OESTE);maura rodriguez;Retiro Proveedor;caños de 4 mt;Balmaceda_Luis;Pick_up_HILUX_HLN556;;Finalizado OK;30/9/2026 13:14;;01:00:00;12:15:00;;;NO
+197;01/10/2026;08:15:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;EDURDO CONIGLIO;Obra - Entrega programada;DEJAR ACOPLADO ;Mercado_Juan;Camion710_LNY664;6.5 metros;Agendado;28/9/2026 16:42;;00:30:00;08:45:00;;;SI
 216;01/10/2026;08:00:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;SANTIAGO BRUNO;Retiro por devolución de obra;TRASLADO DE MADERAS A PUEBLA;Balmaceda_Luis;Ford350_VXJ313;5.5 metros;Agendado;30/9/2026 16:05;;02:00:00;10:00:00;;;SI
 217;01/10/2026;11:30:00;Proveedor;TKTEC;REVERENDO PADRE SILVI 521;JOSE MERCADO;Otro;RETIRAR HERRAMINTAS LINEA;Bertorello_Leonel;Otros;;Agendado;30/9/2026 16:37;;01:00:00;12:30:00;;;SI
 199;02/10/2026;08:15:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;CONIGLIO EDUARDO;Otro;DEJAR CARRO PARA CARPIO MADERAS;Mercado_Juan;Camion710_LNY664;6.5 metros;Agendado;29/9/2026 09:36;;03:00:00;11:15:00;;;SI
 194;05/10/2026;08:15:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;santiago bruno;Obra - Entrega programada;llevar montacarga completo;Mercado_Juan;Camion710_LNY664;5.5 metros;Agendado;28/9/2026 14:46;;02:00:00;10:15:00;;;SI
 215;06/10/2026;08:30:00;Obra;RIVOIRA OSCAR - DEPOSITO URQUIZA                  ;URQUIZA 67 - RIO CUARTO                 ;ARUZA AGUSTIN;Retiro por devolución de obra;FIN DE OBRA;Balmaceda_Luis;Ford350_VXJ313;;Agendado;30/9/2026 15:40;;01:00:00;09:30:00;;;SI
+207;30/9/2026;10:00:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;SANTIAGO BRUNO;Retiro por devolución de obra;RETIRAR CARRO Y LLEVARLO A PUEBLA;Mercado_Juan;Camion710_LNY664;6.5 metros;Finalizado OK;30/9/2026 16:39;;02:00:00;12:00:00;;;NO
 196;08/10/2026;10:30:00;Otro;MIXON CERCO;JULIAN MAIDANA;emanuel peruchin;Otro;llevar reglas vibradoras a cerco;Mercado_Juan;Camion710_LNY664;;Agendado;28/9/2026 15:53;;01:30:00;12:00:00;;;SI
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
