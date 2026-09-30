@@ -384,7 +384,7 @@
 201;29/9/2026;15:30:00;Obra;LUNARDI- PUEBLA TORRE 0 Y TORRE 1                 ;PALESTINA Y LUGONES - RIO CUARTO                 ;juan pablo gutirrez;Obra - Entrega programada;dejar acoplado con maderas;Balmaceda_Luis;Camion710_LNY664;;Finalizado OK;29/9/2026 16:32;;01:00:00;16:30:00;;;NO
 202;29/9/2026;14:30:00;Proveedor;ANDREANI LOGISTICA;AV.101 NØ1637;emanuel peruchin;Otro;dejar herramienta saca bocado hilti;Bertorello_Leonel;Pick up KANGOO_JJY978;;Finalizado OK;29/9/2026 16:33;;01:00:00;15:30:00;;;NO
 189;29/9/2026;09:30:00;Proveedor;ROBERTO GENTILE;SAN MARTIN 2140;maura rodriguez;Otro;retirar materiales para obra linea;Balmaceda_Luis;Camion710_LNY664;;Finalizado OK;29/9/2026 16:33;;02:00:00;11:30:00;;;NO
-208;30/09/2026;09:45:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;mercado jose;Obra - Entrega programada;materiales durlox;Balmaceda_Luis;Camion710_LNY664;;Agendado;30/9/2026 10:51;;01:00:00;10:45:00;;;SI
+208;30/09/2026;09:45:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;mercado jose;Obra - Entrega programada;materiales durlox;Balmaceda_Luis;Camion710_LNY664;;Agendado;30/9/2026 10:51;;01:00:00;10:45:00;;;NO
 209;30/09/2026;10:30:00;Proveedor;PAPELERA GASÓ;ALBERDI 279;micaela maldonado;Otro;toner;Bertorello_Leonel;Otros;;Agendado;30/9/2026 10:52;;01:00:00;11:30:00;;;SI
 210;30/09/2026;14:30:00;Proveedor;SELLOS LUJAN;DEAN FUNES 40;martina astrada;Retiro Proveedor;ropa de persnnal;Bertorello_Leonel;Otros;;Agendado;30/9/2026 10:53;;01:00:00;15:30:00;;;SI
 211;30/09/2026;11:15:00;Proveedor;DE PLANO;RUTA A005 ESQ. PTE. PERON (OESTE);maura rodriguez;Retiro Proveedor;caños de 4 mt;Balmaceda_Luis;Pick_up_HILUX_HLN556;;Agendado;30/9/2026 10:57;;01:00:00;12:15:00;;;SI
@@ -396,7 +396,7 @@
 199;02/10/2026;08:15:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;CONIGLIO EDUARDO;Otro;DEJAR CARRO PARA CARPIO MADERAS;Mercado_Juan;Camion710_LNY664;6.5 metros;Agendado;29/9/2026 09:36;;03:00:00;11:15:00;;;SI
 194;05/10/2026;08:15:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;santiago bruno;Obra - Entrega programada;llevar montacarga completo;Mercado_Juan;Camion710_LNY664;5.5 metros;Agendado;28/9/2026 14:46;;02:00:00;10:15:00;;;SI
 196;08/10/2026;10:30:00;Otro;MIXON CERCO;JULIAN MAIDANA;emanuel peruchin;Otro;llevar reglas vibradoras a cerco;Mercado_Juan;Camion710_LNY664;;Agendado;28/9/2026 15:53;;01:30:00;12:00:00;;;SI
-;;;;;;;;;;;;;;;;;;;
+208;30/9/2026;09:45:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;mercado jose;Obra - Entrega programada;materiales durlox;Balmaceda_Luis;Camion710_LNY664;;Finalizado OK;30/9/2026 11:00;;01:00:00;10:45:00;;;NO
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
