@@ -420,7 +420,7 @@
 230;02/10/2026;09:30:00;Proveedor;ESTACION DE SERVICIO YPF GALACTIC;AV SABATTINI 1802;AGUSTIN GARCIA;Obra - Entrega urgente;RETIRAR NAFTA  LA ANTONIA;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;1/10/2026 16:27;;01:30:00;11:00:00;;;NO
 231;02/10/2026;10:15:00;Obra;LA ANTONIA -ALCANTARILLA Y CANAL NATURAL;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;AGUSTIN GARCIA;Obra - Entrega urgente;ENTREGA DE NAFTA;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;1/10/2026 16:27;;01:30:00;11:45:00;;;NO
 232;02/10/2026;11:30:00;Proveedor;ESTACION DE SERVICIO YPF GALACTIC;AV SABATTINI 1802;MIKA ELA MALDONADO;Retiro Proveedor;RESUMENES MENSUALES;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;1/10/2026 16:28;;00:30:00;12:00:00;;;NO
-233;02/10/2026;10:30:00;Proveedor;BRESSAN REPUESTOS;ALBERDI 998 ESQ BOLIVAR;MERCADO JOSE;Retiro Proveedor;VALVULAS DE CALEFONES;Bertorello_Leonel;Otros;;Agendado;1/10/2026 16:57;;01:00:00;11:30:00;;;SI
+233;02/10/2026;10:30:00;Proveedor;BRESSAN REPUESTOS;ALBERDI 998 ESQ BOLIVAR;MERCADO JOSE;Retiro Proveedor;VALVULAS DE CALEFONES;Bertorello_Leonel;Otros;;Agendado;1/10/2026 16:57;;01:00:00;11:30:00;;;NO
 234;02/10/2026;09:00:00;Otro;SANTUCHO MECANICA;SAN MARTIN ;GARCIA SERGIO;Otro;LLEVAR FIAT STRADA;Bertorello_Leonel;Otros;;Agendado;1/10/2026 16:59;;01:00:00;10:00:00;;;NO
 235;02/10/2026;09:15:00;Proveedor;DE PLANO;RUTA A005 ESQ. PTE. PERON (OESTE);santiago bruno;Retiro Proveedor;retirar codos hh 50 a 45 para ela;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;2/10/2026 07:25;;01:00:00;10:15:00;;;NO
 236;02/10/2026;09:45:00;Otro;PROVEDORES VARIOS;;EMANUEL PERUCHIN;Retiro Proveedor;RETIRAR MATERIALES VARIOS TORRE LINEA;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;2/10/2026 08:49;;02:00:00;11:45:00;;;NO
@@ -429,8 +429,8 @@
 219;1/10/2026;10:45:00;Proveedor;ESTRUCTURALES RANQUEL;BV.O.BUTELER 27 (ROT.ACC.NORTE);RODRIGO VILLAREAL;Retiro Proveedor;RETIRAR SOPAPA;Bertorello_Leonel;Pick up KANGOO_JJY978;;Finalizado OK;1/10/2026 13:38;;01:30:00;12:15:00;;;NO
 222;1/10/2026;12:30:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;MERCADO JOSE;Retiro Proveedor;HERRAMIENTAS ;Bertorello_Leonel;Pick up KANGOO_JJY978;;Finalizado OK;1/10/2026 13:39;;01:30:00;14:00:00;;;NO
 199;2/10/2026;08:15:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;CONIGLIO EDUARDO;Otro;DEJAR CARRO PARA CARPIO MADERAS;Mercado_Juan;Camion710_LNY664;6.5 metros;Cancelado;1/10/2026 14:47;falta de tiempo para cargar carro;03:00:00;11:15:00;;;NO
-237;02/10/2026;14:15:00;Proveedor;DE PLANO;;jose mercado;Retiro Proveedor;retirar las tee epoxi  11/4 x 3/4;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;2/10/2026 13:27;;01:00:00;15:15:00;;;SI
-238;02/10/2026;14:30:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;;martin ocampo;Retiro por devolución de obra;gabinete de gas;Balmaceda_Luis;Ford350_VXJ313;;Agendado;2/10/2026 13:28;;01:00:00;15:30:00;;;SI
+237;02/10/2026;14:15:00;Proveedor;DE PLANO;;jose mercado;Retiro Proveedor;retirar las tee epoxi  11/4 x 3/4;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;2/10/2026 13:27;;01:00:00;15:15:00;;;NO
+238;02/10/2026;14:30:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;;martin ocampo;Retiro por devolución de obra;gabinete de gas;Balmaceda_Luis;Ford350_VXJ313;;Agendado;2/10/2026 13:28;;01:00:00;15:30:00;;;NO
 244;02/10/2026;16:45:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;;santiago bruno;Obra - Entrega programada;llevar a julio ala terminal;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;2/10/2026 14:20;;01:00:00;17:45:00;;;SI
 178;1/10/2026;10:30:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;ABEL VILLAGRA;Obra - Entrega programada;ENTREGAR ACENSOR COMPLETO;Mercado_Juan;Camion710_LNY664;;Finalizado OK;1/10/2026 16:30;;01:00:00;11:30:00;;;NO
 178;1/10/2026;10:30:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;ABEL VILLAGRA;Obra - Entrega programada;ENTREGAR ACENSOR COMPLETO;Mercado_Juan;Camion710_LNY664;;Finalizado OK;1/10/2026 16:30;;01:00:00;11:30:00;;;NO
@@ -440,7 +440,7 @@
 221;1/10/2026;11:15:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;SANTIAGO BRUNO;Retiro por devolución de obra;MADERAS PARA PUEBLA;Mercado_Juan;Ford350_VXJ313;;Finalizado OK;1/10/2026 16:32;;01:30:00;12:45:00;;;NO
 227;1/10/2026;14:15:00;Otro;PROVEDORES VARIOS;VARIOS;EMANUEL PERUCHIN;Retiro Proveedor;RETIRAR CAJA PARA MATAFUEGOS;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;1/10/2026 16:32;;00:30:00;14:45:00;;;NO
 228;1/10/2026;14:30:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;SANTIAGO BRUNO;Retiro por devolución de obra;TRASLADO DE ELA A PUEBLA;Mercado_Juan;Ford350_VXJ313;6.5 metros;Finalizado OK;1/10/2026 16:32;;02:00:00;16:30:00;;;NO
-194;05/10/2026;08:15:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;santiago bruno;Obra - Entrega programada;llevar montacarga completo;Mercado_Juan;Camion710_LNY664;5.5 metros;Agendado;28/9/2026 14:46;;02:00:00;10:15:00;;;SI
+194;05/10/2026;08:15:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;santiago bruno;Obra - Entrega programada;llevar montacarga completo;Mercado_Juan;Camion710_LNY664;5.5 metros;Agendado;28/9/2026 14:46;;02:00:00;10:15:00;;;NO
 239;05/10/2026;10:00:00;Otro;SANTUCHO MECANICA;;emanuel peruchin;Otro;LLEVAR FIAT ESTRADA;Bertorello_Leonel;Otros;;Agendado;2/10/2026 13:30;;01:30:00;11:30:00;;;SI
 240;05/10/2026;11:15:00;Proveedor;EL REGIONAL DEL SUR;;emanuel peruchin;Otro;LLEVAR KANGGO HACER ITV;Balmaceda_Luis;Pick up KANGOO_JJY978;;Agendado;2/10/2026 13:32;;01:30:00;12:45:00;;;SI
 241;05/10/2026;09:45:00;Proveedor;TKTEC;;MERCADO JOSE;Retiro Proveedor;RETIRAR TORNILLOS FALTANTES 8 X 2;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;2/10/2026 13:36;;01:30:00;11:15:00;;;SI
@@ -459,10 +459,10 @@
 196;08/10/2026;10:30:00;Otro;MIXON CERCO;JULIAN MAIDANA;emanuel peruchin;Otro;llevar reglas vibradoras a cerco;Mercado_Juan;Camion710_LNY664;;Agendado;28/9/2026 15:53;;01:30:00;12:00:00;;;SI
 225;08/10/2026;08:15:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;SANTIAGO BRUNO;Retiro por devolución de obra;ENCONFRADOS STANGUET;Mercado_Juan;Ford350_VXJ313;6.5 metros;Agendado;1/10/2026 11:45;;07:00:00;15:15:00;;;SI
 226;09/10/2026;08:15:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;SANTIAGO BRUNO;Retiro por devolución de obra;ENCONFRADOS STANGUET;Mercado_Juan;Ford350_VXJ313;6.5 metros;Agendado;1/10/2026 11:45;;07:00:00;15:15:00;;;SI
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
+233;2/10/2026;10:30:00;Proveedor;BRESSAN REPUESTOS;ALBERDI 998 ESQ BOLIVAR;MERCADO JOSE;Retiro Proveedor;VALVULAS DE CALEFONES;Bertorello_Leonel;Otros;;Finalizado OK;2/10/2026 15:12;;01:00:00;11:30:00;;;NO
+237;2/10/2026;14:15:00;Proveedor;DE PLANO;;jose mercado;Retiro Proveedor;retirar las tee epoxi  11/4 x 3/4;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;2/10/2026 15:12;;01:00:00;15:15:00;;;NO
+238;2/10/2026;14:30:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;;martin ocampo;Retiro por devolución de obra;gabinete de gas;Balmaceda_Luis;Ford350_VXJ313;;Finalizado OK;2/10/2026 15:12;;01:00:00;15:30:00;;;NO
+194;5/10/2026;08:15:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;santiago bruno;Obra - Entrega programada;llevar montacarga completo;Mercado_Juan;Camion710_LNY664;5.5 metros;Cancelado;2/10/2026 15:12;por tiempo;02:00:00;10:15:00;;;NO
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
