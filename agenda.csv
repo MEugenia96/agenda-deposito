@@ -464,10 +464,10 @@
 238;2/10/2026;14:30:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;;martin ocampo;Retiro por devolución de obra;gabinete de gas;Balmaceda_Luis;Ford350_VXJ313;;Finalizado OK;2/10/2026 15:12;;01:00:00;15:30:00;;;NO
 194;5/10/2026;08:15:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;santiago bruno;Obra - Entrega programada;llevar montacarga completo;Mercado_Juan;Camion710_LNY664;5.5 metros;Cancelado;2/10/2026 15:12;por tiempo;02:00:00;10:15:00;;;NO
 244;2/10/2026;16:45:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;;santiago bruno;Obra - Entrega programada;llevar a julio ala terminal;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;5/10/2026 07:46;;01:00:00;17:45:00;;;NO
-249;06/10/2026;09:15:00;Otro;SANTUCHO MECANICA;SAN MARTIN ;emanuel peruchin;Otro;LLEVAR FIAT STRADA AF 811 IW;Bertorello_Leonel;Otros;;Agendado;5/10/2026 15:47;;01:00:00;10:15:00;;;SI
+249;06/10/2026;09:15:00;Otro;SANTUCHO MECANICA;SAN MARTIN ;emanuel peruchin;Otro;LLEVAR FIAT STRADA AF 811 IW;Bertorello_Leonel;Otros;;Agendado;5/10/2026 15:47;;01:00:00;10:15:00;;;NO
 252;06/10/2026;14:30:00;Proveedor;DRAFT BORDADOS;MARIA OLGUIN 281 - RIO CUARTO;martina astrada;Retiro Proveedor;retirar uniformes personal uecara;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;6/10/2026 12:17;;01:30:00;16:00:00;;;SI
 245;5/9/2026;10:30:00;Proveedor;M DONZELLI;;RAFAEL.RODRIGUEZ;Otro;RETIRAR ALAMBRE Y CLAVOS;Mercado_Juan;Pick_up_HILUX_HLN556;;Finalizado OK;5/10/2026 09:37;;01:33:00;12:03:00;;;NO
-254;06/10/2026;12:00:00;Proveedor;ALUMINOX ACCESORIOS;HIPOLITO IRIGOYEN 3110 - RIO CUARTO;rafael rodriguez;Devolución Proveedor;devovolver embellecedor;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;6/10/2026 12:22;;00:30:00;12:30:00;;;SI
+254;06/10/2026;12:00:00;Proveedor;ALUMINOX ACCESORIOS;HIPOLITO IRIGOYEN 3110 - RIO CUARTO;rafael rodriguez;Devolución Proveedor;devovolver embellecedor;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;6/10/2026 12:22;;00:30:00;12:30:00;;;NO
 257;06/10/2026;15:30:00;Proveedor;DANIEL HERNANDEZ E HIJOS SRL;RUTA A 005 Y CASTELLI - RIO CUARTO;emanuel peruchin;Retiro Proveedor;retirarar bujes y tee epoxi;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;6/10/2026 13:43;;01:00:00;16:30:00;;;SI
 242;5/10/2026;10:15:00;Proveedor;EDIFICOR;;CENTENO EMANUEL;Retiro Proveedor;CERAMICOS CALIFORNIA GRIS;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;5/10/2026 15:43;;01:30:00;11:45:00;;;NO
 247;5/10/2026;14:15:00;Proveedor;M DONZELLI;;ALI CHAIJALE;Retiro Proveedor;RETIRAR HIERRO PARA CROATTO GIGENA;Balmaceda_Luis;Pick_up_HILUX_HLN556;;Finalizado OK;5/10/2026 15:43;;01:00:00;15:15:00;;;NO
@@ -489,8 +489,8 @@
 226;09/10/2026;08:15:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;SANTIAGO BRUNO;Retiro por devolución de obra;ENCONFRADOS STANGUET;Mercado_Juan;Ford350_VXJ313;6.5 metros;Agendado;1/10/2026 11:45;;07:00:00;15:15:00;;;SI
 256;09/10/2026;10:00:00;Proveedor;DE PLANO;RUTA A005 ESQ. PTE. PERON (OESTE) - RIO CUARTO;emanuel peruchin;Retiro Proveedor;retirarar bujes y tee epoxi;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;6/10/2026 13:26;;01:00:00;11:00:00;;;SI
 253;14/10/2026;09:45:00;Otro;PROVEDORES VARIOS;VARIOS;emanuel peruchin;Otro; retirar celda torre linea;Mercado_Juan;Camion710_LNY664;;Agendado;6/10/2026 12:21;;01:30:00;11:15:00;;;SI
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
+254;6/10/2026;12:00:00;Proveedor;ALUMINOX ACCESORIOS;HIPOLITO IRIGOYEN 3110 - RIO CUARTO;rafael rodriguez;Devolución Proveedor;devovolver embellecedor;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;6/10/2026 13:44;;00:30:00;12:30:00;;;NO
+249;6/10/2026;09:15:00;Otro;SANTUCHO MECANICA;SAN MARTIN ;emanuel peruchin;Otro;LLEVAR FIAT STRADA AF 811 IW;Bertorello_Leonel;Otros;;Finalizado OK;6/10/2026 13:44;;01:00:00;10:15:00;;;NO
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
