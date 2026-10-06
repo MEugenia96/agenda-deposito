@@ -468,7 +468,7 @@
 252;06/10/2026;14:30:00;Proveedor;DRAFT BORDADOS;MARIA OLGUIN 281 - RIO CUARTO;martina astrada;Retiro Proveedor;retirar uniformes personal uecara;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;6/10/2026 12:17;;01:30:00;16:00:00;;;NO
 245;5/9/2026;10:30:00;Proveedor;M DONZELLI;;RAFAEL.RODRIGUEZ;Otro;RETIRAR ALAMBRE Y CLAVOS;Mercado_Juan;Pick_up_HILUX_HLN556;;Finalizado OK;5/10/2026 09:37;;01:33:00;12:03:00;;;NO
 254;06/10/2026;12:00:00;Proveedor;ALUMINOX ACCESORIOS;HIPOLITO IRIGOYEN 3110 - RIO CUARTO;rafael rodriguez;Devolución Proveedor;devovolver embellecedor;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;6/10/2026 12:22;;00:30:00;12:30:00;;;NO
-257;06/10/2026;15:30:00;Proveedor;DANIEL HERNANDEZ E HIJOS SRL;RUTA A 005 Y CASTELLI - RIO CUARTO;emanuel peruchin;Retiro Proveedor;retirarar bujes y tee epoxi;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;6/10/2026 13:43;;01:00:00;16:30:00;;;SI
+257;06/10/2026;15:30:00;Proveedor;DANIEL HERNANDEZ E HIJOS SRL;RUTA A 005 Y CASTELLI - RIO CUARTO;emanuel peruchin;Retiro Proveedor;retirarar bujes y tee epoxi;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;6/10/2026 13:43;;01:00:00;16:30:00;;;NO
 242;5/10/2026;10:15:00;Proveedor;EDIFICOR;;CENTENO EMANUEL;Retiro Proveedor;CERAMICOS CALIFORNIA GRIS;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;5/10/2026 15:43;;01:30:00;11:45:00;;;NO
 247;5/10/2026;14:15:00;Proveedor;M DONZELLI;;ALI CHAIJALE;Retiro Proveedor;RETIRAR HIERRO PARA CROATTO GIGENA;Balmaceda_Luis;Pick_up_HILUX_HLN556;;Finalizado OK;5/10/2026 15:43;;01:00:00;15:15:00;;;NO
 241;5/10/2026;09:45:00;Proveedor;TKTEC;;MERCADO JOSE;Retiro Proveedor;RETIRAR TORNILLOS FALTANTES 8 X 2;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;5/10/2026 15:43;;01:30:00;11:15:00;;;NO
@@ -498,7 +498,7 @@
 260;09/10/2026;10:45:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;MERCADO JOSE;Retiro Proveedor;ENTREGAR MATERIAL EPOXI EN OBRA;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;6/10/2026 14:30;;01:30:00;12:15:00;;;SI
 253;14/10/2026;09:45:00;Otro;PROVEDORES VARIOS;VARIOS;emanuel peruchin;Otro; retirar celda torre linea;Mercado_Juan;Camion710_LNY664;;Agendado;6/10/2026 12:21;;01:30:00;11:15:00;;;SI
 263;20/10/2026;10:00:00;Proveedor;DANIEL HERNANDEZ E HIJOS SRL;RUTA A 005 Y CASTELLI - RIO CUARTO;EMANUEL PERUCHIN;Retiro Proveedor;RETIRAR 200 LT TECHADO ASFALTICO;Mercado_Juan;Camion710_LNY664;;Agendado;6/10/2026 15:04;;01:30:00;11:30:00;;;SI
-;;;;;;;;;;;;;;;;;;;
+257;6/10/2026;15:30:00;Proveedor;DANIEL HERNANDEZ E HIJOS SRL;RUTA A 005 Y CASTELLI - RIO CUARTO;emanuel peruchin;Retiro Proveedor;retirarar bujes y tee epoxi;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;6/10/2026 17:26;;01:00:00;16:30:00;;;NO
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
