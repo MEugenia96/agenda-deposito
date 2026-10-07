@@ -457,7 +457,7 @@
 247;05/10/2026;14:15:00;Proveedor;M DONZELLI;;ALI CHAIJALE;Retiro Proveedor;RETIRAR HIERRO PARA CROATTO GIGENA;Balmaceda_Luis;Pick_up_HILUX_HLN556;;Agendado;5/10/2026 09:41;;01:00:00;15:15:00;;;NO
 248;05/10/2026;15:15:00;Proveedor_Obra;DE PLANO;RUTA A005 ESQ. PTE. PERON (OESTE) - RIO CUARTO;SANTIAGO BRUNO;Retiro Proveedor;ACESORRIOS DE CLOACAS;Balmaceda_Luis;Ford350_VXJ313;;Agendado;5/10/2026 11:43;;01:30:00;16:45:00;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;NO
 215;06/10/2026;08:30:00;Obra;RIVOIRA OSCAR - DEPOSITO URQUIZA                  ;URQUIZA 67 - RIO CUARTO                 ;ARUZA AGUSTIN;Retiro por devolución de obra;FIN DE OBRA;Balmaceda_Luis;Ford350_VXJ313;;Agendado;30/9/2026 15:40;;01:00:00;09:30:00;;;NO
-223;06/10/2026;08:15:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;SANTIAGO BRUNO;Retiro por devolución de obra;ENCONFRADOS STANGUET;Mercado_Juan;Ford350_VXJ313;6.5 metros;Agendado;1/10/2026 11:44;;07:00:00;15:15:00;;;SI
+223;06/10/2026;08:15:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;SANTIAGO BRUNO;Retiro por devolución de obra;ENCONFRADOS STANGUET;Mercado_Juan;Ford350_VXJ313;6.5 metros;Agendado;1/10/2026 11:44;;07:00:00;15:15:00;;;NO
 243;06/10/2026;08:45:00;Obra;CROATTO - CORDON CUNETA                           ;;ali chaijale;Obra - Entrega programada;hierros y antisol;Balmaceda_Luis;Pick_up_HILUX_HLN556;;Agendado;2/10/2026 14:02;;02:30:00;11:15:00;;;NO
 233;2/10/2026;10:30:00;Proveedor;BRESSAN REPUESTOS;ALBERDI 998 ESQ BOLIVAR;MERCADO JOSE;Retiro Proveedor;VALVULAS DE CALEFONES;Bertorello_Leonel;Otros;;Finalizado OK;2/10/2026 15:12;;01:00:00;11:30:00;;;NO
 237;2/10/2026;14:15:00;Proveedor;DE PLANO;;jose mercado;Retiro Proveedor;retirar las tee epoxi  11/4 x 3/4;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;2/10/2026 15:12;;01:00:00;15:15:00;;;NO
@@ -499,7 +499,7 @@
 253;14/10/2026;09:45:00;Otro;PROVEDORES VARIOS;VARIOS;emanuel peruchin;Otro; retirar celda torre linea;Mercado_Juan;Camion710_LNY664;;Agendado;6/10/2026 12:21;;01:30:00;11:15:00;;;SI
 263;20/10/2026;10:00:00;Proveedor;DANIEL HERNANDEZ E HIJOS SRL;RUTA A 005 Y CASTELLI - RIO CUARTO;EMANUEL PERUCHIN;Retiro Proveedor;RETIRAR 200 LT TECHADO ASFALTICO;Mercado_Juan;Camion710_LNY664;;Agendado;6/10/2026 15:04;;01:30:00;11:30:00;;;SI
 257;6/10/2026;15:30:00;Proveedor;DANIEL HERNANDEZ E HIJOS SRL;RUTA A 005 Y CASTELLI - RIO CUARTO;emanuel peruchin;Retiro Proveedor;retirarar bujes y tee epoxi;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;6/10/2026 17:27;;01:00:00;16:30:00;;;NO
-;;;;;;;;;;;;;;;;;;;
+223;6/10/2026;08:15:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;SANTIAGO BRUNO;Retiro por devolución de obra;ENCONFRADOS STANGUET;Mercado_Juan;Ford350_VXJ313;6.5 metros;Finalizado OK;7/10/2026 07:36;;07:00:00;15:15:00;;;NO
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
