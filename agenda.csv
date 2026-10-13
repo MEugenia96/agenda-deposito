@@ -534,27 +534,27 @@
 282;13/10/2026;08:30:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;santiago bruno;Obra - Entrega programada;traslado de encofrados a stanguet;Mercado_Juan;Camion710_LNY664;6.5 metros;Agendado;13/10/2026 07:44;;04:00:00;12:30:00;;;SI
 283;13/10/2026;08:30:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;santiago bruno;Obra - Entrega programada;traslado de encofrados a stanguet;Balmaceda_Luis;Ford350_VXJ313;5.5 metros;Agendado;13/10/2026 07:45;;04:00:00;12:30:00;;;SI
 284;13/10/2026;07:30:00;Otro;PROVEDORES VARIOS;VARIOS;juan pablo gutirrez;Obra - Entrega programada;retirar materiales varios;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;13/10/2026 07:49;;02:00:00;09:30:00;;;SI
-285;13/10/2026;09:15:00;Proveedor;BERTINATO JORGE LUIS;MANSILLA 41 - RIO CUARTO;rodrigo villareal;Retiro Proveedor;carga de gas carbonico;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;13/10/2026 07:51;;01:00:00;10:15:00;;;SI
-286;13/10/2026;10:00:00;Otro;GALPON DE HERRERO MODULAR;JULIAN MAIDANA;rodrigo villareal;Otro;retiro de tubo;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;13/10/2026 07:52;;01:00:00;11:00:00;;;SI
+285;13/10/2026;09:15:00;Proveedor;BERTINATO JORGE LUIS;MANSILLA 41 - RIO CUARTO;rodrigo villareal;Retiro Proveedor;carga de gas carbonico;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;13/10/2026 07:51;;01:00:00;10:15:00;;;NO
+286;13/10/2026;10:00:00;Otro;GALPON DE HERRERO MODULAR;JULIAN MAIDANA;rodrigo villareal;Otro;retiro de tubo;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;13/10/2026 07:52;;01:00:00;11:00:00;;;NO
 260;9/10/2026;10:45:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;MERCADO JOSE;Retiro Proveedor;ENTREGAR MATERIAL EPOXI EN OBRA;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;9/10/2026 13:31;;01:30:00;12:15:00;;;NO
 276;9/10/2026;08:45:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;SANTIAGO BRUNO;Obra - Entrega programada;CAJA PARA GUINCHE;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;9/10/2026 13:31;;02:00:00;10:45:00;;;NO
 277;9/10/2026;09:30:00;Obra;RIVOIRA OSCAR - DEPOSITO URQUIZA                  ;URQUIZA 67 - RIO CUARTO                 ;FERNANDO PUEBLA;Obra - Entrega urgente;LLEVAR TABLONES Y CABALLETES;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;9/10/2026 13:31;;00:30:00;10:00:00;;;NO
 279;9/10/2026;11:00:00;Proveedor;EXTINRIO;BUENOS AIRES 1250 - RIO CUARTO;EMANUEL PERUCHIN;Retiro Proveedor;GABINETES PARA MATAFUEGOS;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;9/10/2026 13:31;;01:30:00;12:30:00;;;NO
 280;9/10/2026;11:15:00;Proveedor;PLAN A;ITUZAINGO 957 - RIO CUARTO;AGUSTO CESARONE;Otro;DEJAR PLANCHA DE PVC;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;9/10/2026 13:31;;00:30:00;11:45:00;;;NO
-253;14/10/2026;09:45:00;Otro;PROVEDORES VARIOS;VARIOS;emanuel peruchin;Otro; retirar celda torre linea;Mercado_Juan;Camion710_LNY664;;Agendado;6/10/2026 12:21;;01:30:00;11:15:00;;;SI
+253;14/10/2026;09:45:00;Otro;PROVEDORES VARIOS;VARIOS;emanuel peruchin;Otro; retirar celda torre linea;Mercado_Juan;Camion710_LNY664;;Agendado;6/10/2026 12:21;;01:30:00;11:15:00;;;NO
 269;14/10/2026;08:15:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;EDUARDO CONIGLIO;Obra - Entrega programada;DEJAR ACOPLADO ;Balmaceda_Luis;Camion710_LNY664;;Agendado;7/10/2026 14:23;;01:00:00;09:15:00;;;SI
-268;15/10/2026;08:30:00;Obra;LUNARDI- PUEBLA TORRE 0 Y TORRE 1                 ;PALESTINA Y LUGONES - RIO CUARTO                 ;JUAN PABLO GUTIERREZ;Obra - Entrega programada;TRASLADO DE STANGUET A OBRA;Balmaceda_Luis;Camion710_LNY664;;Agendado;7/10/2026 14:20;;05:00:00;13:30:00;;;SI
+288;14/10/2026;08:15:00;Otro;FLETES VARIOS ;GERENCIA;MAURO LUNARDI;Obra - Entrega programada;LLEVAR DESDE CURE LOS ARCOS;Mercado_Juan;Camion710_LNY664;;Agendado;13/10/2026 14:52;;02:00:00;10:15:00;;;SI
 278;9/10/2026;16:45:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;SANTIAGO BRUNO;Otro;RETIRAR A JULIO Y LLEVARLO ALA TERMINAL;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;13/10/2026 07:45;;01:00:00;17:45:00;;;NO
 281;9/10/2026;14:30:00;Proveedor;PINTURERIA CENTRAL;GRAL.PAZ Y ALSINA - RIO CUARTO;emanuel peruchin;Retiro Proveedor;retirar muestras de provedor;Rodriguez_Rafael;Otros;;Finalizado OK;13/10/2026 07:45;;01:00:00;15:30:00;;;NO
 226;9/10/2026;08:15:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;SANTIAGO BRUNO;Retiro por devolución de obra;ENCONFRADOS STANGUET;Mercado_Juan;Ford350_VXJ313;6.5 metros;Finalizado OK;13/10/2026 07:46;;07:00:00;15:15:00;;;NO
+268;15/10/2026;08:30:00;Obra;LUNARDI- PUEBLA TORRE 0 Y TORRE 1                 ;PALESTINA Y LUGONES - RIO CUARTO                 ;JUAN PABLO GUTIERREZ;Obra - Entrega programada;TRASLADO DE STANGUET A OBRA;Balmaceda_Luis;Camion710_LNY664;;Agendado;7/10/2026 14:20;;05:00:00;13:30:00;;;SI
 274;16/10/2026;08:30:00;Obra;BOEHLER CASTRO - LOTEO LOMA ALTA 3;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;agustin garcia;Otro;dejar acoplado para limpieza;Balmaceda_Luis;Camion710_LNY664;;Agendado;8/10/2026 08:45;;03:00:00;11:30:00;;;SI
 287;16/10/2026;10:00:00;Obra;LUNARDI - LOTEO DALVIT;LOTEO DALVIT - RIO CUARTO                 ;juan pablo gutirrez;Obra - Entrega programada;moldes y material;Mercado_Juan;Camion710_LNY664;;Agendado;13/10/2026 13:41;;02:00:00;12:00:00;;;SI
 263;20/10/2026;10:00:00;Proveedor;DANIEL HERNANDEZ E HIJOS SRL;RUTA A 005 Y CASTELLI - RIO CUARTO;EMANUEL PERUCHIN;Retiro Proveedor;RETIRAR 200 LT TECHADO ASFALTICO;Mercado_Juan;Camion710_LNY664;;Agendado;6/10/2026 15:04;;01:30:00;11:30:00;;;SI
+285;13/10/2026;09:15:00;Proveedor;BERTINATO JORGE LUIS;MANSILLA 41 - RIO CUARTO;rodrigo villareal;Retiro Proveedor;carga de gas carbonico;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;13/10/2026 14:50;;01:00:00;10:15:00;;;NO
+286;13/10/2026;10:00:00;Otro;GALPON DE HERRERO MODULAR;JULIAN MAIDANA;rodrigo villareal;Otro;retiro de tubo;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;13/10/2026 14:50;;01:00:00;11:00:00;;;NO
+253;14/10/2026;09:45:00;Otro;PROVEDORES VARIOS;VARIOS;emanuel peruchin;Otro; retirar celda torre linea;Mercado_Juan;Camion710_LNY664;;Finalizado OK;13/10/2026 14:50;;01:30:00;11:15:00;;;NO
 275;20/10/2026;07:45:00;Otro;OBRAS VARIAS;ATTUS EMPRESA;SUAREZ DAMIAM;Otro;LLEVAR FORD RANGERS A VERIFICAR ;Balmaceda_Luis;Otros;;Agendado;8/10/2026 12:17;;01:00:00;08:45:00;;;SI
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
