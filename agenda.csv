@@ -533,7 +533,7 @@
 256;9/10/2026;10:00:00;Proveedor;DE PLANO;RUTA A005 ESQ. PTE. PERON (OESTE) - RIO CUARTO;emanuel peruchin;Retiro Proveedor;retirarar bujes y tee epoxi;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;9/10/2026 11:10;;01:00:00;11:00:00;;;NO
 282;13/10/2026;08:30:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;santiago bruno;Obra - Entrega programada;traslado de encofrados a stanguet;Mercado_Juan;Camion710_LNY664;6.5 metros;Agendado;13/10/2026 07:44;;04:00:00;12:30:00;;;SI
 283;13/10/2026;08:30:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;santiago bruno;Obra - Entrega programada;traslado de encofrados a stanguet;Balmaceda_Luis;Ford350_VXJ313;5.5 metros;Agendado;13/10/2026 07:45;;04:00:00;12:30:00;;;SI
-284;13/10/2026;07:30:00;Otro;PROVEDORES VARIOS;VARIOS;juan pablo gutirrez;Obra - Entrega programada;retirar materiales varios;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;13/10/2026 07:49;;02:00:00;09:30:00;;;SI
+284;13/10/2026;07:30:00;Otro;PROVEDORES VARIOS;VARIOS;juan pablo gutirrez;Obra - Entrega programada;retirar materiales varios;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;13/10/2026 07:49;;02:00:00;09:30:00;;;NO
 285;13/10/2026;09:15:00;Proveedor;BERTINATO JORGE LUIS;MANSILLA 41 - RIO CUARTO;rodrigo villareal;Retiro Proveedor;carga de gas carbonico;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;13/10/2026 07:51;;01:00:00;10:15:00;;;NO
 286;13/10/2026;10:00:00;Otro;GALPON DE HERRERO MODULAR;JULIAN MAIDANA;rodrigo villareal;Otro;retiro de tubo;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;13/10/2026 07:52;;01:00:00;11:00:00;;;NO
 260;9/10/2026;10:45:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;MERCADO JOSE;Retiro Proveedor;ENTREGAR MATERIAL EPOXI EN OBRA;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;9/10/2026 13:31;;01:30:00;12:15:00;;;NO
@@ -556,7 +556,7 @@
 253;14/10/2026;09:45:00;Otro;PROVEDORES VARIOS;VARIOS;emanuel peruchin;Otro; retirar celda torre linea;Mercado_Juan;Camion710_LNY664;;Finalizado OK;13/10/2026 14:50;;01:30:00;11:15:00;;;NO
 263;20/10/2026;10:00:00;Proveedor;DANIEL HERNANDEZ E HIJOS SRL;RUTA A 005 Y CASTELLI - RIO CUARTO;EMANUEL PERUCHIN;Retiro Proveedor;RETIRAR 200 LT TECHADO ASFALTICO;Mercado_Juan;Camion710_LNY664;;Agendado;6/10/2026 15:04;;01:30:00;11:30:00;;;SI
 275;20/10/2026;07:45:00;Otro;OBRAS VARIAS;ATTUS EMPRESA;SUAREZ DAMIAM;Otro;LLEVAR FORD RANGERS A VERIFICAR ;Balmaceda_Luis;Otros;;Agendado;8/10/2026 12:17;;01:00:00;08:45:00;;;SI
-;;;;;;;;;;;;;;;;;;;
+284;13/10/2026;07:30:00;Otro;PROVEDORES VARIOS;VARIOS;juan pablo gutirrez;Obra - Entrega programada;retirar materiales varios;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;13/10/2026 14:54;;02:00:00;09:30:00;;;NO
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
