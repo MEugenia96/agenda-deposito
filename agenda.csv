@@ -554,19 +554,19 @@
 285;13/10/2026;09:15:00;Proveedor;BERTINATO JORGE LUIS;MANSILLA 41 - RIO CUARTO;rodrigo villareal;Retiro Proveedor;carga de gas carbonico;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;13/10/2026 14:50;;01:00:00;10:15:00;;;NO
 286;13/10/2026;10:00:00;Otro;GALPON DE HERRERO MODULAR;JULIAN MAIDANA;rodrigo villareal;Otro;retiro de tubo;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;13/10/2026 14:50;;01:00:00;11:00:00;;;NO
 253;14/10/2026;09:45:00;Otro;PROVEDORES VARIOS;VARIOS;emanuel peruchin;Otro; retirar celda torre linea;Mercado_Juan;Camion710_LNY664;;Finalizado OK;13/10/2026 14:50;;01:30:00;11:15:00;;;NO
+296;14/10/2026;11:00:00;Proveedor;DRAFT BORDADOS;MARIA OLGUIN 281 - RIO CUARTO;astrada martina;Otro;llevar ropa;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;14/10/2026 10:35;;01:00:00;12:00:00;;;SI
 274;16/10/2026;08:30:00;Obra;BOEHLER CASTRO - LOTEO LOMA ALTA 3;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;agustin garcia;Otro;dejar acoplado para limpieza;Balmaceda_Luis;Camion710_LNY664;;Agendado;8/10/2026 08:45;;03:00:00;11:30:00;;;SI
-287;16/10/2026;10:00:00;Obra;LUNARDI - LOTEO DALVIT;LOTEO DALVIT - RIO CUARTO                 ;juan pablo gutirrez;Obra - Entrega programada;moldes y material;Mercado_Juan;Camion710_LNY664;;Agendado;13/10/2026 13:41;;02:00:00;12:00:00;;;SI
 284;13/10/2026;07:30:00;Otro;PROVEDORES VARIOS;VARIOS;juan pablo gutirrez;Obra - Entrega programada;retirar materiales varios;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;13/10/2026 14:54;;02:00:00;09:30:00;;;NO
+287;16/10/2026;10:00:00;Obra;LUNARDI - LOTEO DALVIT;LOTEO DALVIT - RIO CUARTO                 ;juan pablo gutirrez;Obra - Entrega programada;moldes y material;Mercado_Juan;Camion710_LNY664;;Agendado;13/10/2026 13:41;;02:00:00;12:00:00;;;SI
 289;19/10/2026;08:45:00;Obra;LUNARDI - LOTEO DALVIT;LOTEO DALVIT - RIO CUARTO                 ;JUAN PABLO GUTIRREZ;Obra - Entrega programada;LLEVAR MATERIAL SOLICITADO;Mercado_Juan;Camion710_LNY664;;Agendado;13/10/2026 14:54;;02:00:00;10:45:00;;;SI
 263;20/10/2026;10:00:00;Proveedor;DANIEL HERNANDEZ E HIJOS SRL;RUTA A 005 Y CASTELLI - RIO CUARTO;EMANUEL PERUCHIN;Retiro Proveedor;RETIRAR 200 LT TECHADO ASFALTICO;Mercado_Juan;Camion710_LNY664;;Agendado;6/10/2026 15:04;;01:30:00;11:30:00;;;SI
 275;20/10/2026;07:45:00;Otro;OBRAS VARIAS;ATTUS EMPRESA;SUAREZ DAMIAM;Otro;LLEVAR FORD RANGERS A VERIFICAR ;Balmaceda_Luis;Otros;;Agendado;8/10/2026 12:17;;01:00:00;08:45:00;;;SI
 294;21/10/2026;08:15:00;Obra;LUNARDI- PUEBLA TORRE 0 Y TORRE 1                 ;PALESTINA Y LUGONES - RIO CUARTO                 ;JUAN PABLO;Otro;TRASLADO DE STANGUET A PUEBLA;Mercado_Juan;Camion710_LNY664;;Agendado;13/10/2026 16:46;;05:00:00;13:15:00;;;SI
-291;28/10/2026;07:30:00;Otro;DEPOSITO TRABAJOS VARIOS;DEPOSITO CENTRAL ATTUS;ASTRADA MARTINA;Otro;ARMAR EL ARCO PARA LA FIESTA;Bertorello_Leonel;Otros;;Agendado;13/10/2026 15:31;;02:00:00;09:30:00;;;SI
 268;15/10/2026;08:30:00;Obra;LUNARDI- PUEBLA TORRE 0 Y TORRE 1                 ;PALESTINA Y LUGONES - RIO CUARTO                 ;JUAN PABLO GUTIERREZ;Obra - Entrega programada;TRASLADO DE STANGUET A OBRA;Balmaceda_Luis;Camion710_LNY664;;Cancelado;13/10/2026 16:50;MALA PLANIFICACION;05:00:00;13:30:00;;;NO
 282;13/10/2026;08:30:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;santiago bruno;Obra - Entrega programada;traslado de encofrados a stanguet;Mercado_Juan;Camion710_LNY664;6.5 metros;Finalizado OK;14/10/2026 07:54;;04:00:00;12:30:00;;;NO
 283;13/10/2026;08:30:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;santiago bruno;Obra - Entrega programada;traslado de encofrados a stanguet;Balmaceda_Luis;Ford350_VXJ313;5.5 metros;Finalizado OK;14/10/2026 07:54;;04:00:00;12:30:00;;;NO
+291;28/10/2026;07:30:00;Otro;DEPOSITO TRABAJOS VARIOS;DEPOSITO CENTRAL ATTUS;ASTRADA MARTINA;Otro;ARMAR EL ARCO PARA LA FIESTA;Bertorello_Leonel;Otros;;Agendado;13/10/2026 15:31;;02:00:00;09:30:00;;;SI
 290;20/11/2026;08:45:00;Otro;FLETES VARIOS ;GERENCIA;MARTINA ASTRADA;Otro;APOYO LOGISTICO PARA ARMAR EL SALON;Bertorello_Leonel;Otros;;Agendado;13/10/2026 15:28;;06:00:00;14:45:00;;;SI
-;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
