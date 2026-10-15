@@ -559,8 +559,8 @@
 284;13/10/2026;07:30:00;Otro;PROVEDORES VARIOS;VARIOS;juan pablo gutirrez;Obra - Entrega programada;retirar materiales varios;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;13/10/2026 14:54;;02:00:00;09:30:00;;;NO
 299;14/10/2026;16:00:00;Otro;MIXON CERCO;JULIAN MAIDANA;RICARDO LUNARDI;Obra - Entrega urgente;RETIRAR PARTE DE CERCO DESMONTABLE;Mercado_Juan;Camion710_LNY664;;Agendado;14/10/2026 13:14;;01:00:00;17:00:00;;;NO
 298;15/10/2026;07:30:00;Otro;OBRAS VARIAS;ATTUS EMPRESA;RODRIGO VILLAREAL;Obra - Entrega programada;RETIRAR BORDILLOS DE CONTRUCION MODULAR;Mercado_Juan;Camion710_LNY664;;Agendado;14/10/2026 13:09;;02:00:00;09:30:00;;;NO
-303;15/10/2026;08:45:00;Proveedor;TSUJI PINTURAS TERMOCONTRAIBLES;ADELIA MARIA 189 - RIO CUARTO;martin ocampo;Obra - Entrega programada;dejar barandas de escalera;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;14/10/2026 16:19;;01:00:00;09:45:00;;;SI
-304;15/10/2026;09:30:00;Proveedor;ESTACION DE SERVICIO YPF GALACTIC;AV SABATTINI 1802 - RIO CUARTO;rafael rodriguez;Retiro Proveedor;retirar combustible para stox;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;14/10/2026 16:21;;01:00:00;10:30:00;;;SI
+303;15/10/2026;08:45:00;Proveedor;TSUJI PINTURAS TERMOCONTRAIBLES;ADELIA MARIA 189 - RIO CUARTO;martin ocampo;Obra - Entrega programada;dejar barandas de escalera;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;14/10/2026 16:19;;01:00:00;09:45:00;;;NO
+304;15/10/2026;09:30:00;Proveedor;ESTACION DE SERVICIO YPF GALACTIC;AV SABATTINI 1802 - RIO CUARTO;rafael rodriguez;Retiro Proveedor;retirar combustible para stox;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;14/10/2026 16:21;;01:00:00;10:30:00;;;NO
 300;15/10/2026;10:15:00;Otro;PROVEDORES VARIOS;VARIOS;aruza aguastin;Obra - Entrega programada;retirar sanitarios de edificor;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;14/10/2026 16:14;;01:30:00;11:45:00;BIO 4 - OFICINA TECNICA DE PLANTA;;SI
 268;15/10/2026;08:30:00;Obra;LUNARDI- PUEBLA TORRE 0 Y TORRE 1                 ;PALESTINA Y LUGONES - RIO CUARTO                 ;JUAN PABLO GUTIERREZ;Obra - Entrega programada;TRASLADO DE STANGUET A OBRA;Balmaceda_Luis;Camion710_LNY664;;Cancelado;13/10/2026 16:50;MALA PLANIFICACION;05:00:00;13:30:00;;;NO
 282;13/10/2026;08:30:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;santiago bruno;Obra - Entrega programada;traslado de encofrados a stanguet;Mercado_Juan;Camion710_LNY664;6.5 metros;Finalizado OK;14/10/2026 07:54;;04:00:00;12:30:00;;;NO
@@ -590,8 +590,8 @@
 291;28/10/2026;07:30:00;Otro;DEPOSITO TRABAJOS VARIOS;DEPOSITO CENTRAL ATTUS;ASTRADA MARTINA;Otro;ARMAR EL ARCO PARA LA FIESTA;Bertorello_Leonel;Otros;;Agendado;13/10/2026 15:31;;02:00:00;09:30:00;;;SI
 298;15/10/2026;07:30:00;Otro;OBRAS VARIAS;ATTUS EMPRESA;RODRIGO VILLAREAL;Obra - Entrega programada;RETIRAR BORDILLOS DE CONTRUCION MODULAR;Mercado_Juan;Camion710_LNY664;;Cancelado;15/10/2026 09:27;clima;02:00:00;09:30:00;;;NO
 290;20/11/2026;08:45:00;Otro;FLETES VARIOS ;GERENCIA;MARTINA ASTRADA;Otro;APOYO LOGISTICO PARA ARMAR EL SALON;Bertorello_Leonel;Otros;;Agendado;13/10/2026 15:28;;06:00:00;14:45:00;;;SI
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
+303;15/10/2026;08:45:00;Proveedor;TSUJI PINTURAS TERMOCONTRAIBLES;ADELIA MARIA 189 - RIO CUARTO;martin ocampo;Obra - Entrega programada;dejar barandas de escalera;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;15/10/2026 10:21;;01:00:00;09:45:00;;;NO
+304;15/10/2026;09:30:00;Proveedor;ESTACION DE SERVICIO YPF GALACTIC;AV SABATTINI 1802 - RIO CUARTO;rafael rodriguez;Retiro Proveedor;retirar combustible para stox;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;15/10/2026 10:21;;01:00:00;10:30:00;;;NO
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
