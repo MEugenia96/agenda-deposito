@@ -608,14 +608,14 @@
 301;16/10/2026;11:15:00;Proveedor;M DONZELLI;RUTA NACIONAL Nø 8 KM.608.5 - RIO CUARTO;juan pablo gutierrez;Obra - Entrega programada;retirar una barra de hierro  liso del 16;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;15/10/2026 17:19;;01:00:00;12:15:00;;;NO
 312;16/2026;10:30:00;Proveedor;IMPER-SUR;KOWALK 702 ESQ SAN LORENZO - RIO CUARTO;juan pablo gutirrez;Obra - Entrega programada;retirarar 50 molones;Mercado_Juan;Camion710_LNY664;;Finalizado OK;15/10/2026 17:27;;01:00:00;11:30:00;;;NO
 314;16/10/2026;10:45:00;Proveedor;DE PLANO;RUTA A005 ESQ. PTE. PERON (OESTE) - RIO CUARTO;SANTIAGO BRUNO;Obra - Entrega programada;RETIRAR MATERIALES DE AGUA;Mercado_Juan;Camion710_LNY664;;En Ejecución;16/10/2026 08:47;;02:00:00;12:45:00;;;SI
-317;16/10/2026;08:45:00;Proveedor;DRAFT BORDADOS;MARIA OLGUIN 281 - RIO CUARTO;astrada martina;Retiro Proveedor;retirar remeras de mixon;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;16/10/2026 08:54;;00:30:00;09:15:00;;;SI
+317;16/10/2026;08:45:00;Proveedor;DRAFT BORDADOS;MARIA OLGUIN 281 - RIO CUARTO;astrada martina;Retiro Proveedor;retirar remeras de mixon;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;16/10/2026 08:54;;00:30:00;09:15:00;;;NO
 289;19/10/2026;08:45:00;Obra;LUNARDI - LOTEO DALVIT;LOTEO DALVIT - RIO CUARTO                 ;JUAN PABLO GUTIRREZ;Obra - Entrega programada;LLEVAR MATERIAL SOLICITADO;Mercado_Juan;Camion710_LNY664;;En Ejecución;16/10/2026 08:47;;02:00:00;10:45:00;;;SI
 275;20/10/2026;07:45:00;Otro;OBRAS VARIAS;ATTUS EMPRESA;SUAREZ DAMIAM;Otro;LLEVAR FORD RANGERS A VERIFICAR ;Balmaceda_Luis;Otros;;Agendado;8/10/2026 12:17;;01:00:00;08:45:00;;;SI
 263;20/10/2026;10:00:00;Proveedor;DANIEL HERNANDEZ E HIJOS SRL;RUTA A 005 Y CASTELLI - RIO CUARTO;EMANUEL PERUCHIN;Retiro Proveedor;RETIRAR 200 LT TECHADO ASFALTICO;Mercado_Juan;Camion710_LNY664;;Agendado;6/10/2026 15:04;;01:30:00;11:30:00;;;SI
 294;21/10/2026;08:15:00;Obra;LUNARDI- PUEBLA TORRE 0 Y TORRE 1                 ;PALESTINA Y LUGONES - RIO CUARTO                 ;JUAN PABLO;Otro;TRASLADO DE STANGUET A PUEBLA;Mercado_Juan;Camion710_LNY664;;Agendado;13/10/2026 16:46;;05:00:00;13:15:00;;;SI
 291;28/10/2026;07:30:00;Otro;DEPOSITO TRABAJOS VARIOS;DEPOSITO CENTRAL ATTUS;ASTRADA MARTINA;Otro;ARMAR EL ARCO PARA LA FIESTA;Bertorello_Leonel;Otros;;Agendado;13/10/2026 15:31;;02:00:00;09:30:00;;;SI
 290;20/11/2026;08:45:00;Otro;FLETES VARIOS ;GERENCIA;MARTINA ASTRADA;Otro;APOYO LOGISTICO PARA ARMAR EL SALON;Bertorello_Leonel;Otros;;Agendado;13/10/2026 15:28;;06:00:00;14:45:00;;;SI
-;;;;;;;;;;;;;;;;;;;
+317;16/10/2026;08:45:00;Proveedor;DRAFT BORDADOS;MARIA OLGUIN 281 - RIO CUARTO;astrada martina;Retiro Proveedor;retirar remeras de mixon;Bertorello_Leonel;Pick_up_HILUX_HLN556;;En Ejecución;16/10/2026 09:02;;00:30:00;09:15:00;;;SI
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
