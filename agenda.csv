@@ -589,7 +589,7 @@
 314;16/10/2026;10:45:00;Proveedor;DE PLANO;RUTA A005 ESQ. PTE. PERON (OESTE) - RIO CUARTO;SANTIAGO BRUNO;Obra - Entrega programada;RETIRAR MATERIALES DE AGUA;Mercado_Juan;Camion710_LNY664;;Agendado;15/10/2026 17:30;;02:00:00;12:45:00;;;NO
 315;16/10/2026;11:45:00;Proveedor;EXPENDER;BUENA VISTA 1048 - RIO CUARTO;maura rodriguez;Devolución Proveedor;devolver dispenser con bidones;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;16/10/2026 08:38;;00:30:00;12:15:00;;;NO
 298;15/10/2026;07:30:00;Otro;OBRAS VARIAS;ATTUS EMPRESA;RODRIGO VILLAREAL;Obra - Entrega programada;RETIRAR BORDILLOS DE CONTRUCION MODULAR;Mercado_Juan;Camion710_LNY664;;Cancelado;15/10/2026 09:27;clima;02:00:00;09:30:00;;;NO
-316;16/10/2026;16:30:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;santiago bruno;Obra - Entrega programada;retirar a julio a llevarlo ala terminal;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;16/10/2026 08:46;;01:00:00;17:30:00;;;SI
+316;16/10/2026;16:30:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;santiago bruno;Obra - Entrega programada;retirar a julio a llevarlo ala terminal;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;16/10/2026 08:46;;01:00:00;17:30:00;;;NO
 303;15/10/2026;08:45:00;Proveedor;TSUJI PINTURAS TERMOCONTRAIBLES;ADELIA MARIA 189 - RIO CUARTO;martin ocampo;Obra - Entrega programada;dejar barandas de escalera;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;15/10/2026 10:21;;01:00:00;09:45:00;;;NO
 304;15/10/2026;09:30:00;Proveedor;ESTACION DE SERVICIO YPF GALACTIC;AV SABATTINI 1802 - RIO CUARTO;rafael rodriguez;Retiro Proveedor;retirar combustible para stox;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;15/10/2026 10:21;;01:00:00;10:30:00;;;NO
 289;19/10/2026;08:45:00;Obra;LUNARDI - LOTEO DALVIT;LOTEO DALVIT - RIO CUARTO                 ;JUAN PABLO GUTIRREZ;Obra - Entrega programada;LLEVAR MATERIAL SOLICITADO;Mercado_Juan;Camion710_LNY664;;Agendado;13/10/2026 14:54;;02:00:00;10:45:00;;;NO
@@ -615,7 +615,7 @@
 319;16/10/2026;08:15:00;Proveedor;TKTEC;REVERENDO PADRE SILVI 521 - RIO CUARTO;juan pablo ;Retiro Proveedor;tripa para vibrador;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;16/10/2026 09:10;;01:00:00;09:15:00;;;NO
 319;16/10/2026;08:15:00;Proveedor;TKTEC;REVERENDO PADRE SILVI 521 - RIO CUARTO;juan pablo ;Retiro Proveedor;tripa para vibrador;Bertorello_Leonel;Pick_up_HILUX_HLN556;;En Ejecución;16/10/2026 09:12;;01:00:00;09:15:00;;;NO
 319;16/10/2026;08:15:00;Proveedor;TKTEC;REVERENDO PADRE SILVI 521 - RIO CUARTO;juan pablo ;Retiro Proveedor;tripa para vibrador;Bertorello_Leonel;Pick_up_HILUX_HLN556;;En Ejecución;16/10/2026 10:02;;01:00:00;09:15:00;;;NO
-322;16/10/2026;16:00:00;Proveedor;DARTE SAS;WASHINGTON GEORGE 1346 - RIO CUARTO;maura rodriguez;Obra - Entrega urgente;retirar placas;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;16/10/2026 13:47;;02:00:00;18:00:00;;;SI
+322;16/10/2026;16:00:00;Proveedor;DARTE SAS;WASHINGTON GEORGE 1346 - RIO CUARTO;maura rodriguez;Obra - Entrega urgente;retirar placas;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;16/10/2026 13:47;;02:00:00;18:00:00;;;NO
 318;19/10/2026;09:30:00;Obra;LUNARDI - LOTEO DALVIT;LOTEO DALVIT - RIO CUARTO                 ;sergio venitez;Obra - Entrega programada;llevar material faltante;Mercado_Juan;Camion710_LNY664;;Agendado;16/10/2026 09:06;;01:00:00;10:30:00;;;SI
 289;19/10/2026;08:45:00;Obra;LUNARDI - LOTEO DALVIT;LOTEO DALVIT - RIO CUARTO                 ;JUAN PABLO GUTIRREZ;Obra - Entrega programada;LLEVAR MATERIAL SOLICITADO;Mercado_Juan;Camion710_LNY664;;Finalizado OK;16/10/2026 09:04;;02:00:00;10:45:00;;;NO
 320;19/10/2026;09:15:00;Obra;CROATTO - CORDON CUNETA                           ;RUTA NAC 36 KM 644 - RIO CUARTO                           ;ali chaijale;Obra - Entrega programada;30 moldes de cordon machimbrados;Mercado_Juan;Camion710_LNY664;;Agendado;16/10/2026 10:01;;02:00:00;11:15:00;;;SI
@@ -634,8 +634,8 @@
 317;16/10/2026;08:45:00;Proveedor;DRAFT BORDADOS;MARIA OLGUIN 281 - RIO CUARTO;astrada martina;Retiro Proveedor;retirar remeras de mixon;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;16/10/2026 14:23;;00:30:00;09:15:00;;;NO
 313;16/10/2026;11:00:00;Proveedor;DE PLANO;RUTA A005 ESQ. PTE. PERON (OESTE) - RIO CUARTO;maura rodriguez;Obra - Entrega programada;retirar material de agua;Mercado_Juan;Camion710_LNY664;;Finalizado OK;16/10/2026 14:24;;01:00:00;12:00:00;;;NO
 319;16/10/2026;08:15:00;Proveedor;TKTEC;REVERENDO PADRE SILVI 521 - RIO CUARTO;juan pablo ;Retiro Proveedor;tripa para vibrador;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;16/10/2026 14:24;;01:00:00;09:15:00;;;NO
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
+316;16/10/2026;16:30:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;santiago bruno;Obra - Entrega programada;retirar a julio a llevarlo ala terminal;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;19/10/2026 07:22;;01:00:00;17:30:00;;;NO
+322;16/10/2026;16:00:00;Proveedor;DARTE SAS;WASHINGTON GEORGE 1346 - RIO CUARTO;maura rodriguez;Obra - Entrega urgente;retirar placas;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;19/10/2026 07:23;;02:00:00;18:00:00;;;NO
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
