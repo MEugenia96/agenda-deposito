@@ -623,7 +623,7 @@
 323;19/10/2026;09:00:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;SANTIAGO BRUNO;Obra - Entrega programada;LLEVAR ANDAMIOS;Mercado_Juan;Camion710_LNY664;;Agendado;16/10/2026 14:22;;02:00:00;11:00:00;;;NO
 324;19/10/2026;09:30:00;Otro;MIXON CARGA VARIAS;JULIAN MAIDANA;ali chaijale;Obra - Entrega programada;cargar 30 moldes macimbrados;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;19/10/2026 08:14;;01:00:00;10:30:00;;;NO
 325;19/10/2026;10:30:00;Proveedor;EXTINRIO;BUENOS AIRES 1250 - RIO CUARTO;rafael rodriguez;Otro;retirar vidrios faltantes;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;19/10/2026 08:54;;01:00:00;11:30:00;;;SI
-326;19/10/2026;08:45:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;mercado jose;Obra - Entrega programada;llevar material de agua;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;19/10/2026 08:56;;01:00:00;09:45:00;;;SI
+326;19/10/2026;08:45:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;mercado jose;Obra - Entrega programada;llevar material de agua;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;19/10/2026 08:56;;01:00:00;09:45:00;;;NO
 327;19/10/2026;14:45:00;Proveedor;PRODEL;AV.SABATTINI 2373 - RIO CUARTO;maura rodriguez;Otro;retirar pegamento pvc;Mercado_Juan;Pick_up_HILUX_HLN556;;Agendado;19/10/2026 12:18;;01:30:00;16:15:00;;;SI
 328;19/10/2026;15:30:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;santiago bruno;Otro;retiro de casetones rotos;Mercado_Juan;Camion710_LNY664;;Agendado;19/10/2026 12:19;;01:30:00;17:00:00;;;SI
 315;16/10/2026;11:45:00;Proveedor;EXPENDER;BUENA VISTA 1048 - RIO CUARTO;maura rodriguez;Devolución Proveedor;devolver dispenser con bidones;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;16/10/2026 14:23;;00:30:00;12:15:00;;;NO
@@ -649,7 +649,7 @@
 324;19/10/2026;09:30:00;Otro;MIXON CARGA VARIAS;JULIAN MAIDANA;ali chaijale;Obra - Entrega programada;cargar 30 moldes macimbrados;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;19/10/2026 12:21;;01:00:00;10:30:00;;;NO
 291;28/10/2026;07:30:00;Otro;DEPOSITO TRABAJOS VARIOS;DEPOSITO CENTRAL ATTUS;ASTRADA MARTINA;Otro;ARMAR EL ARCO PARA LA FIESTA;Bertorello_Leonel;Otros;;Agendado;13/10/2026 15:31;;02:00:00;09:30:00;;;SI
 290;20/11/2026;08:45:00;Otro;FLETES VARIOS ;GERENCIA;MARTINA ASTRADA;Otro;APOYO LOGISTICO PARA ARMAR EL SALON;Bertorello_Leonel;Otros;;Agendado;13/10/2026 15:28;;06:00:00;14:45:00;;;SI
-;;;;;;;;;;;;;;;;;;;
+326;19/10/2026;08:45:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;mercado jose;Obra - Entrega programada;llevar material de agua;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;19/10/2026 12:49;;01:00:00;09:45:00;;;NO
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
