@@ -616,12 +616,12 @@
 319;16/10/2026;08:15:00;Proveedor;TKTEC;REVERENDO PADRE SILVI 521 - RIO CUARTO;juan pablo ;Retiro Proveedor;tripa para vibrador;Bertorello_Leonel;Pick_up_HILUX_HLN556;;En Ejecución;16/10/2026 09:12;;01:00:00;09:15:00;;;NO
 319;16/10/2026;08:15:00;Proveedor;TKTEC;REVERENDO PADRE SILVI 521 - RIO CUARTO;juan pablo ;Retiro Proveedor;tripa para vibrador;Bertorello_Leonel;Pick_up_HILUX_HLN556;;En Ejecución;16/10/2026 10:02;;01:00:00;09:15:00;;;NO
 322;16/10/2026;16:00:00;Proveedor;DARTE SAS;WASHINGTON GEORGE 1346 - RIO CUARTO;maura rodriguez;Obra - Entrega urgente;retirar placas;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;16/10/2026 13:47;;02:00:00;18:00:00;;;NO
-318;19/10/2026;09:30:00;Obra;LUNARDI - LOTEO DALVIT;LOTEO DALVIT - RIO CUARTO                 ;sergio venitez;Obra - Entrega programada;llevar material faltante;Mercado_Juan;Camion710_LNY664;;Agendado;16/10/2026 09:06;;01:00:00;10:30:00;;;SI
+318;19/10/2026;09:30:00;Obra;LUNARDI - LOTEO DALVIT;LOTEO DALVIT - RIO CUARTO                 ;sergio venitez;Obra - Entrega programada;llevar material faltante;Mercado_Juan;Camion710_LNY664;;Agendado;16/10/2026 09:06;;01:00:00;10:30:00;;;NO
 289;19/10/2026;08:45:00;Obra;LUNARDI - LOTEO DALVIT;LOTEO DALVIT - RIO CUARTO                 ;JUAN PABLO GUTIRREZ;Obra - Entrega programada;LLEVAR MATERIAL SOLICITADO;Mercado_Juan;Camion710_LNY664;;Finalizado OK;16/10/2026 09:04;;02:00:00;10:45:00;;;NO
-320;19/10/2026;09:15:00;Obra;CROATTO - CORDON CUNETA                           ;RUTA NAC 36 KM 644 - RIO CUARTO                           ;ali chaijale;Obra - Entrega programada;30 moldes de cordon machimbrados;Mercado_Juan;Camion710_LNY664;;Agendado;16/10/2026 10:01;;02:00:00;11:15:00;;;SI
-321;19/10/2026;09:15:00;Otro;LAVADERO AZCURRA;COLOMBRES;EMANUEL PERUCHIN;Otro;LLEVAR TOYO DAMIAN A LAVAR;Peruchin_Emanuel;Otros;;Agendado;16/10/2026 10:07;;02:00:00;11:15:00;;;SI
-323;19/10/2026;09:00:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;SANTIAGO BRUNO;Obra - Entrega programada;LLEVAR ANDAMIOS;Mercado_Juan;Camion710_LNY664;;Agendado;16/10/2026 14:22;;02:00:00;11:00:00;;;SI
-324;19/10/2026;09:30:00;Otro;MIXON CARGA VARIAS;JULIAN MAIDANA;ali chaijale;Obra - Entrega programada;cargar 30 moldes macimbrados;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;19/10/2026 08:14;;01:00:00;10:30:00;;;SI
+320;19/10/2026;09:15:00;Obra;CROATTO - CORDON CUNETA                           ;RUTA NAC 36 KM 644 - RIO CUARTO                           ;ali chaijale;Obra - Entrega programada;30 moldes de cordon machimbrados;Mercado_Juan;Camion710_LNY664;;Agendado;16/10/2026 10:01;;02:00:00;11:15:00;;;NO
+321;19/10/2026;09:15:00;Otro;LAVADERO AZCURRA;COLOMBRES;EMANUEL PERUCHIN;Otro;LLEVAR TOYO DAMIAN A LAVAR;Peruchin_Emanuel;Otros;;Agendado;16/10/2026 10:07;;02:00:00;11:15:00;;;NO
+323;19/10/2026;09:00:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;SANTIAGO BRUNO;Obra - Entrega programada;LLEVAR ANDAMIOS;Mercado_Juan;Camion710_LNY664;;Agendado;16/10/2026 14:22;;02:00:00;11:00:00;;;NO
+324;19/10/2026;09:30:00;Otro;MIXON CARGA VARIAS;JULIAN MAIDANA;ali chaijale;Obra - Entrega programada;cargar 30 moldes macimbrados;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;19/10/2026 08:14;;01:00:00;10:30:00;;;NO
 325;19/10/2026;10:30:00;Proveedor;EXTINRIO;BUENOS AIRES 1250 - RIO CUARTO;rafael rodriguez;Otro;retirar vidrios faltantes;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;19/10/2026 08:54;;01:00:00;11:30:00;;;SI
 326;19/10/2026;08:45:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;mercado jose;Obra - Entrega programada;llevar material de agua;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;19/10/2026 08:56;;01:00:00;09:45:00;;;SI
 327;19/10/2026;14:45:00;Proveedor;PRODEL;AV.SABATTINI 2373 - RIO CUARTO;maura rodriguez;Otro;retirar pegamento pvc;Mercado_Juan;Pick_up_HILUX_HLN556;;Agendado;19/10/2026 12:18;;01:30:00;16:15:00;;;SI
@@ -636,17 +636,17 @@
 319;16/10/2026;08:15:00;Proveedor;TKTEC;REVERENDO PADRE SILVI 521 - RIO CUARTO;juan pablo ;Retiro Proveedor;tripa para vibrador;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;16/10/2026 14:24;;01:00:00;09:15:00;;;NO
 316;16/10/2026;16:30:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;santiago bruno;Obra - Entrega programada;retirar a julio a llevarlo ala terminal;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;19/10/2026 07:22;;01:00:00;17:30:00;;;NO
 322;16/10/2026;16:00:00;Proveedor;DARTE SAS;WASHINGTON GEORGE 1346 - RIO CUARTO;maura rodriguez;Obra - Entrega urgente;retirar placas;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;19/10/2026 07:23;;02:00:00;18:00:00;;;NO
-275;20/10/2026;07:45:00;Otro;OBRAS VARIAS;ATTUS EMPRESA;SUAREZ DAMIAM;Otro;LLEVAR FORD RANGERS A VERIFICAR ;Balmaceda_Luis;Otros;;Agendado;8/10/2026 12:17;;01:00:00;08:45:00;;;SI
+275;20/10/2026;07:45:00;Otro;OBRAS VARIAS;ATTUS EMPRESA;SUAREZ DAMIAM;Otro;LLEVAR FORD RANGERS A VERIFICAR ;Balmaceda_Luis;Otros;;Agendado;8/10/2026 12:17;;01:00:00;08:45:00;;;NO
 263;20/10/2026;10:00:00;Proveedor;DANIEL HERNANDEZ E HIJOS SRL;RUTA A 005 Y CASTELLI - RIO CUARTO;EMANUEL PERUCHIN;Retiro Proveedor;RETIRAR 200 LT TECHADO ASFALTICO;Mercado_Juan;Camion710_LNY664;;Agendado;6/10/2026 15:04;;01:30:00;11:30:00;;;SI
 294;21/10/2026;08:15:00;Obra;LUNARDI- PUEBLA TORRE 0 Y TORRE 1                 ;PALESTINA Y LUGONES - RIO CUARTO                 ;JUAN PABLO;Otro;TRASLADO DE STANGUET A PUEBLA;Mercado_Juan;Camion710_LNY664;;Agendado;13/10/2026 16:46;;05:00:00;13:15:00;;;SI
 291;28/10/2026;07:30:00;Otro;DEPOSITO TRABAJOS VARIOS;DEPOSITO CENTRAL ATTUS;ASTRADA MARTINA;Otro;ARMAR EL ARCO PARA LA FIESTA;Bertorello_Leonel;Otros;;Agendado;13/10/2026 15:31;;02:00:00;09:30:00;;;SI
 290;20/11/2026;08:45:00;Otro;FLETES VARIOS ;GERENCIA;MARTINA ASTRADA;Otro;APOYO LOGISTICO PARA ARMAR EL SALON;Bertorello_Leonel;Otros;;Agendado;13/10/2026 15:28;;06:00:00;14:45:00;;;SI
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
+275;20/10/2026;07:45:00;Otro;OBRAS VARIAS;ATTUS EMPRESA;SUAREZ DAMIAM;Otro;LLEVAR FORD RANGERS A VERIFICAR ;Balmaceda_Luis;Otros;;Cancelado;19/10/2026 12:20;cancelado por parino;01:00:00;08:45:00;;;NO
+318;19/10/2026;09:30:00;Obra;LUNARDI - LOTEO DALVIT;LOTEO DALVIT - RIO CUARTO                 ;sergio venitez;Obra - Entrega programada;llevar material faltante;Mercado_Juan;Camion710_LNY664;;Finalizado OK;19/10/2026 12:21;;01:00:00;10:30:00;;;NO
+320;19/10/2026;09:15:00;Obra;CROATTO - CORDON CUNETA                           ;RUTA NAC 36 KM 644 - RIO CUARTO                           ;ali chaijale;Obra - Entrega programada;30 moldes de cordon machimbrados;Mercado_Juan;Camion710_LNY664;;Finalizado OK;19/10/2026 12:21;;02:00:00;11:15:00;;;NO
+321;19/10/2026;09:15:00;Otro;LAVADERO AZCURRA;COLOMBRES;EMANUEL PERUCHIN;Otro;LLEVAR TOYO DAMIAN A LAVAR;Peruchin_Emanuel;Otros;;Finalizado OK;19/10/2026 12:21;;02:00:00;11:15:00;;;NO
+323;19/10/2026;09:00:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;SANTIAGO BRUNO;Obra - Entrega programada;LLEVAR ANDAMIOS;Mercado_Juan;Camion710_LNY664;;Finalizado OK;19/10/2026 12:21;;02:00:00;11:00:00;;;NO
+324;19/10/2026;09:30:00;Otro;MIXON CARGA VARIAS;JULIAN MAIDANA;ali chaijale;Obra - Entrega programada;cargar 30 moldes macimbrados;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;19/10/2026 12:21;;01:00:00;10:30:00;;;NO
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
