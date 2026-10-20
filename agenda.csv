@@ -622,7 +622,7 @@
 321;19/10/2026;09:15:00;Otro;LAVADERO AZCURRA;COLOMBRES;EMANUEL PERUCHIN;Otro;LLEVAR TOYO DAMIAN A LAVAR;Peruchin_Emanuel;Otros;;Agendado;16/10/2026 10:07;;02:00:00;11:15:00;;;NO
 323;19/10/2026;09:00:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;SANTIAGO BRUNO;Obra - Entrega programada;LLEVAR ANDAMIOS;Mercado_Juan;Camion710_LNY664;;Agendado;16/10/2026 14:22;;02:00:00;11:00:00;;;NO
 324;19/10/2026;09:30:00;Otro;MIXON CARGA VARIAS;JULIAN MAIDANA;ali chaijale;Obra - Entrega programada;cargar 30 moldes macimbrados;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;19/10/2026 08:14;;01:00:00;10:30:00;;;NO
-325;19/10/2026;10:30:00;Proveedor;EXTINRIO;BUENOS AIRES 1250 - RIO CUARTO;rafael rodriguez;Otro;retirar vidrios faltantes;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;19/10/2026 08:54;;01:00:00;11:30:00;;;SI
+325;19/10/2026;10:30:00;Proveedor;EXTINRIO;BUENOS AIRES 1250 - RIO CUARTO;rafael rodriguez;Otro;retirar vidrios faltantes;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;19/10/2026 08:54;;01:00:00;11:30:00;;;NO
 326;19/10/2026;08:45:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;mercado jose;Obra - Entrega programada;llevar material de agua;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;19/10/2026 08:56;;01:00:00;09:45:00;;;NO
 327;19/10/2026;14:45:00;Proveedor;PRODEL;AV.SABATTINI 2373 - RIO CUARTO;maura rodriguez;Otro;retirar pegamento pvc;Mercado_Juan;Pick_up_HILUX_HLN556;;Agendado;19/10/2026 12:18;;01:30:00;16:15:00;;;NO
 328;19/10/2026;15:30:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;santiago bruno;Otro;retiro de casetones rotos;Mercado_Juan;Camion710_LNY664;;Agendado;19/10/2026 12:19;;01:30:00;17:00:00;;;NO
@@ -638,39 +638,39 @@
 322;16/10/2026;16:00:00;Proveedor;DARTE SAS;WASHINGTON GEORGE 1346 - RIO CUARTO;maura rodriguez;Obra - Entrega urgente;retirar placas;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;19/10/2026 07:23;;02:00:00;18:00:00;;;NO
 275;20/10/2026;07:45:00;Otro;OBRAS VARIAS;ATTUS EMPRESA;SUAREZ DAMIAM;Otro;LLEVAR FORD RANGERS A VERIFICAR ;Balmaceda_Luis;Otros;;Agendado;8/10/2026 12:17;;01:00:00;08:45:00;;;NO
 330;19/10/2026;14:15:00;Proveedor;IMPER-SUR;KOWALK 702 ESQ SAN LORENZO - RIO CUARTO;emanuel peruchin;Obra - Entrega programada;retirar placas de telgopor para linea;Mercado_Juan;Camion710_LNY664;;Agendado;19/10/2026 12:48;;01:00:00;15:15:00;;;NO
-263;20/10/2026;10:00:00;Proveedor;DANIEL HERNANDEZ E HIJOS SRL;RUTA A 005 Y CASTELLI - RIO CUARTO;EMANUEL PERUCHIN;Retiro Proveedor;RETIRAR 200 LT TECHADO ASFALTICO;Mercado_Juan;Camion710_LNY664;;Agendado;6/10/2026 15:04;;01:30:00;11:30:00;;;SI
-329;20/10/2026;11:45:00;Proveedor;DARTE SAS;WASHINGTON GEORGE 1346 - RIO CUARTO;maura rodriguez;Retiro Proveedor;retirar plegados para ela;Mercado_Juan;Camion710_LNY664;;Agendado;19/10/2026 12:46;;01:30:00;13:15:00;;;SI
-331;20/10/2026;09:45:00;Proveedor;ESTACION DE SERVICIO YPF GALACTIC;AV SABATTINI 1802 - RIO CUARTO;micaela maldonado;Otro;retirar resumenes;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;19/10/2026 12:52;;00:30:00;10:15:00;;;SI
+263;20/10/2026;10:00:00;Proveedor;DANIEL HERNANDEZ E HIJOS SRL;RUTA A 005 Y CASTELLI - RIO CUARTO;EMANUEL PERUCHIN;Retiro Proveedor;RETIRAR 200 LT TECHADO ASFALTICO;Mercado_Juan;Camion710_LNY664;;Agendado;6/10/2026 15:04;;01:30:00;11:30:00;;;NO
+329;20/10/2026;11:45:00;Proveedor;DARTE SAS;WASHINGTON GEORGE 1346 - RIO CUARTO;maura rodriguez;Retiro Proveedor;retirar plegados para ela;Mercado_Juan;Camion710_LNY664;;Agendado;19/10/2026 12:46;;01:30:00;13:15:00;;;NO
+331;20/10/2026;09:45:00;Proveedor;ESTACION DE SERVICIO YPF GALACTIC;AV SABATTINI 1802 - RIO CUARTO;micaela maldonado;Otro;retirar resumenes;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;19/10/2026 12:52;;00:30:00;10:15:00;;;NO
 275;20/10/2026;07:45:00;Otro;OBRAS VARIAS;ATTUS EMPRESA;SUAREZ DAMIAM;Otro;LLEVAR FORD RANGERS A VERIFICAR ;Balmaceda_Luis;Otros;;Cancelado;19/10/2026 12:20;cancelado por parino;01:00:00;08:45:00;;;NO
 318;19/10/2026;09:30:00;Obra;LUNARDI - LOTEO DALVIT;LOTEO DALVIT - RIO CUARTO                 ;sergio venitez;Obra - Entrega programada;llevar material faltante;Mercado_Juan;Camion710_LNY664;;Finalizado OK;19/10/2026 12:21;;01:00:00;10:30:00;;;NO
 320;19/10/2026;09:15:00;Obra;CROATTO - CORDON CUNETA                           ;RUTA NAC 36 KM 644 - RIO CUARTO                           ;ali chaijale;Obra - Entrega programada;30 moldes de cordon machimbrados;Mercado_Juan;Camion710_LNY664;;Finalizado OK;19/10/2026 12:21;;02:00:00;11:15:00;;;NO
 321;19/10/2026;09:15:00;Otro;LAVADERO AZCURRA;COLOMBRES;EMANUEL PERUCHIN;Otro;LLEVAR TOYO DAMIAN A LAVAR;Peruchin_Emanuel;Otros;;Finalizado OK;19/10/2026 12:21;;02:00:00;11:15:00;;;NO
 323;19/10/2026;09:00:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;SANTIAGO BRUNO;Obra - Entrega programada;LLEVAR ANDAMIOS;Mercado_Juan;Camion710_LNY664;;Finalizado OK;19/10/2026 12:21;;02:00:00;11:00:00;;;NO
 324;19/10/2026;09:30:00;Otro;MIXON CARGA VARIAS;JULIAN MAIDANA;ali chaijale;Obra - Entrega programada;cargar 30 moldes macimbrados;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;19/10/2026 12:21;;01:00:00;10:30:00;;;NO
-332;20/10/2026;09:45:00;Proveedor;IMPER-SUR;KOWALK 702 ESQ SAN LORENZO - RIO CUARTO;emanuel peruchin;Retiro Proveedor;retirar telgopor de linea;Mercado_Juan;Camion710_LNY664;;Agendado;19/10/2026 15:38;;01:00:00;10:45:00;;;SI
-333;20/10/2026;09:00:00;Proveedor;SUAREZ MATIAS JAVIER;JUAN JOSE VALLE 100 - LAS HIGUERAS;edurdo coniglio;Obra - Entrega programada;cambiar tapa juntas ;Mercado_Juan;Camion710_LNY664;;Agendado;20/10/2026 07:56;;02:00:00;11:00:00;;;SI
+332;20/10/2026;09:45:00;Proveedor;IMPER-SUR;KOWALK 702 ESQ SAN LORENZO - RIO CUARTO;emanuel peruchin;Retiro Proveedor;retirar telgopor de linea;Mercado_Juan;Camion710_LNY664;;Agendado;19/10/2026 15:38;;01:00:00;10:45:00;;;NO
+333;20/10/2026;09:00:00;Proveedor;SUAREZ MATIAS JAVIER;JUAN JOSE VALLE 100 - LAS HIGUERAS;edurdo coniglio;Obra - Entrega programada;cambiar tapa juntas ;Mercado_Juan;Camion710_LNY664;;Agendado;20/10/2026 07:56;;02:00:00;11:00:00;;;NO
 326;19/10/2026;08:45:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;mercado jose;Obra - Entrega programada;llevar material de agua;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;19/10/2026 12:49;;01:00:00;09:45:00;;;NO
-334;20/10/2026;10:30:00;Otro;PROVEDORES VARIOS;VARIOS;emanuel peruchin;Retiro Proveedor;retirar resumen ver omegas llevar embudo;Rodriguez_Rafael;Otros;;Agendado;20/10/2026 09:56;;01:00:00;11:30:00;;;SI
+334;20/10/2026;10:30:00;Otro;PROVEDORES VARIOS;VARIOS;emanuel peruchin;Retiro Proveedor;retirar resumen ver omegas llevar embudo;Rodriguez_Rafael;Otros;;Agendado;20/10/2026 09:56;;01:00:00;11:30:00;;;NO
 327;19/10/2026;14:45:00;Proveedor;PRODEL;AV.SABATTINI 2373 - RIO CUARTO;maura rodriguez;Otro;retirar pegamento pvc;Mercado_Juan;Pick_up_HILUX_HLN556;;Finalizado OK;19/10/2026 15:36;;01:30:00;16:15:00;;;NO
 330;19/10/2026;14:15:00;Proveedor;IMPER-SUR;KOWALK 702 ESQ SAN LORENZO - RIO CUARTO;emanuel peruchin;Obra - Entrega programada;retirar placas de telgopor para linea;Mercado_Juan;Camion710_LNY664;;Finalizado OK;19/10/2026 15:36;;01:00:00;15:15:00;;;NO
-335;20/10/2026;10:45:00;Proveedor;VIDRIOS MERCEDES;PJE DARRAGUEIRA 2508 - RIO CUARTO;emanuel percuchin;Obra - Entrega programada;retirar vidrio;Rodriguez_Rafael;Otros;;Agendado;20/10/2026 09:58;;01:00:00;11:45:00;;;SI
+335;20/10/2026;10:45:00;Proveedor;VIDRIOS MERCEDES;PJE DARRAGUEIRA 2508 - RIO CUARTO;emanuel percuchin;Obra - Entrega programada;retirar vidrio;Rodriguez_Rafael;Otros;;Agendado;20/10/2026 09:58;;01:00:00;11:45:00;;;NO
 328;19/10/2026;15:30:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;santiago bruno;Otro;retiro de casetones rotos;Mercado_Juan;Camion710_LNY664;;Finalizado OK;20/10/2026 07:40;;01:30:00;17:00:00;;;NO
-336;20/10/2026;14:45:00;Otro;PROVEDORES VARIOS;VARIOS;aruza agustin;Otro;retirar caños para rivoira;Mercado_Juan;Camion710_LNY664;;Agendado;20/10/2026 10:33;;01:30:00;16:15:00;;;SI
+336;20/10/2026;14:45:00;Otro;PROVEDORES VARIOS;VARIOS;aruza agustin;Otro;retirar caños para rivoira;Mercado_Juan;Camion710_LNY664;;Agendado;20/10/2026 10:33;;01:30:00;16:15:00;;;NO
 294;21/10/2026;08:15:00;Obra;LUNARDI- PUEBLA TORRE 0 Y TORRE 1                 ;PALESTINA Y LUGONES - RIO CUARTO                 ;JUAN PABLO;Otro;TRASLADO DE STANGUET A PUEBLA;Mercado_Juan;Camion710_LNY664;;Agendado;13/10/2026 16:46;;05:00:00;13:15:00;;;SI
+337;21/10/2026;08:45:00;Proveedor;M DONZELLI;RUTA NACIONAL Nø 8 KM.608.5 - RIO CUARTO;emanuel peruchin;Obra - Entrega programada;retirar caños y dejar en los modulos;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;20/10/2026 17:26;;01:30:00;10:15:00;;;SI
+338;21/10/2026;10:00:00;Proveedor;PEDRO AYELLO;LAS HERAS 889 - RIO CUARTO;pamela  inmobilirio;Retiro Proveedor;art varios de limpieza;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;20/10/2026 17:27;;01:00:00;11:00:00;;;SI
+263;20/10/2026;10:00:00;Proveedor;DANIEL HERNANDEZ E HIJOS SRL;RUTA A 005 Y CASTELLI - RIO CUARTO;EMANUEL PERUCHIN;Retiro Proveedor;RETIRAR 200 LT TECHADO ASFALTICO;Mercado_Juan;Camion710_LNY664;;Finalizado OK;20/10/2026 17:22;;01:30:00;11:30:00;;;NO
+329;20/10/2026;11:45:00;Proveedor;DARTE SAS;WASHINGTON GEORGE 1346 - RIO CUARTO;maura rodriguez;Retiro Proveedor;retirar plegados para ela;Mercado_Juan;Camion710_LNY664;;Finalizado OK;20/10/2026 17:23;;01:30:00;13:15:00;;;NO
+331;20/10/2026;09:45:00;Proveedor;ESTACION DE SERVICIO YPF GALACTIC;AV SABATTINI 1802 - RIO CUARTO;micaela maldonado;Otro;retirar resumenes;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;20/10/2026 17:23;;00:30:00;10:15:00;;;NO
+331;20/10/2026;09:45:00;Proveedor;ESTACION DE SERVICIO YPF GALACTIC;AV SABATTINI 1802 - RIO CUARTO;micaela maldonado;Otro;retirar resumenes;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;20/10/2026 17:23;;00:30:00;10:15:00;;;NO
+332;20/10/2026;09:45:00;Proveedor;IMPER-SUR;KOWALK 702 ESQ SAN LORENZO - RIO CUARTO;emanuel peruchin;Retiro Proveedor;retirar telgopor de linea;Mercado_Juan;Camion710_LNY664;;Finalizado OK;20/10/2026 17:24;;01:00:00;10:45:00;;;NO
+333;20/10/2026;09:00:00;Proveedor;SUAREZ MATIAS JAVIER;JUAN JOSE VALLE 100 - LAS HIGUERAS;edurdo coniglio;Obra - Entrega programada;cambiar tapa juntas ;Mercado_Juan;Camion710_LNY664;;Finalizado OK;20/10/2026 17:24;;02:00:00;11:00:00;;;NO
+334;20/10/2026;10:30:00;Otro;PROVEDORES VARIOS;VARIOS;emanuel peruchin;Retiro Proveedor;retirar resumen ver omegas llevar embudo;Rodriguez_Rafael;Otros;;Finalizado OK;20/10/2026 17:24;;01:00:00;11:30:00;;;NO
+335;20/10/2026;10:45:00;Proveedor;VIDRIOS MERCEDES;PJE DARRAGUEIRA 2508 - RIO CUARTO;emanuel percuchin;Obra - Entrega programada;retirar vidrio;Rodriguez_Rafael;Otros;;Finalizado OK;20/10/2026 17:24;;01:00:00;11:45:00;;;NO
+336;20/10/2026;14:45:00;Otro;PROVEDORES VARIOS;VARIOS;aruza agustin;Otro;retirar caños para rivoira;Mercado_Juan;Camion710_LNY664;;Finalizado OK;20/10/2026 17:24;;01:30:00;16:15:00;;;NO
+325;19/10/2026;10:30:00;Proveedor;EXTINRIO;BUENOS AIRES 1250 - RIO CUARTO;rafael rodriguez;Otro;retirar vidrios faltantes;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;20/10/2026 17:25;;01:00:00;11:30:00;;;NO
 291;28/10/2026;07:30:00;Otro;DEPOSITO TRABAJOS VARIOS;DEPOSITO CENTRAL ATTUS;ASTRADA MARTINA;Otro;ARMAR EL ARCO PARA LA FIESTA;Bertorello_Leonel;Otros;;Agendado;13/10/2026 15:31;;02:00:00;09:30:00;;;SI
 290;20/11/2026;08:45:00;Otro;FLETES VARIOS ;GERENCIA;MARTINA ASTRADA;Otro;APOYO LOGISTICO PARA ARMAR EL SALON;Bertorello_Leonel;Otros;;Agendado;13/10/2026 15:28;;06:00:00;14:45:00;;;SI
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
