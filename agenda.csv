@@ -687,13 +687,13 @@
 342;21/10/2026;12:30:00;Obra;LUNARDI - LOTEO DALVIT;LOTEO DALVIT - RIO CUARTO                 ;JUAN PABLO;Obra - Entrega urgente;LLEVAR CAL ;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;21/10/2026 16:21;;01:00:00;13:30:00;;;NO
 342;21/10/2026;12:30:00;Obra;LUNARDI - LOTEO DALVIT;LOTEO DALVIT - RIO CUARTO                 ;JUAN PABLO;Obra - Entrega urgente;LLEVAR CAL ;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;21/10/2026 16:21;;01:00:00;13:30:00;;;NO
 343;21/10/2026;12:15:00;Obra;LUNARDI- PUEBLA TORRE 0 Y TORRE 1                 ;PALESTINA Y LUGONES - RIO CUARTO                 ;JUAN PABLO;Obra - Entrega urgente;LLEVAR GRINFAS DE HIERRO;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;21/10/2026 16:21;;01:00:00;13:15:00;;;NO
-346;22/10/2026;09:30:00;Otro;MIXON CERCO;JULIAN MAIDANA;rafael rodriguez;Otro;desmalesado y fulmigado y limpieza;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;21/10/2026 16:27;;02:45:00;12:15:00;;;SI
+346;22/10/2026;09:30:00;Otro;MIXON CERCO;JULIAN MAIDANA;rafael rodriguez;Otro;desmalesado y fulmigado y limpieza;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;21/10/2026 16:27;;02:45:00;12:15:00;;;NO
 348;22/10/2026;10:45:00;Otro;PROVEDORES VARIOS;VARIOS;mercado jose;Obra - Entrega programada;retirar varios articulos;Mercado_Juan;Camion710_LNY664;;Agendado;22/10/2026 08:10;;02:00:00;12:45:00;;;SI
 344;22/10/2026;09:15:00;Otro;MIXON CERCO;JULIAN MAIDANA;RAFAEL RODRIGUEZ;Otro;FULMIGAR Y LIMPIEZA;Mercado_Juan;Camion710_LNY664;;Finalizado OK;21/10/2026 16:29;;02:30:00;11:45:00;;;NO
 291;28/10/2026;07:30:00;Otro;DEPOSITO TRABAJOS VARIOS;DEPOSITO CENTRAL ATTUS;ASTRADA MARTINA;Otro;ARMAR EL ARCO PARA LA FIESTA;Bertorello_Leonel;Otros;;Agendado;13/10/2026 15:31;;02:00:00;09:30:00;;;SI
 347;21/10/2026;16:45:00;Otro;DEPOSITO TRABAJOS VARIOS;DEPOSITO CENTRAL ATTUS;rafael rodriguez;Otro;preparar para fulmigar;Bertorello_Leonel;Otros;;Finalizado OK;21/10/2026 17:00;;00:30:00;17:15:00;;;NO
 290;20/11/2026;08:45:00;Otro;FLETES VARIOS ;GERENCIA;MARTINA ASTRADA;Otro;APOYO LOGISTICO PARA ARMAR EL SALON;Bertorello_Leonel;Otros;;Agendado;13/10/2026 15:28;;06:00:00;14:45:00;;;SI
-;;;;;;;;;;;;;;;;;;;
+346;22/10/2026;09:30:00;Otro;MIXON CERCO;JULIAN MAIDANA;rafael rodriguez;Otro;desmalesado y fulmigado y limpieza;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Cancelado;22/10/2026 08:13;clima;02:45:00;12:15:00;;;NO
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
