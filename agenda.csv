@@ -697,10 +697,10 @@
 345;22/10/2026;08:45:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;santiago bruno;Obra - Entrega urgente;llevar andamios;Mercado_Juan;Camion710_LNY664;;Finalizado OK;22/10/2026 17:10;;02:00:00;10:45:00;;;NO
 348;22/10/2026;10:45:00;Otro;PROVEDORES VARIOS;VARIOS;mercado jose;Obra - Entrega programada;retirar varios articulos;Mercado_Juan;Camion710_LNY664;;Finalizado OK;22/10/2026 17:11;;02:00:00;12:45:00;;;NO
 351;23/10/2026;09:00:00;Otro;MIXON CERCO;JULIAN MAIDANA;emanuel peruchin;Otro;fulmigado y limpieza;Bertorello_Leonel;;;Agendado;22/10/2026 17:17;;02:00:00;11:00:00;;;SI
+352;23/10/2026;10:15:00;Obra;LUNARDI - LOTEO DALVIT;LOTEO DALVIT - RIO CUARTO                 ;juan pablo gutierrez;Obra - Entrega urgente;trasado de barras de hierro del 6 desde ela;Mercado_Juan;Camion710_LNY664;;Agendado;23/10/2026 08:56;;01:00:00;11:15:00;;;SI
+353;23/10/2026;11:00:00;Proveedor;SEGUTEX SRL;SARMIENTO 601 - RIO CUARTO;martina astrada;Retiro Proveedor;retirar elementos;Mercado_Juan;Camion710_LNY664;;Agendado;23/10/2026 08:58;;01:00:00;12:00:00;;;SI
 291;28/10/2026;07:30:00;Otro;DEPOSITO TRABAJOS VARIOS;DEPOSITO CENTRAL ATTUS;ASTRADA MARTINA;Otro;ARMAR EL ARCO PARA LA FIESTA;Bertorello_Leonel;Otros;;Agendado;13/10/2026 15:31;;02:00:00;09:30:00;;;SI
 290;20/11/2026;08:45:00;Otro;FLETES VARIOS ;GERENCIA;MARTINA ASTRADA;Otro;APOYO LOGISTICO PARA ARMAR EL SALON;Bertorello_Leonel;Otros;;Agendado;13/10/2026 15:28;;06:00:00;14:45:00;;;SI
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
