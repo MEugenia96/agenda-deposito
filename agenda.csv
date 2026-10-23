@@ -690,26 +690,26 @@
 346;22/10/2026;09:30:00;Otro;MIXON CERCO;JULIAN MAIDANA;rafael rodriguez;Otro;desmalesado y fulmigado y limpieza;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;21/10/2026 16:27;;02:45:00;12:15:00;;;NO
 348;22/10/2026;10:45:00;Otro;PROVEDORES VARIOS;VARIOS;mercado jose;Obra - Entrega programada;retirar varios articulos;Mercado_Juan;Camion710_LNY664;;Agendado;22/10/2026 08:10;;02:00:00;12:45:00;;;NO
 344;22/10/2026;09:15:00;Otro;MIXON CERCO;JULIAN MAIDANA;RAFAEL RODRIGUEZ;Otro;FULMIGAR Y LIMPIEZA;Mercado_Juan;Camion710_LNY664;;Finalizado OK;21/10/2026 16:29;;02:30:00;11:45:00;;;NO
-349;23/10/2026;09:15:00;Otro;fabrica de modulos;colectora oste;rodrigo villareal;Obra - Entrega programada;traslado de hidraulicos;Mercado_Juan;Camion710_LNY664;;Agendado;22/10/2026 17:12;;01:00:00;10:15:00;;;SI
+349;23/10/2026;09:15:00;Otro;fabrica de modulos;colectora oste;rodrigo villareal;Obra - Entrega programada;traslado de hidraulicos;Mercado_Juan;Camion710_LNY664;;Agendado;22/10/2026 17:12;;01:00:00;10:15:00;;;NO
 347;21/10/2026;16:45:00;Otro;DEPOSITO TRABAJOS VARIOS;DEPOSITO CENTRAL ATTUS;rafael rodriguez;Otro;preparar para fulmigar;Bertorello_Leonel;Otros;;Finalizado OK;21/10/2026 17:00;;00:30:00;17:15:00;;;NO
-350;23/10/2026;14:45:00;Otro;LAVADO DE FLOTA;ATTUS EMPRESA;emanuel peruchin;Otro;lavado de flota chata y camiones;Mercado_Juan;Otros;;Agendado;22/10/2026 17:16;;02:00:00;16:45:00;;;SI
+350;23/10/2026;14:45:00;Otro;LAVADO DE FLOTA;ATTUS EMPRESA;emanuel peruchin;Otro;lavado de flota chata y camiones;Mercado_Juan;Otros;;Agendado;22/10/2026 17:16;;02:00:00;16:45:00;;;NO
 346;22/10/2026;09:30:00;Otro;MIXON CERCO;JULIAN MAIDANA;rafael rodriguez;Otro;desmalesado y fulmigado y limpieza;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Cancelado;22/10/2026 08:13;clima;02:45:00;12:15:00;;;NO
 345;22/10/2026;08:45:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;santiago bruno;Obra - Entrega urgente;llevar andamios;Mercado_Juan;Camion710_LNY664;;Finalizado OK;22/10/2026 17:10;;02:00:00;10:45:00;;;NO
 348;22/10/2026;10:45:00;Otro;PROVEDORES VARIOS;VARIOS;mercado jose;Obra - Entrega programada;retirar varios articulos;Mercado_Juan;Camion710_LNY664;;Finalizado OK;22/10/2026 17:11;;02:00:00;12:45:00;;;NO
-351;23/10/2026;09:00:00;Otro;MIXON CERCO;JULIAN MAIDANA;emanuel peruchin;Otro;fulmigado y limpieza;Bertorello_Leonel;;;Agendado;22/10/2026 17:17;;02:00:00;11:00:00;;;SI
-352;23/10/2026;10:15:00;Obra;LUNARDI - LOTEO DALVIT;LOTEO DALVIT - RIO CUARTO                 ;juan pablo gutierrez;Obra - Entrega urgente;trasado de barras de hierro del 6 desde ela;Mercado_Juan;Camion710_LNY664;;Agendado;23/10/2026 08:56;;01:00:00;11:15:00;;;SI
-353;23/10/2026;11:00:00;Proveedor;SEGUTEX SRL;SARMIENTO 601 - RIO CUARTO;martina astrada;Retiro Proveedor;retirar elementos;Mercado_Juan;Camion710_LNY664;;Agendado;23/10/2026 08:58;;01:00:00;12:00:00;;;SI
+351;23/10/2026;09:00:00;Otro;MIXON CERCO;JULIAN MAIDANA;emanuel peruchin;Otro;fulmigado y limpieza;Bertorello_Leonel;;;Agendado;22/10/2026 17:17;;02:00:00;11:00:00;;;NO
+352;23/10/2026;10:15:00;Obra;LUNARDI - LOTEO DALVIT;LOTEO DALVIT - RIO CUARTO                 ;juan pablo gutierrez;Obra - Entrega urgente;trasado de barras de hierro del 6 desde ela;Mercado_Juan;Camion710_LNY664;;Agendado;23/10/2026 08:56;;01:00:00;11:15:00;;;NO
+353;23/10/2026;11:00:00;Proveedor;SEGUTEX SRL;SARMIENTO 601 - RIO CUARTO;martina astrada;Retiro Proveedor;retirar elementos;Mercado_Juan;Camion710_LNY664;;Agendado;23/10/2026 08:58;;01:00:00;12:00:00;;;NO
 357;26/10/2026;09:45:00;Obra;CROATTO - CORDON CUNETA                           ;RUTA NAC 36 KM 644 - RIO CUARTO                           ;ali chaijale;Obra - Entrega programada;llevar 20 reglas 2 mt  a 3 mt;Mercado_Juan;Pick_up_HILUX_HLN556;;Agendado;23/10/2026 15:58;;02:00:00;11:45:00;;;SI
 354;27/10/2026;10:00:00;Proveedor;PINTURERIAS REX SA - RIO CUARTO;AV SABATTINI 1956 - RIO CUARTO;emanuel peruchin;Retiro Proveedor;para modulos;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;23/10/2026 10:27;;01:00:00;11:00:00;;;SI
 355;27/10/2026;10:45:00;Proveedor;DE PLANO;RUTA A005 ESQ. PTE. PERON (OESTE) - RIO CUARTO;emanuel peruchin;Obra - Entrega programada;retirar material faltante de agua canillas y cuplas;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;23/10/2026 10:30;;01:00:00;11:45:00;;;SI
 356;27/10/2026;08:30:00;Obra;MIXON - SALA DE CONTROL;JULIAN MAIDANA Nº 2351 - RIO CUARTO                 ;agusto cesarone;Obra - Entrega programada;llevar materiales varios;Mercado_Juan;Camion710_LNY664;;Agendado;23/10/2026 13:37;;03:00:00;11:30:00;;;SI
 291;28/10/2026;07:30:00;Otro;DEPOSITO TRABAJOS VARIOS;DEPOSITO CENTRAL ATTUS;ASTRADA MARTINA;Otro;ARMAR EL ARCO PARA LA FIESTA;Bertorello_Leonel;Otros;;Agendado;13/10/2026 15:31;;02:00:00;09:30:00;;;SI
 290;20/11/2026;08:45:00;Otro;FLETES VARIOS ;GERENCIA;MARTINA ASTRADA;Otro;APOYO LOGISTICO PARA ARMAR EL SALON;Bertorello_Leonel;Otros;;Agendado;13/10/2026 15:28;;06:00:00;14:45:00;;;SI
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
+353;23/10/2026;11:00:00;Proveedor;SEGUTEX SRL;SARMIENTO 601 - RIO CUARTO;martina astrada;Retiro Proveedor;retirar elementos;Mercado_Juan;Camion710_LNY664;;Finalizado OK;23/10/2026 15:59;;01:00:00;12:00:00;;;NO
+352;23/10/2026;10:15:00;Obra;LUNARDI - LOTEO DALVIT;LOTEO DALVIT - RIO CUARTO                 ;juan pablo gutierrez;Obra - Entrega urgente;trasado de barras de hierro del 6 desde ela;Mercado_Juan;Camion710_LNY664;;Finalizado OK;23/10/2026 15:59;;01:00:00;11:15:00;;;NO
+351;23/10/2026;09:00:00;Otro;MIXON CERCO;JULIAN MAIDANA;emanuel peruchin;Otro;fulmigado y limpieza;Bertorello_Leonel;;;Finalizado OK;23/10/2026 15:59;;02:00:00;11:00:00;;;NO
+350;23/10/2026;14:45:00;Otro;LAVADO DE FLOTA;ATTUS EMPRESA;emanuel peruchin;Otro;lavado de flota chata y camiones;Mercado_Juan;Otros;;Finalizado OK;23/10/2026 16:00;;02:00:00;16:45:00;;;NO
+349;23/10/2026;09:15:00;Otro;fabrica de modulos;colectora oste;rodrigo villareal;Obra - Entrega programada;traslado de hidraulicos;Mercado_Juan;Camion710_LNY664;;Finalizado OK;23/10/2026 16:00;;01:00:00;10:15:00;;;NO
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
