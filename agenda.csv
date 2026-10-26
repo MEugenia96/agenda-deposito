@@ -699,9 +699,9 @@
 351;23/10/2026;09:00:00;Otro;MIXON CERCO;JULIAN MAIDANA;emanuel peruchin;Otro;fulmigado y limpieza;Bertorello_Leonel;;;Agendado;22/10/2026 17:17;;02:00:00;11:00:00;;;NO
 352;23/10/2026;10:15:00;Obra;LUNARDI - LOTEO DALVIT;LOTEO DALVIT - RIO CUARTO                 ;juan pablo gutierrez;Obra - Entrega urgente;trasado de barras de hierro del 6 desde ela;Mercado_Juan;Camion710_LNY664;;Agendado;23/10/2026 08:56;;01:00:00;11:15:00;;;NO
 353;23/10/2026;11:00:00;Proveedor;SEGUTEX SRL;SARMIENTO 601 - RIO CUARTO;martina astrada;Retiro Proveedor;retirar elementos;Mercado_Juan;Camion710_LNY664;;Agendado;23/10/2026 08:58;;01:00:00;12:00:00;;;NO
-357;26/10/2026;09:45:00;Obra;CROATTO - CORDON CUNETA                           ;RUTA NAC 36 KM 644 - RIO CUARTO                           ;ali chaijale;Obra - Entrega programada;llevar 20 reglas 2 mt  a 3 mt;Mercado_Juan;Pick_up_HILUX_HLN556;;Agendado;23/10/2026 15:58;;02:00:00;11:45:00;;;SI
-360;26/10/2026;14:00:00;Proveedor;SUAREZ MATIAS JAVIER;JUAN JOSE VALLE 100 - LAS HIGUERAS;emanuel peruchin;Obra - Entrega programada;retirar 3 puertas;Mercado_Juan;Pick_up_HILUX_HLN556;;Agendado;26/10/2026 13:11;;01:00:00;15:00:00;;;SI
-361;26/10/2026;14:15:00;Proveedor;PRODEL;AV.SABATTINI 2373 - RIO CUARTO;santiago bruno;Obra - Entrega programada;retirar fichas macho y hembras;Bertorello_Leonel;Pick up KANGOO_JJY978;;Agendado;26/10/2026 13:14;;02:00:00;16:15:00;;;SI
+357;26/10/2026;09:45:00;Obra;CROATTO - CORDON CUNETA                           ;RUTA NAC 36 KM 644 - RIO CUARTO                           ;ali chaijale;Obra - Entrega programada;llevar 20 reglas 2 mt  a 3 mt;Mercado_Juan;Pick_up_HILUX_HLN556;;Agendado;23/10/2026 15:58;;02:00:00;11:45:00;;;NO
+360;26/10/2026;14:00:00;Proveedor;SUAREZ MATIAS JAVIER;JUAN JOSE VALLE 100 - LAS HIGUERAS;emanuel peruchin;Obra - Entrega programada;retirar 3 puertas;Mercado_Juan;Pick_up_HILUX_HLN556;;Agendado;26/10/2026 13:11;;01:00:00;15:00:00;;;NO
+361;26/10/2026;14:15:00;Proveedor;PRODEL;AV.SABATTINI 2373 - RIO CUARTO;santiago bruno;Obra - Entrega programada;retirar fichas macho y hembras;Bertorello_Leonel;Pick up KANGOO_JJY978;;Agendado;26/10/2026 13:14;;02:00:00;16:15:00;;;NO
 354;27/10/2026;10:00:00;Proveedor;PINTURERIAS REX SA - RIO CUARTO;AV SABATTINI 1956 - RIO CUARTO;emanuel peruchin;Retiro Proveedor;para modulos;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;23/10/2026 10:27;;01:00:00;11:00:00;;;SI
 355;27/10/2026;10:45:00;Proveedor;DE PLANO;RUTA A005 ESQ. PTE. PERON (OESTE) - RIO CUARTO;emanuel peruchin;Obra - Entrega programada;retirar material faltante de agua canillas y cuplas;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;23/10/2026 10:30;;01:00:00;11:45:00;;;SI
 356;27/10/2026;08:30:00;Obra;MIXON - SALA DE CONTROL;JULIAN MAIDANA Nº 2351 - RIO CUARTO                 ;agusto cesarone;Obra - Entrega programada;llevar materiales varios;Mercado_Juan;Camion710_LNY664;;Agendado;23/10/2026 13:37;;03:00:00;11:30:00;;;SI
@@ -710,18 +710,18 @@
 351;23/10/2026;09:00:00;Otro;MIXON CERCO;JULIAN MAIDANA;emanuel peruchin;Otro;fulmigado y limpieza;Bertorello_Leonel;;;Finalizado OK;23/10/2026 15:59;;02:00:00;11:00:00;;;NO
 350;23/10/2026;14:45:00;Otro;LAVADO DE FLOTA;ATTUS EMPRESA;emanuel peruchin;Otro;lavado de flota chata y camiones;Mercado_Juan;Otros;;Finalizado OK;23/10/2026 16:00;;02:00:00;16:45:00;;;NO
 349;23/10/2026;09:15:00;Otro;fabrica de modulos;colectora oste;rodrigo villareal;Obra - Entrega programada;traslado de hidraulicos;Mercado_Juan;Camion710_LNY664;;Finalizado OK;23/10/2026 16:00;;01:00:00;10:15:00;;;NO
+362;27/10/2026;08:15:00;Proveedor;ROBERTO GENTILE;SAN MARTIN 2140 - RIO CUARTO;maura rodriguez;Obra - Entrega urgente;materiales de durlox;Balmaceda_Luis;Ford350_VXJ313;;Agendado;26/10/2026 17:00;;02:00:00;10:15:00;;;SI
+363;27/10/2026;10:15:00;Proveedor;PINTURERIAS REX SA - RIO CUARTO;AV SABATTINI 1956 - RIO CUARTO;emanuel peruchin;Retiro Proveedor;thiner;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;26/10/2026 17:01;;01:00:00;11:15:00;;;SI
+364;27/10/2026;11:00:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;mercado jose;Obra - Entrega programada;llevar guentes moteados;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;26/10/2026 17:02;;01:00:00;12:00:00;;;SI
 291;28/10/2026;07:30:00;Otro;DEPOSITO TRABAJOS VARIOS;DEPOSITO CENTRAL ATTUS;ASTRADA MARTINA;Otro;ARMAR EL ARCO PARA LA FIESTA;Bertorello_Leonel;Otros;;Agendado;13/10/2026 15:31;;02:00:00;09:30:00;;;SI
 359;28/10/2026;09:00:00;Proveedor;DARTE SAS;WASHINGTON GEORGE 1346 - RIO CUARTO;rodrigo villareal;Obra - Entrega programada;retirar materiales varios ;Mercado_Juan;Camion710_LNY664;;Agendado;26/10/2026 10:43;;02:00:00;11:00:00;;;SI
-358;29/10/2026;09:00:00;Proveedor;ROBERTO GENTILE;SAN MARTIN 2140 - RIO CUARTO;ali chaijale;Obra - Entrega programada;retirar tablas de pino;Mercado_Juan;Pick_up_HILUX_HLN556;;Agendado;26/10/2026 07:47;;02:00:00;11:00:00;;;SI
+358;29/10/2026;09:00:00;Proveedor;ROBERTO GENTILE;SAN MARTIN 2140 - RIO CUARTO;ali chaijale;Obra - Entrega programada;retirar tablas de pino;Mercado_Juan;Pick_up_HILUX_HLN556;;Agendado;26/10/2026 07:47;;02:00:00;11:00:00;;;NO
 290;20/11/2026;08:45:00;Otro;FLETES VARIOS ;GERENCIA;MARTINA ASTRADA;Otro;APOYO LOGISTICO PARA ARMAR EL SALON;Bertorello_Leonel;Otros;;Agendado;13/10/2026 15:28;;06:00:00;14:45:00;;;SI
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
+357;26/10/2026;09:45:00;Obra;CROATTO - CORDON CUNETA                           ;RUTA NAC 36 KM 644 - RIO CUARTO                           ;ali chaijale;Obra - Entrega programada;llevar 20 reglas 2 mt  a 3 mt;Mercado_Juan;Pick_up_HILUX_HLN556;;Finalizado OK;26/10/2026 17:03;;02:00:00;11:45:00;;;NO
+360;26/10/2026;14:00:00;Proveedor;SUAREZ MATIAS JAVIER;JUAN JOSE VALLE 100 - LAS HIGUERAS;emanuel peruchin;Obra - Entrega programada;retirar 3 puertas;Mercado_Juan;Pick_up_HILUX_HLN556;;Finalizado OK;26/10/2026 17:03;;01:00:00;15:00:00;;;NO
+360;26/10/2026;14:00:00;Proveedor;SUAREZ MATIAS JAVIER;JUAN JOSE VALLE 100 - LAS HIGUERAS;emanuel peruchin;Obra - Entrega programada;retirar 3 puertas;Mercado_Juan;Pick_up_HILUX_HLN556;;Finalizado OK;26/10/2026 17:03;;01:00:00;15:00:00;;;NO
+361;26/10/2026;14:15:00;Proveedor;PRODEL;AV.SABATTINI 2373 - RIO CUARTO;santiago bruno;Obra - Entrega programada;retirar fichas macho y hembras;Bertorello_Leonel;Pick up KANGOO_JJY978;;Finalizado OK;26/10/2026 17:03;;02:00:00;16:15:00;;;NO
+358;29/10/2026;09:00:00;Proveedor;ROBERTO GENTILE;SAN MARTIN 2140 - RIO CUARTO;ali chaijale;Obra - Entrega programada;retirar tablas de pino;Mercado_Juan;Pick_up_HILUX_HLN556;;Finalizado OK;26/10/2026 17:04;;02:00:00;11:00:00;;;NO
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
