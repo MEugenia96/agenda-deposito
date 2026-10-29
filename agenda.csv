@@ -761,12 +761,12 @@
 378;29/10/2026;10:30:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;RODRIGO VILLAREAL;Obra - Entrega urgente;ENTREGAR CABLE DE ACERO;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;29/10/2026 12:33;;01:00:00;11:30:00;;;NO
 379;29/10/2026;09:00:00;Proveedor;DE PLANO;RUTA A005 ESQ. PTE. PERON (OESTE) - RIO CUARTO;EMANUEL PERUCHIN;Retiro Proveedor;RETIRAR CODO DURATOP;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;29/10/2026 12:33;;01:00:00;10:00:00;;;NO
 380;30/10/2026;14:30:00;Otro;LAVADO DE FLOTA;ATTUS EMPRESA;emanuel peruchin;Otro;limpieza de flota;Bertorello_Leonel;Otros;;Agendado;29/10/2026 08:20;;02:00:00;16:30:00;;;SI
+386;30/10/2026;08:30:00;Proveedor;MIXON;JULIAN MAIDANA 2351 - RIO CUARTO;emanuel peruchin;Otro;carga arena sarandeada;Balmaceda_Luis;Ford350_VXJ313;;Agendado;29/10/2026 15:07;;02:00:00;10:30:00;;;SI
+385;02/11/2026;09:15:00;Obra;SAN ESTEBAN - PAVIMENTACION;COUNTRY SAN ESTEBAN - RIO CUARTO                 ;JUAN PABLO GUTIERREZ;Obra - Entrega programada;TRASLADO DE CARRO A DALVIT;Mercado_Juan;Camion710_LNY664;;Agendado;29/10/2026 14:31;;02:00:00;11:15:00;;;SI
+387;03/11/2026;07:30:00;Otro;RIP POL;VILLA NUEVA;EMANUEL PERUCHIN;Retiro Proveedor;RETIRAR TERGOPOL PARA MODULOS;Mercado_Juan;Camion710_LNY664;;Agendado;29/10/2026 15:10;;05:00:00;12:30:00;;;SI
 372;19/11/2026;08:15:00;Otro;FLETES VARIOS ;GERENCIA;MARTINA ASTRADA;Retiro Proveedor;MERCADERI FIESTA FIN DE AÑO;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;27/10/2026 17:35;;06:00:00;14:15:00;;;SI
 290;20/11/2026;08:45:00;Otro;FLETES VARIOS ;GERENCIA;MARTINA ASTRADA;Otro;APOYO LOGISTICO PARA ARMAR EL SALON;Bertorello_Leonel;Otros;;Agendado;13/10/2026 15:28;;06:00:00;14:45:00;;;SI
 384;29/10/2029;16:00:00;Proveedor;TSUJI PINTURAS TERMOCONTRAIBLES;ADELIA MARIA 189 - RIO CUARTO;emanuel peruchin;Obra - Entrega programada;llevar mensulas a pintar;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;29/10/2026 12:39;;01:00:00;17:00:00;;;SI
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
