@@ -752,29 +752,29 @@
 377;29/10/2026;09:30:00;Otro;MIXON CERCO;JULIAN MAIDANA;RAFAEL RODRIGUEZ;Otro;LIMPIEZA DE CERCO;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;28/10/2026 15:50;;02:30:00;12:00:00;;;NO
 378;29/10/2026;10:30:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;RODRIGO VILLAREAL;Obra - Entrega urgente;ENTREGAR CABLE DE ACERO;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;28/10/2026 16:50;;01:00:00;11:30:00;;;NO
 379;29/10/2026;09:00:00;Proveedor;DE PLANO;RUTA A005 ESQ. PTE. PERON (OESTE) - RIO CUARTO;EMANUEL PERUCHIN;Retiro Proveedor;RETIRAR CODO DURATOP;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;28/10/2026 17:24;;01:00:00;10:00:00;;;NO
-381;29/10/2026;15:15:00;Proveedor;CASA PAUNERO;PAUNERO 288 - RIO CUARTO;emanuel peruchin;Retiro Proveedor;retirar materiales linea;Mercado_Juan;Pick_up_HILUX_HLN556;;Agendado;29/10/2026 12:35;;01:00:00;16:15:00;;;SI
-382;29/10/2026;15:45:00;Proveedor;RADIO ELECTRON;CABRERA Nø 726 - RIO CUARTO;emanuel peruchin;Retiro Proveedor;retirar material eletrico;Mercado_Juan;Camion710_LNY664;;Agendado;29/10/2026 12:36;;01:00:00;16:45:00;;;SI
-383;29/10/2026;14:30:00;Proveedor;SELLOS LUJAN;DEAN FUNES 40 - RIO CUARTO;astrada martina;Retiro Proveedor;varios accesorios marketin;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;29/10/2026 12:37;;01:00:00;15:30:00;;;SI
+381;29/10/2026;15:15:00;Proveedor;CASA PAUNERO;PAUNERO 288 - RIO CUARTO;emanuel peruchin;Retiro Proveedor;retirar materiales linea;Mercado_Juan;Pick_up_HILUX_HLN556;;Agendado;29/10/2026 12:35;;01:00:00;16:15:00;;;NO
+382;29/10/2026;15:45:00;Proveedor;RADIO ELECTRON;CABRERA Nø 726 - RIO CUARTO;emanuel peruchin;Retiro Proveedor;retirar material eletrico;Mercado_Juan;Camion710_LNY664;;Agendado;29/10/2026 12:36;;01:00:00;16:45:00;;;NO
+383;29/10/2026;14:30:00;Proveedor;SELLOS LUJAN;DEAN FUNES 40 - RIO CUARTO;astrada martina;Retiro Proveedor;varios accesorios marketin;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;29/10/2026 12:37;;01:00:00;15:30:00;;;NO
 375;29/10/2026;08:45:00;Proveedor;TSUJI PINTURAS TERMOCONTRAIBLES;ADELIA MARIA 189 - RIO CUARTO;EMANUEL PERUCHIN;Retiro Proveedor;RETIRAR BARANDAS DE ESCALERA ;Mercado_Juan;Camion710_LNY664;;Finalizado OK;29/10/2026 12:33;;01:00:00;09:45:00;;;NO
 376;29/10/2026;08:15:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;EMANUEL PERUCHIN;Obra - Entrega programada;LLEVAR BARANDAS PINTADAS;Mercado_Juan;Camion710_LNY664;;Finalizado OK;29/10/2026 12:33;;00:30:00;08:45:00;;;NO
 377;29/10/2026;09:30:00;Otro;MIXON CERCO;JULIAN MAIDANA;RAFAEL RODRIGUEZ;Otro;LIMPIEZA DE CERCO;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;29/10/2026 12:33;;02:30:00;12:00:00;;;NO
 378;29/10/2026;10:30:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;RODRIGO VILLAREAL;Obra - Entrega urgente;ENTREGAR CABLE DE ACERO;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;29/10/2026 12:33;;01:00:00;11:30:00;;;NO
 379;29/10/2026;09:00:00;Proveedor;DE PLANO;RUTA A005 ESQ. PTE. PERON (OESTE) - RIO CUARTO;EMANUEL PERUCHIN;Retiro Proveedor;RETIRAR CODO DURATOP;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;29/10/2026 12:33;;01:00:00;10:00:00;;;NO
-380;30/10/2026;14:30:00;Otro;LAVADO DE FLOTA;ATTUS EMPRESA;emanuel peruchin;Otro;limpieza de flota;Bertorello_Leonel;Otros;;Agendado;29/10/2026 08:20;;02:00:00;16:30:00;;;SI
-386;30/10/2026;08:30:00;Proveedor;MIXON;JULIAN MAIDANA 2351 - RIO CUARTO;emanuel peruchin;Otro;carga arena sarandeada;Balmaceda_Luis;Ford350_VXJ313;;Agendado;29/10/2026 15:07;;02:00:00;10:30:00;;;SI
-385;02/11/2026;09:15:00;Obra;SAN ESTEBAN - PAVIMENTACION;COUNTRY SAN ESTEBAN - RIO CUARTO                 ;JUAN PABLO GUTIERREZ;Obra - Entrega programada;TRASLADO DE CARRO A DALVIT;Mercado_Juan;Camion710_LNY664;;Agendado;29/10/2026 14:31;;02:00:00;11:15:00;;;SI
+380;30/10/2026;14:30:00;Otro;LAVADO DE FLOTA;ATTUS EMPRESA;emanuel peruchin;Otro;limpieza de flota;Bertorello_Leonel;Otros;;Agendado;29/10/2026 08:20;;02:00:00;16:30:00;;;NO
+386;30/10/2026;08:30:00;Proveedor;MIXON;JULIAN MAIDANA 2351 - RIO CUARTO;emanuel peruchin;Otro;carga arena sarandeada;Balmaceda_Luis;Ford350_VXJ313;;Agendado;29/10/2026 15:07;;02:00:00;10:30:00;;;NO
+385;02/11/2026;09:15:00;Obra;SAN ESTEBAN - PAVIMENTACION;COUNTRY SAN ESTEBAN - RIO CUARTO                 ;JUAN PABLO GUTIERREZ;Obra - Entrega programada;TRASLADO DE CARRO A DALVIT;Mercado_Juan;Camion710_LNY664;;Agendado;29/10/2026 14:31;;02:00:00;11:15:00;;;NO
+389;02/11/2026;14:15:00;Proveedor;SELLOS LUJAN;DEAN FUNES 40 - RIO CUARTO;martina astrada;Otro;llevar baner ;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;2/11/2026 08:09;;00:00:00;14:15:00;;;SI
 387;03/11/2026;07:30:00;Otro;RIP POL;VILLA NUEVA;EMANUEL PERUCHIN;Retiro Proveedor;RETIRAR TERGOPOL PARA MODULOS;Mercado_Juan;Camion710_LNY664;;Agendado;29/10/2026 15:10;;05:00:00;12:30:00;;;SI
+388;03/11/2026;07:45:00;Otro;FLETES VARIOS ;GERENCIA;suarez damian;Otro;llevar triblazer a verifuicar;Balmaceda_Luis;Otros;;Agendado;2/11/2026 08:07;;01:00:00;08:45:00;;;SI
 372;19/11/2026;08:15:00;Otro;FLETES VARIOS ;GERENCIA;MARTINA ASTRADA;Retiro Proveedor;MERCADERI FIESTA FIN DE AÑO;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;27/10/2026 17:35;;06:00:00;14:15:00;;;SI
+383;29/10/2026;14:30:00;Proveedor;SELLOS LUJAN;DEAN FUNES 40 - RIO CUARTO;astrada martina;Retiro Proveedor;varios accesorios marketin;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;2/11/2026 08:03;;01:00:00;15:30:00;;;NO
+381;29/10/2026;15:15:00;Proveedor;CASA PAUNERO;PAUNERO 288 - RIO CUARTO;emanuel peruchin;Retiro Proveedor;retirar materiales linea;Mercado_Juan;Pick_up_HILUX_HLN556;;Finalizado OK;2/11/2026 08:04;;01:00:00;16:15:00;;;NO
+382;29/10/2026;15:45:00;Proveedor;RADIO ELECTRON;CABRERA Nø 726 - RIO CUARTO;emanuel peruchin;Retiro Proveedor;retirar material eletrico;Mercado_Juan;Camion710_LNY664;;Finalizado OK;2/11/2026 08:04;;01:00:00;16:45:00;;;NO
+380;30/10/2026;14:30:00;Otro;LAVADO DE FLOTA;ATTUS EMPRESA;emanuel peruchin;Otro;limpieza de flota;Bertorello_Leonel;Otros;;Finalizado OK;2/11/2026 08:04;;02:00:00;16:30:00;;;NO
+386;30/10/2026;08:30:00;Proveedor;MIXON;JULIAN MAIDANA 2351 - RIO CUARTO;emanuel peruchin;Otro;carga arena sarandeada;Balmaceda_Luis;Ford350_VXJ313;;Finalizado OK;2/11/2026 08:04;;02:00:00;10:30:00;;;NO
+385;2/11/2026;09:15:00;Obra;SAN ESTEBAN - PAVIMENTACION;COUNTRY SAN ESTEBAN - RIO CUARTO                 ;JUAN PABLO GUTIERREZ;Obra - Entrega programada;TRASLADO DE CARRO A DALVIT;Mercado_Juan;Camion710_LNY664;;Finalizado OK;2/11/2026 08:04;;02:00:00;11:15:00;;;NO
 290;20/11/2026;08:45:00;Otro;FLETES VARIOS ;GERENCIA;MARTINA ASTRADA;Otro;APOYO LOGISTICO PARA ARMAR EL SALON;Bertorello_Leonel;Otros;;Agendado;13/10/2026 15:28;;06:00:00;14:45:00;;;SI
 384;29/10/2029;16:00:00;Proveedor;TSUJI PINTURAS TERMOCONTRAIBLES;ADELIA MARIA 189 - RIO CUARTO;emanuel peruchin;Obra - Entrega programada;llevar mensulas a pintar;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;29/10/2026 12:39;;01:00:00;17:00:00;;;SI
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
