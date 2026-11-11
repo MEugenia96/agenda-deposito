@@ -831,25 +831,25 @@
 404;11/11/2026;08:30:00;Otro;FLETES VARIOS ;GERENCIA;lunardi mauro;Otro;retira camion de san ignacio;Balmaceda_Luis;Ford350_VXJ313;;Cancelado;5/11/2026 07:46;por mauro;02:00:00;10:30:00;;;NO
 426;06/11/2026;14:15:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;rafael rodriguez;Retiro Proveedor;llevar mensulas pintadas;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;6/11/2026 13:59;;00:30:00;14:45:00;;;NO
 424;11/11/2026;09:30:00;Otro;fabrica de modulos;colectora oste;rodrigo villareal;Obra - Entrega programada;entregar paneles;Mercado_Juan;Camion710_LNY664;;Agendado;5/11/2026 08:39;;02:00:00;11:30:00;;;SI
-419;12/11/2026;16:15:00;Otro;FLETES VARIOS ;GERENCIA;mauro lunardi;Otro;retirar fogoneros calle cordoba 1343;Balmaceda_Luis;Ford350_VXJ313;;Agendado;5/11/2026 07:48;;01:00:00;17:15:00;;;SI
-405;13/11/2026;09:30:00;Obra;CROATTO - CORDON CUNETA                           ;RUTA NAC 36 KM 644 - RIO CUARTO                           ;ali chaijale;Obra - Entrega programada;retirar moldes ;Mercado_Juan;Camion710_LNY664;;Agendado;3/11/2026 17:03;;03:00:00;12:30:00;;;SI
+427;11/11/2026;11:30:00;Obra;BOEHLER CASTRO - LOTEO LOMA ALTA 3;ZONA OESTE DE LA CIUDAD - RIO CUARTO                 ;AGUSTIN GARCIA;Obra - Entrega urgente;TRASLADO DE MOLDES ;Mercado_Juan;Camion710_LNY664;;Agendado;11/11/2026 08:58;;02:00:00;13:30:00;;;SI
+428;11/11/2026;10:15:00;Proveedor;RADIO ELECTRON;CABRERA Nø 726 - RIO CUARTO;EMANUEL PERUCHIN;Obra - Entrega programada;RETIRAR MATERIAL ELETRICO;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;11/11/2026 09:00;;01:00:00;11:15:00;;;SI
 415;4/11/2026;15:15:00;Proveedor;PRODEL;AV.SABATTINI 2373 - RIO CUARTO;emanuel peruchina;Devolución Proveedor;devolver secionador ;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;5/11/2026 07:59;;01:00:00;16:15:00;;;NO
 416;4/11/2026;15:30:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;jose mercado;Obra - Entrega programada;entregar material ;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;5/11/2026 07:59;;01:00:00;16:30:00;;;NO
 417;4/11/2026;15:45:00;Obra;LUNARDI- PUEBLA TORRE 0 Y TORRE 1                 ;PALESTINA Y LUGONES - RIO CUARTO                 ;ali chaijale;Retiro por devolución de obra;carga maderas para llevar a croatto;Balmaceda_Luis;Pick_up_HILUX_HLN556;;Finalizado OK;5/11/2026 07:59;;01:30:00;17:15:00;;;NO
-420;13/11/2026;14:45:00;Otro;FLETES VARIOS ;GERENCIA;mauro lunardi;Otro;retirar grupo y llevar a san ignacio;Balmaceda_Luis;Ford350_VXJ313;;Agendado;5/11/2026 07:49;;02:00:00;16:45:00;;;SI
-421;16/11/2026;08:30:00;Otro;FLETES VARIOS ;GERENCIA;lunardi mauro;Otro;retirar grupo con ford 350;Balmaceda_Luis;Ford350_VXJ313;;Agendado;5/11/2026 07:51;;02:00:00;10:30:00;;;SI
+419;12/11/2026;16:15:00;Otro;FLETES VARIOS ;GERENCIA;mauro lunardi;Otro;retirar fogoneros calle cordoba 1343;Balmaceda_Luis;Ford350_VXJ313;;Agendado;5/11/2026 07:48;;01:00:00;17:15:00;;;SI
+405;13/11/2026;09:30:00;Obra;CROATTO - CORDON CUNETA                           ;RUTA NAC 36 KM 644 - RIO CUARTO                           ;ali chaijale;Obra - Entrega programada;retirar moldes ;Mercado_Juan;Camion710_LNY664;;Agendado;3/11/2026 17:03;;03:00:00;12:30:00;;;SI
 412;5/11/2026;09:45:00;Otro;MIXON CERCO;JULIAN MAIDANA;rafael rodriguez;Otro;carga 10 palet de ladrillos blox 20 cm;Mercado_Juan;Camion710_LNY664;;Finalizado OK;6/11/2026 07:28;;;;;;NO
 414;5/11/2026;09:30:00;Obra;CROATTO - CORDON CUNETA                           ;RUTA NAC 36 KM 644 - RIO CUARTO                           ;ALI CHAIJALE;Obra - Entrega programada;LLEVAR MADERA PARA QUEMAR ;Balmaceda_Luis;Pick_up_HILUX_HLN556;;Finalizado OK;6/11/2026 07:28;;02:00:00;11:30:00;;;NO
 422;5/11/2026;09:15:00;Proveedor;DE PLANO;RUTA A005 ESQ. PTE. PERON (OESTE) - RIO CUARTO;coniglio eduardo;Retiro Proveedor;retirar material;Rodriguez_Rafael;Pick up KANGOO_JJY978;;Finalizado OK;6/11/2026 07:28;;01:00:00;10:15:00;;;NO
-372;19/11/2026;08:15:00;Otro;FLETES VARIOS ;GERENCIA;MARTINA ASTRADA;Retiro Proveedor;MERCADERI FIESTA FIN DE AÑO;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;27/10/2026 17:35;;06:00:00;14:15:00;;;SI
+420;13/11/2026;14:45:00;Otro;FLETES VARIOS ;GERENCIA;mauro lunardi;Otro;retirar grupo y llevar a san ignacio;Balmaceda_Luis;Ford350_VXJ313;;Agendado;5/11/2026 07:49;;02:00:00;16:45:00;;;SI
 418;6/11/2026;10:45:00;Proveedor;RANCO MATERIALES SA RIO CUARTO;RUTA A005 KM 03 COLECTORA OESTE - RIO CUARTO;emanuel peruchin;Devolución Proveedor;devolver muestras de porcellanato;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;6/11/2026 13:57;;01:00:00;11:45:00;;;NO
 423;6/11/2026;09:30:00;Obra;LUNARDI - LOTEO DALVIT;LOTEO DALVIT - RIO CUARTO                 ;sergio venitez;Retiro por devolución de obra;traslado de moldes;Balmaceda_Luis;Ford350_VXJ313;;Finalizado OK;6/11/2026 13:57;;02:00:00;11:30:00;;;NO
 425;6/11/2026;09:15:00;Proveedor;SUAREZ MATIAS JAVIER;JUAN JOSE VALLE 100 - LAS HIGUERAS;emanuel peruchin;Retiro Proveedor;tapa juntas;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;6/11/2026 13:58;;01:00:00;10:15:00;;;NO
 413;6/11/2026;08:30:00;Obra;BOSCO HORACIO - TAMBO SAMPACHO                    ;RIVADAVIA 895 - SAMPACHO                             ;AGUSTIN ARUZA;Obra - Entrega programada;CARGA DE LADRILLOS Y HERRO;Mercado_Juan;Camion710_LNY664;6.5 metros;Finalizado OK;6/11/2026 13:58;;03:00:00;11:30:00;;;NO
-290;20/11/2026;08:45:00;Otro;FLETES VARIOS ;GERENCIA;MARTINA ASTRADA;Otro;APOYO LOGISTICO PARA ARMAR EL SALON;Bertorello_Leonel;Otros;;Agendado;13/10/2026 15:28;;06:00:00;14:45:00;;;SI
+421;16/11/2026;08:30:00;Otro;FLETES VARIOS ;GERENCIA;lunardi mauro;Otro;retirar grupo con ford 350;Balmaceda_Luis;Ford350_VXJ313;;Agendado;5/11/2026 07:51;;02:00:00;10:30:00;;;SI
 426;6/11/2026;14:15:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;rafael rodriguez;Retiro Proveedor;llevar mensulas pintadas;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;11/11/2026 07:40;;00:30:00;14:45:00;;;NO
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
+372;19/11/2026;08:15:00;Otro;FLETES VARIOS ;GERENCIA;MARTINA ASTRADA;Retiro Proveedor;MERCADERI FIESTA FIN DE AÑO;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;27/10/2026 17:35;;06:00:00;14:15:00;;;SI
+290;20/11/2026;08:45:00;Otro;FLETES VARIOS ;GERENCIA;MARTINA ASTRADA;Otro;APOYO LOGISTICO PARA ARMAR EL SALON;Bertorello_Leonel;Otros;;Agendado;13/10/2026 15:28;;06:00:00;14:45:00;;;SI
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
