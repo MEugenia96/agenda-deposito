@@ -867,11 +867,11 @@
 434;17//11/2026;08:30:00;Obra;CROATTO - CORDON CUNETA                           ;RUTA NAC 36 KM 644 - RIO CUARTO                           ;ali chaijale;Obra - Entrega programada;llevar maderas para la brea;Mercado_Juan;Camion710_LNY664;;Finalizado OK;11/11/2026 16:11;;02:00:00;10:30:00;;;NO
 435;16/11/2026;14:15:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;VELEZ SARSFIELD 745/ 751 - RIO CUARTO                 ;martin ocampo;Retiro por devolución de obra;retirar madera para leña;Mercado_Juan;Camion710_LNY664;;Agendado;11/11/2026 16:07;;02:00:00;16:15:00;;;SI
 429;11/11/2026;15:30:00;Proveedor;DE PLANO;RUTA A005 ESQ. PTE. PERON (OESTE) - RIO CUARTO;EMANUEL PERUCHIN;Obra - Entrega programada;RETIRAR MATERIAL DE TORRE LINEA;Mercado_Juan;Pick_up_HILUX_HLN556;;Finalizado OK;11/11/2026 16:12;;02:00:00};#¡VALOR!;;;NO
-436;17/11/2026;08:30:00;Obra;CROATTO - CORDON CUNETA                           ;RUTA NAC 36 KM 644 - RIO CUARTO                           ;ali chaijale;Obra - Entrega programada;llevar maderas y retirar moldes;Mercado_Juan;Camion710_LNY664;;Agendado;11/11/2026 16:12;;02:00:00;10:30:00;;;SI
+440;16/11/2026;08:45:00;Otro;PROVEDORES VARIOS;VARIOS;astrada martina;Retiro Proveedor;retirar plantines de calle luis reinaudi 1142;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;12/11/2026 11:48;;01:00:00;09:45:00;;;SI
 419;12/11/2026;16:15:00;Otro;FLETES VARIOS ;GERENCIA;mauro lunardi;Otro;retirar fogoneros calle cordoba 1343;Balmaceda_Luis;Ford350_VXJ313;;Finalizado OK;12/11/2026 09:01;;01:00:00;17:15:00;;;NO
+436;17/11/2026;08:30:00;Obra;CROATTO - CORDON CUNETA                           ;RUTA NAC 36 KM 644 - RIO CUARTO                           ;ali chaijale;Obra - Entrega programada;llevar maderas y retirar moldes;Mercado_Juan;Camion710_LNY664;;Agendado;11/11/2026 16:12;;02:00:00;10:30:00;;;SI
 372;19/11/2026;08:15:00;Otro;FLETES VARIOS ;GERENCIA;MARTINA ASTRADA;Retiro Proveedor;MERCADERI FIESTA FIN DE AÑO;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Agendado;27/10/2026 17:35;;06:00:00;14:15:00;;;SI
 290;20/11/2026;08:45:00;Otro;FLETES VARIOS ;GERENCIA;MARTINA ASTRADA;Otro;APOYO LOGISTICO PARA ARMAR EL SALON;Bertorello_Leonel;Otros;;Agendado;13/10/2026 15:28;;06:00:00;14:45:00;;;SI
-;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
