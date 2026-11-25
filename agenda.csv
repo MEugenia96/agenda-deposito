@@ -968,9 +968,9 @@
 480;24/11/2026;10:15:00;Obra;ING LUNARDI SRL- TORRE LÍNEA;;EMANUEL CENTENO;Obra - Entrega programada;LLEVAR LOS AIRES;Mercado_Juan;Camion710_LNY664;;Finalizado OK;24/11/2026 15:11;;01:00:00;11:15:00;;;NO
 481;24/11/2026;10:15:00;Otro;FLETES VARIOS ;GERENCIA;martin ocampo;Otro;llevar tortugas al tornero;Balmaceda_Luis;Pick_up_HILUX_HLN556;;Finalizado OK;24/11/2026 15:12;;02:00:00;12:15:00;;;NO
 482;24/11/2026;10:30:00;Proveedor;EDIFICOR;RUTA A 005 ESQ.PTE.PERON (O) - RIO CUARTO;jose mercado;Obra - Entrega urgente;retirar pegamento ;Bertorello_Leonel;Pick_up_HILUX_HLN556;;Finalizado OK;24/11/2026 15:12;;02:00:00;12:30:00;;;NO
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
+483;25/11/2024;09:30:00;Obra;LOTEO DALVIT - OBRA LOTEO                         ;;agostina marketin;Otro;poner carteleria;Balmaceda_Luis;Pick up KANGOO_JJY978;;Agendado;25/11/2026 08:50;;02:00:00;11:30:00;;;SI
+484;25/11/2026;09:00:00;Proveedor;CARAVANA SUPERMERCADO DE BEBIDAS;CHILE 27 - RIO CUARTO;martina astrada;Devolución Proveedor;devolucion de bebidas de fiesta;Bertorello_Leonel;Pick up KANGOO_JJY978;;Agendado;25/11/2026 08:51;;01:00:00;10:00:00;;;SI
+485;25/11/2026;14:00:00;Obra;BOEHLER CASTRO - DESARROLLO ELA                   ;;rodrigo villareal;Obra - Entrega programada;llevar nafta y viruta;Mercado_Juan;Pick_up_HILUX_HLN556;;Agendado;25/11/2026 08:53;;01:00:00;15:00:00;;;SI
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;
